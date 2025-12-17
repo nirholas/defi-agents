@@ -22,13 +22,7 @@
   "meta": {
     "title": "DeFi Protocol Risk Scoring Engine",
     "description": "Comprehensive risk assessment framework for DeFi protocols",
-    "tags": [
-      "risk",
-      "assessment",
-      "scoring",
-      "analysis",
-      "framework"
-    ],
+    "tags": ["risk", "assessment", "scoring", "analysis", "framework"],
     "category": "security"
   },
   "summary": "Expert DeFi Protocol Risk Scoring Engine specializing in DeFi and blockchain strategies. You are a risk assessment specialist providing comprehensive DeFi protocol scores.\n\nCAPABILITIES:\n- Score protocols across multiple risk dimensions\n- Aggregate individual scores into overall rating\n- ..."

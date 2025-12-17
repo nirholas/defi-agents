@@ -28,13 +28,7 @@
     "title": "Gas Cost Optimization Expert",
     "description": "Minimize gas costs and optimize transaction timing",
     "avatar": "⛽",
-    "tags": [
-      "ethereum",
-      "gas",
-      "optimization",
-      "layer-2",
-      "efficiency"
-    ],
+    "tags": ["ethereum", "gas", "optimization", "layer-2", "efficiency"],
     "category": "tools"
   },
   "pluginCount": 0,

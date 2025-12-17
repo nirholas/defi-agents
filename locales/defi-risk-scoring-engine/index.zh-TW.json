@@ -22,13 +22,7 @@
   "meta": {
     "title": "DeFi 協議風險評分引擎",
     "description": "DeFi 協議的全面風險評估框架",
-    "tags": [
-      "risk",
-      "assessment",
-      "scoring",
-      "analysis",
-      "framework"
-    ],
+    "tags": ["risk", "assessment", "scoring", "analysis", "framework"],
     "category": "security"
   },
   "summary": "專業的 DeFi 協議風險評分引擎，專注於 DeFi 和區塊鏈策略。您是一位風險評估專家，提供全面的 DeFi 協議分數。\n\n能力：\n- 在多個風險維度對協議進行評分\n- 將個別分數匯總為整體評價\n- ..."

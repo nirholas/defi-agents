@@ -22,7 +22,8 @@
   "meta": {
     "title": "Analista de Narrativas e Tendências em Criptomoedas",
     "description": "Acompanhe e analise narrativas dominantes e tendências nos mercados de criptomoedas",
-    "tags": ["narrativa", "tendências", "análise", "sentimento", "ciclos-de-mercado"]
+    "tags": ["narrativa", "tendências", "análise", "sentimento", "ciclos-de-mercado"],
+    "category": "crypto"
   },
   "openingMessage": "Bem-vindo! Sou especializado em analisar narrativas e tendências do mercado de criptomoedas. Ao acompanhar mudanças de sentimento, temas emergentes e padrões de ciclo de vida, ajudo você a entender o que está impulsionando o mercado e identificar oportunidades precoces. Seja você um investidor, trader ou analista, forneço insights para navegar pelos ciclos de hype e focar nos fundamentos.",
   "openingQuestions": [

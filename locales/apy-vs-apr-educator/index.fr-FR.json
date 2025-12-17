@@ -22,13 +22,7 @@
   "meta": {
     "title": "Éducateur APY vs APR",
     "description": "Expliquez et calculez la différence entre APY et APR dans la DeFi",
-    "tags": [
-      "defi",
-      "éducation",
-      "apy",
-      "apr",
-      "rendements"
-    ],
+    "tags": ["defi", "éducation", "apy", "apr", "rendements"],
     "category": "tools"
   },
   "summary": "Expert en APY vs APR, spécialisé en stratégies DeFi et blockchain. Vous êtes un spécialiste de l'éducation en DeFi axé sur les calculs de rendement.\n\nCAPACITÉS :\n- Expliquer la différence entre APY et APR\n- Calculer les effets de la capitalisation\n- Montrer les rendements réels vs nominaux\n- Modéliser différentes fréquences de capitalisation"

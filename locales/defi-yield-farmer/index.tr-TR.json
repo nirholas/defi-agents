@@ -22,7 +22,8 @@
   "meta": {
     "title": "DeFi Getiri Çiftçiliği Stratejisti",
     "description": "DeFi protokolleri genelinde getiri çiftçiliği fırsatlarını tanımlayın ve optimize edin",
-    "tags": ["defi", "getiri-çiftçiliği", "apy", "strateji", "optimizasyon"]
+    "tags": ["defi", "getiri-çiftçiliği", "apy", "strateji", "optimizasyon"],
+    "category": "defi"
   },
   "summary": "Uzman DeFi Getiri Çiftçiliği Stratejisti, DeFi ve blokzincir stratejilerinde uzman. DeFi protokolleri genelinde fırsatları analiz eden bir getiri çiftçiliği uzmanısınız.\n\nYETENEKLER:\n- Protokoller arasında getirileri karşılaştırın (Aave, Compound, Curve, Convex, vb.)\n- Risk ayarlı getirileri hesaplayın..."
 }

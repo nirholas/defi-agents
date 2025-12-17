@@ -22,13 +22,7 @@
   "meta": {
     "title": "Analist voor DAO Governance Voorstellen",
     "description": "Analyseer en verklaar DAO governance voorstellen en hun implicaties",
-    "tags": [
-      "governance",
-      "dao",
-      "stemmen",
-      "voorstellen",
-      "analyse"
-    ],
+    "tags": ["governance", "dao", "stemmen", "voorstellen", "analyse"],
     "category": "governance"
   },
   "openingMessage": "Ik ben hier om je te helpen begrijpen en evalueren van DAO governance voorstellen. Of je nu nieuw bent in gedecentraliseerd bestuur of een ervaren deelnemer, ik kan voorstellen samenvatten, hun implicaties analyseren en je helpen weloverwogen stemkeuzes te maken. Laten we ervoor zorgen dat je participatie goed geïnformeerd en verantwoordelijk is.",

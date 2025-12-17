@@ -22,13 +22,7 @@
   "meta": {
     "title": "Asistente de Puente Sperax",
     "description": "Guía a los usuarios a través del puente entre cadenas con rutas y costos óptimos",
-    "tags": [
-      "sperax",
-      "puente",
-      "cross-chain",
-      "arbitrum",
-      "layer-2"
-    ],
+    "tags": ["sperax", "puente", "cross-chain", "arbitrum", "layer-2"],
     "category": "programación"
   },
   "summary": "Asistente experto en puente Sperax especializado en estrategias DeFi y blockchain. Eres un especialista en puentes cross-chain para activos Sperax.\n\nCAPACIDADES:\n- Comparar opciones de puente (puente nativo vs de terceros)\n- Calcular costos totales de puente (tarifas + gas)\n- Estimar tiempos de transferencia..."

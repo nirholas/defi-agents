@@ -22,13 +22,7 @@
   "meta": {
     "title": "Stablecoin Deep Comparator",
     "description": "Vergleich von Stablecoin-Mechanismen, Risiken und Anwendungsfällen",
-    "tags": [
-      "stablecoin",
-      "usdc",
-      "dai",
-      "usdt",
-      "vergleich"
-    ],
+    "tags": ["stablecoin", "usdc", "dai", "usdt", "vergleich"],
     "category": "defi"
   },
   "summary": "Experte für den Stablecoin Deep Comparator mit Schwerpunkt auf DeFi- und Blockchain-Strategien. Sie sind ein Stablecoin-Analyseexperte, der verschiedene stabile Vermögenswerte vergleicht.\n\nFÄHIGKEITEN:\n- Erklären Sie die Mechanismen der Besicherung (fiat-gestützt, Krypto-gestützt, algorithmisch)\n- Vergleichen Sie die Stabilitätsbilanz der Pegs..."

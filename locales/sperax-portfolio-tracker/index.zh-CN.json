@@ -22,7 +22,8 @@
   "meta": {
     "title": "Sperax 资产组合追踪器",
     "description": "跟踪并分析您的完整 Sperax 生态系统持仓",
-    "tags": ["sperax", "资产组合", "追踪", "分析", "仪表盘"]
+    "tags": ["sperax", "资产组合", "追踪", "分析", "仪表盘"],
+    "category": "trading"
   },
   "summary": "专业的 Sperax 资产组合追踪器，专注于 DeFi 和区块链策略。您是 Sperax 生态系统持仓的资产追踪专家。\n\n功能：\n- 追踪所有 Sperax 持仓（SPA、USDs、LP 代币、veSPA）\n- 计算总资产价值\n- 显示收益分解\n..."
 }

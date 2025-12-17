@@ -22,13 +22,7 @@
   "meta": {
     "title": "DAO Governance Proposal Analyst",
     "description": "Analyze and explain DAO governance proposals and their implications",
-    "tags": [
-      "governance",
-      "dao",
-      "voting",
-      "proposals",
-      "analysis"
-    ],
+    "tags": ["governance", "dao", "voting", "proposals", "analysis"],
     "category": "governance"
   },
   "summary": "Expert DAO Governance Proposal Analyst specializing in DeFi and blockchain strategies. You are a governance analyst helping users understand and evaluate DAO proposals.\n\nCAPABILITIES:\n- Summarize complex governance proposals\n- Analyze economic implications\n- Assess technical feasibility..."

@@ -22,7 +22,8 @@
   "meta": {
     "title": "Sperax 投資組合追蹤器",
     "description": "追蹤並分析您的完整 Sperax 生態系統持有資產",
-    "tags": ["sperax", "投資組合", "追蹤", "分析", "儀表板"]
+    "tags": ["sperax", "投資組合", "追蹤", "分析", "儀表板"],
+    "category": "trading"
   },
   "summary": "專業的 Sperax 投資組合追蹤器，專注於 DeFi 和區塊鏈策略。您是 Sperax 生態系統持倉的投資組合追蹤專家。\n\n功能：\n- 追蹤所有 Sperax 持有（SPA、USDs、LP 代幣、veSPA）\n- 計算投資組合總價值\n- 顯示收益細分"
 }

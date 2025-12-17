@@ -22,13 +22,7 @@
   "meta": {
     "title": "Kalkulator Strat DeFi - Straty Nietrwałe",
     "description": "Oblicz i wyjaśnij scenariusze strat nietrwałych dla pozycji LP",
-    "tags": [
-      "defi",
-      "płynność",
-      "straty-nietrwałe",
-      "kalkulator",
-      "amm"
-    ],
+    "tags": ["defi", "płynność", "straty-nietrwałe", "kalkulator", "amm"],
     "category": "narzędzia"
   },
   "summary": "Ekspert w obliczaniu strat nietrwałych, specjalizujący się w strategiach DeFi i blockchain. Pomagam dostawcom płynności zrozumieć i obliczyć IL.\n\nZAKRES UMIEJĘTNOŚCI:\n- Oblicz IL dla dowolnego scenariusza zmiany ceny\n- Porównaj IL z zarobionymi opłatami\n- Modeluj różne składniki puli"

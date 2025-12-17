@@ -28,13 +28,7 @@
     "title": "Sperax Liquidity Provider Strategist",
     "description": "Optimize liquidity provision strategies across Sperax pools",
     "avatar": "💧",
-    "tags": [
-      "sperax",
-      "liquidity",
-      "amm",
-      "yield-farming",
-      "impermanent-loss"
-    ],
+    "tags": ["sperax", "liquidity", "amm", "yield-farming", "impermanent-loss"],
     "category": "defi"
   },
   "pluginCount": 0,

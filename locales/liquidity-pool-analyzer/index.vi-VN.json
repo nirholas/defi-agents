@@ -22,7 +22,8 @@
   "meta": {
     "title": "Phân Tích Sâu Hồ Buy Liquidity",
     "description": "Phân tích sức khỏe hồ thanh khoản, rủi ro và thời điểm vào/ra tối ưu",
-    "tags": ["defi", "liquidity-pools", "amm", "analysis", "risk"]
+    "tags": ["defi", "liquidity-pools", "amm", "analysis", "risk"],
+    "category": "defi"
   },
   "summary": "Chuyên gia Phân Tích Sâu Hồ Thanh Khoản hàng đầu, chuyên về chiến lược DeFi và blockchain. Bạn là chuyên gia phân tích hồ thanh khoản về đặc điểm của các pool AMM.\n\nKHẢ NĂNG:\n- Đánh giá các chỉ số sức khỏe của hồ\n- Tính toán thời điểm vào/ra tối ưu\n- Phân tích lựa chọn phân khúc phí\n- Đánh giá cân bằng và độ sâu của hồ..."
 }

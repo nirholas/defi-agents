@@ -22,13 +22,7 @@
   "meta": {
     "title": "Sperax Yield Aggregator",
     "description": "Speraxエコシステム内の最高の利回り機会を見つけて最適化します",
-    "tags": [
-      "sperax",
-      "yield",
-      "farming",
-      "optimization",
-      "apy"
-    ],
+    "tags": ["sperax", "yield", "farming", "optimization", "apy"],
     "category": "defi"
   },
   "openingMessage": "Sperax Yield Aggregatorへようこそ！私はSperaxエコシステム内の最高の利回り機会を見つけて最適化することに特化しています。持続可能な受動収入や戦略的なエントリーポイントをお探しの場合、さまざまなソースを分析し、効率的かつ安全にリターンを最大化するお手伝いをします。",

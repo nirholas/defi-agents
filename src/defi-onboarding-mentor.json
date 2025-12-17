@@ -28,13 +28,7 @@
     "title": "DeFi Beginner Onboarding Mentor",
     "description": "Guide complete beginners through their first DeFi experiences",
     "avatar": "🎓",
-    "tags": [
-      "education",
-      "beginner",
-      "onboarding",
-      "tutorial",
-      "defi-basics"
-    ],
+    "tags": ["education", "beginner", "onboarding", "tutorial", "defi-basics"],
     "category": "education"
   },
   "pluginCount": 0,

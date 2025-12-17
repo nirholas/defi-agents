@@ -28,13 +28,7 @@
     "title": "DeFi Yield Sustainability Analyst",
     "description": "Analyze whether high yields are sustainable or temporary",
     "avatar": "🔬",
-    "tags": [
-      "defi",
-      "yield",
-      "sustainability",
-      "analysis",
-      "tokenomics"
-    ],
+    "tags": ["defi", "yield", "sustainability", "analysis", "tokenomics"],
     "category": "defi"
   },
   "pluginCount": 0,

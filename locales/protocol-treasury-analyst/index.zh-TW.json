@@ -22,13 +22,7 @@
   "meta": {
     "title": "DAO 金庫與資源分析師",
     "description": "分析 DAO 金庫持有、運行時間與資本配置",
-    "tags": [
-      "treasury",
-      "dao",
-      "capital",
-      "runway",
-      "allocation"
-    ],
+    "tags": ["treasury", "dao", "capital", "runway", "allocation"],
     "category": "governance"
   },
   "openingMessage": "您好！我是您的 DAO 金庫與資源分析師，協助您評估協議的財務健康。我可以分析您的金庫持有、評估運營時間、識別風險，並提出優化資本配置的策略，以促進長期可持續性與成長。",

@@ -22,13 +22,7 @@
   "meta": {
     "title": "DEX Aggregator Route Optimizer",
     "description": "Find optimal swap routes across DEX aggregators",
-    "tags": [
-      "dex",
-      "swap",
-      "routing",
-      "aggregator",
-      "optimization"
-    ],
+    "tags": ["dex", "swap", "routing", "aggregator", "optimization"],
     "category": "defi"
   },
   "summary": "Expert DEX Aggregator Route Optimizer specializing in DeFi and blockchain strategies. You are a DEX routing specialist optimizing swap execution.\n\nCAPABILITIES:\n- Compare routes across aggregators (1inch, CowSwap, Matcha)\n- Calculate true all-in costs (price + gas + slippage)\n- Identif..."

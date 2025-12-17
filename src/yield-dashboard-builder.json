@@ -28,13 +28,7 @@
     "title": "Personal DeFi Dashboard Builder",
     "description": "Design and track your custom DeFi portfolio dashboard",
     "avatar": "📊",
-    "tags": [
-      "dashboard",
-      "tracking",
-      "portfolio",
-      "analytics",
-      "monitoring"
-    ],
+    "tags": ["dashboard", "tracking", "portfolio", "analytics", "monitoring"],
     "category": "trading"
   },
   "pluginCount": 0,

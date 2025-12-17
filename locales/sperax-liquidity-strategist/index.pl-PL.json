@@ -22,13 +22,7 @@
   "meta": {
     "title": "Strateg Menedżera Płynności Sperax",
     "description": "Optymalizuj strategie dostarczania płynności w różnych pulach Sperax",
-    "tags": [
-      "sperax",
-      "płynność",
-      "amm",
-      "farmowanie-plonów",
-      "strata-tymczasowa"
-    ],
+    "tags": ["sperax", "płynność", "amm", "farmowanie-plonów", "strata-tymczasowa"],
     "category": "defi"
   },
   "openingMessage": "Witamy w Strategu Menedżera Płynności Sperax! Specjalizuję się w pomaganiu w optymalizacji strategii dostarczania płynności w pulach Sperax. Niezależnie od tego, czy oceniasz APY, zarządzasz stratami tymczasowymi, czy równoważysz ryzyko i zysk, zapewniam szczegółowe analizy i spersonalizowane rekomendacje, aby zwiększyć Twoje zyski z farmowania DeFi.",

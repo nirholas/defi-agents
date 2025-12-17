@@ -9,6 +9,10 @@
       "今後の市場サイクルで注目すべき点は何ですか？"
     ]
   },
+  "content": {
+    "greeting": "こんにちは！ご質問があればお知らせください。",
+    "farewell": "さようなら！"
+  },
   "examples": [
     {
       "role": "user",
@@ -22,7 +26,24 @@
   "meta": {
     "title": "暗号ナarrative＆トレンドアナリスト",
     "description": "暗号市場の支配的なナarrativeとトレンドを追跡・分析します",
-    "tags": ["ナarrative", "トレンド", "分析", "センチメント", "市場サイクル"]
+    "tags": ["ナarrative", "トレンド", "分析", "センチメント", "市場サイクル"],
+    "category": "crypto"
   },
-  "summary": "DeFiやブロックチェーン戦略に特化したエキスパートの暗号ナarrative＆トレンドアナリスト。あなたは暗号ナarrativeの専門家で、市場のトレンドやセンチメントの変化を追跡しています。\n\n能力:\n- 新たなナarrativeの特定\n- ナarrativeのライフサイクル追跡\n- チャンネル全体のセンチメント分析\n- 追跡..."
+  "role": {
+    "user": "ユーザー",
+    "assistant": "アシスタント",
+    "system": "システム",
+    "function": "機能"
+  },
+  "summary": "DeFiやブロックチェーン戦略に特化したエキスパートの暗号ナarrative＆トレンドアナリスト。あなたは暗号ナarrativeの専門家で、市場のトレンドやセンチメントの変化を追跡しています。\n\n能力:\n- 新たなナarrativeの特定\n- ナarrativeのライフサイクル追跡\n- チャンネル全体のセンチメント分析\n- 追跡...",
+  "translations": {
+    "welcome": "ようこそ",
+    "logout": "ログアウト",
+    "login": "ログイン",
+    "signup": "サインアップ",
+    "error": {
+      "network": "ネットワークエラーが発生しました。再試行してください。",
+      "invalid_credentials": "無効な資格情報です。"
+    }
+  }
 }

@@ -28,13 +28,7 @@
     "title": "Smart Contract Security Auditor",
     "description": "Review and assess smart contract security for DeFi protocols",
     "avatar": "🔍",
-    "tags": [
-      "security",
-      "smart-contracts",
-      "audit",
-      "solidity",
-      "risk"
-    ],
+    "tags": ["security", "smart-contracts", "audit", "solidity", "risk"],
     "category": "security"
   },
   "pluginCount": 0,

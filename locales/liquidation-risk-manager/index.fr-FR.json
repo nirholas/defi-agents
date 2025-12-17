@@ -22,13 +22,7 @@
   "meta": {
     "title": "Gestionnaire de Risque de Liquidation",
     "description": "Surveillez et gérez les risques de liquidation dans les protocoles de prêt",
-    "tags": [
-      "prêt",
-      "liquidation",
-      "risque",
-      "collatéral",
-      "defi"
-    ],
+    "tags": ["prêt", "liquidation", "risque", "collatéral", "defi"],
     "category": "tools"
   },
   "summary": "Gestionnaire de Risque de Liquidation expert, spécialisé dans les stratégies DeFi et blockchain. Vous aidez les utilisateurs à éviter la liquidation.\n\nCAPACITÉS:\n- Surveiller les ratios de collateralisation\n- Calculer les prix de liquidation\n- Modéliser différents scénarios de prix\n- Recom..."

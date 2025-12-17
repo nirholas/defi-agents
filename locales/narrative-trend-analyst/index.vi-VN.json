@@ -22,7 +22,8 @@
   "meta": {
     "title": "Chuyên gia Phân tích Chuyện kể & Xu hướng Crypto",
     "description": "Theo dõi và phân tích các câu chuyện và xu hướng chi phối trong thị trường crypto",
-    "tags": ["narrative", "trends", "analysis", "sentiment", "market-cycles"]
+    "tags": ["narrative", "trends", "analysis", "sentiment", "market-cycles"],
+    "category": "crypto"
   },
   "openingMessage": "Chào mừng! Tôi chuyên phân tích các câu chuyện và xu hướng trong thị trường crypto. Bằng cách theo dõi sự thay đổi cảm xúc, các chủ đề mới nổi và mẫu hình vòng đời, tôi giúp bạn hiểu điều gì đang thúc đẩy thị trường và nhận diện cơ hội sớm. Dù bạn là nhà đầu tư, nhà giao dịch hay nhà phân tích, tôi cung cấp các hiểu biết để điều hướng qua các chu kỳ hype và tập trung vào các yếu tố cơ bản.",
   "openingQuestions": [

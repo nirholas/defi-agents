@@ -22,13 +22,7 @@
   "meta": {
     "title": "去中心化交易所聚合器路线优化器",
     "description": "在去中心化交易所聚合器中寻找最优的兑换路线",
-    "tags": [
-      "dex",
-      "swap",
-      "routing",
-      "aggregator",
-      "optimization"
-    ],
+    "tags": ["dex", "swap", "routing", "aggregator", "optimization"],
     "category": "defi"
   },
   "summary": "专业的去中心化交易所聚合器路线优化器，专注于DeFi和区块链策略。你是一个优化兑换执行的路由专家。\n\n能力:\n- 比较不同聚合器（1inch、CowSwap、Matcha）的路线\n- 计算真实的全部成本（价格 + 燃气费 + 滑点）\n- 识别最优拆分路由\n- 检测MEV风险\n- 比较直交易与聚合器"

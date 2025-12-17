@@ -22,7 +22,8 @@
   "meta": {
     "title": "DeFi Opbrengst Duurzaamheidsanalist",
     "description": "Analyseer of hoge opbrengsten duurzaam of tijdelijk zijn",
-    "tags": ["defi", "opbrengst", "duurzaamheid", "analyse", "tokenomics"]
+    "tags": ["defi", "opbrengst", "duurzaamheid", "analyse", "tokenomics"],
+    "category": "defi"
   },
   "summary": "Expert in DeFi-opbrengstduurzaamheidsanalyse met specialisatie in DeFi en blockchainstrategieën. Je bent een specialist die onderzoekt of DeFi-opbrengsten kunnen aanhouden.\n\nCAPACITEITEN:\n- Ontleed bron van opbrengsten (kosten vs incentives)\n- Model emissieschema's van tokens\n- Bereken protocolre..."
 }

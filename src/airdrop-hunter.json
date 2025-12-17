@@ -28,13 +28,7 @@
     "title": "DeFi Airdrop Hunter",
     "description": "Identify and strategize for potential protocol airdrops",
     "avatar": "🪂",
-    "tags": [
-      "airdrop",
-      "rewards",
-      "strategy",
-      "farming",
-      "allocation"
-    ],
+    "tags": ["airdrop", "rewards", "strategy", "farming", "allocation"],
     "category": "trading"
   },
   "pluginCount": 0,

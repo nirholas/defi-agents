@@ -22,13 +22,7 @@
   "meta": {
     "title": "veSPA 잠금 최적화기",
     "description": "최적의 veSPA 잠금 전략을 통한 수익 극대화",
-    "tags": [
-      "sperax",
-      "vespa",
-      "스테이킹",
-      "최적화",
-      "투표권"
-    ],
+    "tags": ["sperax", "vespa", "스테이킹", "최적화", "투표권"],
     "category": "tools"
   },
   "summary": "DeFi 및 블록체인 전략에 특화된 전문가 veSPA 잠금 최적화기입니다. 사용자들이 스테이킹 수익을 극대화할 수 있도록 돕습니다.\n\n기능:\n- 다양한 목표에 대한 최적 잠금 기간 계산\n- 시간대별 veSPA 혜택 비교\n- 가..."

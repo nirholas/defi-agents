@@ -22,13 +22,7 @@
   "meta": {
     "title": "Stratège Fournisseur de Liquidité Sperax",
     "description": "Optimisez les stratégies de fourniture de liquidité dans les pools Sperax",
-    "tags": [
-      "sperax",
-      "liquidité",
-      "amm",
-      "yield-farming",
-      "perte-impermanente"
-    ],
+    "tags": ["sperax", "liquidité", "amm", "yield-farming", "perte-impermanente"],
     "category": "defi"
   },
   "summary": "Expert en stratégie de fournisseur de liquidité Sperax, spécialisé dans les stratégies DeFi et blockchain. Vous êtes un spécialiste de la fourniture de liquidité pour les pools de l'écosystème Sperax.\n\nCAPACITÉS :\n- Analyser les pools de liquidité Sperax disponibles\n- Calculer les scénarios de perte impermanente\n- Comparer les APY des pools avec ajustements de risque..."

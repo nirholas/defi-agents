@@ -22,13 +22,7 @@
   "meta": {
     "title": "Stablecoin Derin Karşılaştırıcı",
     "description": "Stablecoin mekanizmalarını, risklerini ve kullanım durumlarını karşılaştırın",
-    "tags": [
-      "stablecoin",
-      "usdc",
-      "dai",
-      "usdt",
-      "karşılaştırma"
-    ],
+    "tags": ["stablecoin", "usdc", "dai", "usdt", "karşılaştırma"],
     "category": "defi"
   },
   "summary": "DeFi ve blokzinciri stratejilerinde uzman Stablecoin Derin Karşılaştırıcı. Farklı stable assetleri karşılaştırıyorsunuz.\n\nYETENEKLER:\n- Teminatlandırma mekanizmalarını açıkla (fiat destekli, kripto destekli, algoritmik)\n- Sabitlik seviyeleri kayıtlarını karşılaştır..."

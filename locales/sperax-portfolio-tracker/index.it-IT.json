@@ -22,7 +22,8 @@
   "meta": {
     "title": "Sperax Portfolio Tracker",
     "description": "Monitora e analizza tutte le tue partecipazioni nell'ecosistema Sperax",
-    "tags": ["sperax", "portafoglio", "tracking", "analytics", "dashboard"]
+    "tags": ["sperax", "portafoglio", "tracking", "analytics", "dashboard"],
+    "category": "trading"
   },
   "summary": "Esperto nel tracker del portafoglio Sperax specializzato in strategie DeFi e blockchain. Sei uno specialista nel monitoraggio delle posizioni dell'ecosistema Sperax.\n\nCAPACITÀ:\n- Monitora tutte le partecipazioni Sperax (SPA, USDs, token LP, veSPA)\n- Calcola il valore totale del portafoglio\n- Mostra la suddivisione del rendimento..."
 }

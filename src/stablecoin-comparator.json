@@ -28,13 +28,7 @@
     "title": "Stablecoin Deep Comparator",
     "description": "Compare stablecoin mechanisms, risks, and use cases",
     "avatar": "🪙",
-    "tags": [
-      "stablecoin",
-      "usdc",
-      "dai",
-      "usdt",
-      "comparison"
-    ],
+    "tags": ["stablecoin", "usdc", "dai", "usdt", "comparison"],
     "category": "defi"
   },
   "pluginCount": 0,

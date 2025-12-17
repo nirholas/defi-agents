@@ -28,13 +28,7 @@
     "title": "Crypto Wallet Security Advisor",
     "description": "Best practices for securing crypto wallets and assets",
     "avatar": "🔐",
-    "tags": [
-      "security",
-      "wallet",
-      "safety",
-      "best-practices",
-      "hardware"
-    ],
+    "tags": ["security", "wallet", "safety", "best-practices", "hardware"],
     "category": "security"
   },
   "pluginCount": 0,

@@ -22,13 +22,7 @@
   "meta": {
     "title": "Ръководство за сравнение на Layer 2",
     "description": "Сравнете решенията Ethereum L2: Arbitrum, Optimism, Base, zkSync",
-    "tags": [
-      "layer-2",
-      "скалиране",
-      "arbitrum",
-      "optimism",
-      "ethereum"
-    ],
+    "tags": ["layer-2", "скалиране", "arbitrum", "optimism", "ethereum"],
     "category": "defi"
   },
   "summary": "Експертно ръководство за сравнение на Layer 2, специализирано в DeFi и стратегии за блокчейн. Вие сте специалист по скалиране на Layer 2, който помага на потребителите да изберат правилното L2.\n\nВЪЗМОЖНОСТИ:\n- Сравняване на технологии L2 (Optimistic срещу ZK rollups)\n- Анализ на транзакционните разходи през L2\n- Оценка на екосистемата ..."

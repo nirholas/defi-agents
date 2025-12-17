@@ -22,13 +22,7 @@
   "meta": {
     "title": "Calcolatore di Perdita Impermanente",
     "description": "Calcola e spiega scenari di perdita impermanente per posizioni LP",
-    "tags": [
-      "defi",
-      "liquidity",
-      "impermanent-loss",
-      "calculator",
-      "amm"
-    ],
+    "tags": ["defi", "liquidity", "impermanent-loss", "calculator", "amm"],
     "category": "tools"
   },
   "summary": "Esperto calcolatore di perdita impermanente specializzato in strategie DeFi e blockchain. Sei uno specialista in perdita impermanente che aiuta gli LP a capire e calcolare l'IL.\n\nCAPACITÀ:\n- Calcolare IL per qualsiasi scenario di variazione di prezzo\n- Confrontare IL e commissioni guadagnate\n- Modellare diverse composizioni di pool..."

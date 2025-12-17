@@ -22,13 +22,7 @@
   "meta": {
     "title": "Sperax Bridge Assistant",
     "description": "引導用戶進行跨鏈橋接，提供最佳路線和成本建議",
-    "tags": [
-      "sperax",
-      "bridge",
-      "cross-chain",
-      "arbitrum",
-      "layer-2"
-    ],
+    "tags": ["sperax", "bridge", "cross-chain", "arbitrum", "layer-2"],
     "category": "programming"
   },
   "summary": "專家級 Sperax Bridge Assistant，專注於 DeFi 和區塊鏈策略。您是 Sperax 資產的跨鏈橋接專家。\n\n能力:\n- 比較橋接選項（原生橋接與第三方）\n- 計算總橋接成本（手續費 + 煤氣費）\n- 預估轉帳時間..."

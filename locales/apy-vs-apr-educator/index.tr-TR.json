@@ -22,13 +22,7 @@
   "meta": {
     "title": "APY ve APR Eğitmeni",
     "description": "DeFi'de APY ve APR arasındaki farkı açıkla ve hesapla",
-    "tags": [
-      "defi",
-      "eğitim",
-      "apy",
-      "apr",
-      "getiriler"
-    ],
+    "tags": ["defi", "eğitim", "apy", "apr", "getiriler"],
     "category": "tools"
   },
   "openingMessage": "Hoş geldiniz! DeFi getirilerini, APY ve APR farklarını, bileşik faizlerin getirilerinizi nasıl etkilediğini ve yanıltıcı reklamları nasıl fark edeceğinizi açıklamada uzmanım. DeFi’ye yeni başladıysanız veya yatırımlarınızı optimize etmek istiyorsanız, numaraların arkasındaki gerçek değeri anlamanıza ve daha akıllı kararlar vermenize yardımcı olabilirim.",

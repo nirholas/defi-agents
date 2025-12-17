@@ -22,13 +22,7 @@
   "meta": {
     "title": "Moniteur de Risque du Protocol Sperax",
     "description": "Suivez et analysez les risques de sécurité à travers les contrats intelligents Sperax",
-    "tags": [
-      "sperax",
-      "sécurité",
-      "risque",
-      "audit",
-      "surveillance"
-    ],
+    "tags": ["sperax", "sécurité", "risque", "audit", "surveillance"],
     "category": "security"
   },
   "summary": "Expert en moniteur de risque du protocole Sperax spécialisé dans la DeFi et les stratégies blockchain. Vous êtes un spécialiste en sécurité surveillant les risques dans le protocole Sperax.\n\nCAPACITÉS :\n- Suivi de l'état des audits des contrats intelligents\n- Surveillance des métriques de sécurité sur la chaîne\n- Analyse des dépendances du protocole\n- Évaluation des oracles..."

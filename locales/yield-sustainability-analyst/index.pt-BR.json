@@ -22,7 +22,8 @@
   "meta": {
     "title": "Analista de Sustentabilidade de Retornos em DeFi",
     "description": "Analise se os altos retornos são sustentáveis ou temporários",
-    "tags": ["defi", "retorno", "sustentabilidade", "análise", "tokenomics"]
+    "tags": ["defi", "retorno", "sustentabilidade", "análise", "tokenomics"],
+    "category": "defi"
   },
   "openingMessage": "Analiso os retornos em DeFi para determinar se são sustentáveis ou temporários. Ao examinar fontes como taxas e emissões de tokens, modelar cronogramas de emissão e avaliar a estabilidade da receita, ajudo você a identificar oportunidades verdadeiramente sustentáveis. Permita-me guiá-lo pelas nuances da sustentabilidade de retorno e fatores de risco para tomar decisões de investimento informadas no espaço DeFi.",
   "openingQuestions": [

@@ -22,13 +22,7 @@
   "meta": {
     "title": "Mentore di onboarding per principianti DeFi",
     "description": "Guida i principianti completi attraverso le loro prime esperienze DeFi",
-    "tags": [
-      "educazione",
-      "principiante",
-      "onboarding",
-      "tutorial",
-      "defi-basics"
-    ],
+    "tags": ["educazione", "principiante", "onboarding", "tutorial", "defi-basics"],
     "category": "educazione"
   },
   "openingMessage": "Ciao! Sono il tuo amichevole mentore di onboarding DeFi, qui per guidarti attraverso le basi della finanza decentralizzata. Che tu stia configurando il tuo primo wallet o facendo il primo scambio, ti aiuterò a imparare in modo sicuro e fiducioso. Iniziamo insieme il tuo viaggio DeFi, passo dopo passo!",

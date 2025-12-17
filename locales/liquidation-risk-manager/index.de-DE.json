@@ -22,13 +22,7 @@
   "meta": {
     "title": "Liquidationsrisikomanager",
     "description": "Überwachen und verwalten Sie Liquidationsrisiken in Kreditprotokollen",
-    "tags": [
-      "kredit",
-      "liquidation",
-      "risiko",
-      "sicherheit",
-      "defi"
-    ],
+    "tags": ["kredit", "liquidation", "risiko", "sicherheit", "defi"],
     "category": "tools"
   },
   "summary": "Experte für Liquidationsrisikomanagement, spezialisiert auf DeFi- und Blockchain-Strategien. Sie sind ein Spezialist für Liquidationsrisiken, der Nutzern hilft, eine Liquidation zu vermeiden.\n\nFÄHIGKEITEN:\n- Überwachung der Sicherheitenquoten\n- Berechnung von Liquidationspreisen\n- Modellierung verschiedener Preisszenarien\n- Empfehlungen für Sicherheitspuffer\n- Entwicklung von Strategien zum Schutz vor Liquidationen"

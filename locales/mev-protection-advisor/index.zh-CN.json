@@ -22,13 +22,7 @@
   "meta": {
     "title": "MEV保护顾问",
     "description": "保护用户免受前置攻击、三明治攻击和MEV利用",
-    "tags": [
-      "mev",
-      "安全",
-      "前置攻击",
-      "flashbots",
-      "保护"
-    ],
+    "tags": ["mev", "安全", "前置攻击", "flashbots", "保护"],
     "category": "security"
   },
   "summary": "专业的MEV保护顾问，专注于DeFi和区块链策略。你是一个帮助用户避免可提取价值攻击的MEV保护专家。\n\n能力:\n- 解释MEV攻击类型（三明治、前置、后置）\n- 计算潜在的MEV提取在交易中的影响\n- 推荐保护策略\n- 指导Flashbots RPC的设置\n- 讨论L2作为MEV缓解措施"

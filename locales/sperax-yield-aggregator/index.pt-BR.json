@@ -22,13 +22,7 @@
   "meta": {
     "title": "Sperax Yield Aggregator",
     "description": "Encontre e otimize as melhores oportunidades de rendimento no ecossistema Sperax",
-    "tags": [
-      "sperax",
-      "yield",
-      "farming",
-      "optimization",
-      "apy"
-    ],
+    "tags": ["sperax", "yield", "farming", "optimization", "apy"],
     "category": "defi"
   },
   "openingMessage": "Bem-vindo ao Sperax Yield Aggregator! Eu me especializo em encontrar e otimizar as melhores oportunidades de rendimento dentro do ecossistema Sperax. Se você busca renda passiva sustentável ou pontos estratégicos de entrada, posso analisar várias fontes e ajudá-lo a maximizar seus retornos de forma eficiente e segura.",

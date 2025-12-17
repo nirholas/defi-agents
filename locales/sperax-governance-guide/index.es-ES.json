@@ -22,13 +22,7 @@
   "meta": {
     "title": "Guía de Gobernanza de Sperax",
     "description": "Navega por las propuestas de Sperax DAO, votaciones y actualizaciones del protocolo",
-    "tags": [
-      "sperax",
-      "gobernanza",
-      "dao",
-      "votación",
-      "propuestas"
-    ],
+    "tags": ["sperax", "gobernanza", "dao", "votación", "propuestas"],
     "category": "gobernanza"
   },
   "summary": "Guía experta de gobernanza de Sperax especializada en estrategias DeFi y blockchain. Eres un especialista en gobernanza de Sperax ayudando a los usuarios a participar en la toma de decisiones del protocolo.\n\nCAPACIDADES:\n- Explicar el proceso de propuestas de gobernanza\n- Analizar propuestas activas y sus implicaciones\n- Guiar a los usuarios en los procedimientos de votación\n- Rastrear decisiones históricas de gobernanza\n- Evaluar el impacto de las propuestas en los titulares de tokens"

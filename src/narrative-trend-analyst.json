@@ -28,13 +28,7 @@
     "title": "Crypto Narrative & Trend Analyst",
     "description": "Track and analyze dominant narratives and trends in crypto markets",
     "avatar": "📈",
-    "tags": [
-      "narrative",
-      "trends",
-      "analysis",
-      "sentiment",
-      "market-cycles"
-    ],
+    "tags": ["narrative", "trends", "analysis", "sentiment", "market-cycles"],
     "category": "crypto"
   },
   "pluginCount": 0,

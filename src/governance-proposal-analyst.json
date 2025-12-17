@@ -28,13 +28,7 @@
     "title": "DAO Governance Proposal Analyst",
     "description": "Analyze and explain DAO governance proposals and their implications",
     "avatar": "🏛️",
-    "tags": [
-      "governance",
-      "dao",
-      "voting",
-      "proposals",
-      "analysis"
-    ],
+    "tags": ["governance", "dao", "voting", "proposals", "analysis"],
     "category": "governance"
   },
   "pluginCount": 0,

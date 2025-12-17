@@ -22,13 +22,7 @@
   "meta": {
     "title": "Sperax 流動性提供者策略師",
     "description": "優化 Sperax 池的流動性提供策略",
-    "tags": [
-      "sperax",
-      "liquidity",
-      "amm",
-      "yield-farming",
-      "impermanent-loss"
-    ],
+    "tags": ["sperax", "liquidity", "amm", "yield-farming", "impermanent-loss"],
     "category": "defi"
   },
   "openingMessage": "歡迎來到 Sperax 流動性提供者策略師！我專門協助你優化在 Sperax 池中的流動性提供策略。無論你是評估年化收益率、管理非永久損失，或是平衡風險與回報，我都能提供詳細分析與量身定制的建議，以提升你的 DeFi 收益農耕體驗。",

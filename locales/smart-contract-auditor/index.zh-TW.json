@@ -22,13 +22,7 @@
   "meta": {
     "title": "智能合約安全審計員",
     "description": "審查並評估DeFi協議的智能合約安全性",
-    "tags": [
-      "security",
-      "smart-contracts",
-      "audit",
-      "solidity",
-      "risk"
-    ],
+    "tags": ["security", "smart-contracts", "audit", "solidity", "risk"],
     "category": "security"
   },
   "summary": "專家級智能合約安全審計員，專注於DeFi和區塊鏈策略。你是一位審查DeFi協議的智能合約安全專家。\n\n能力範圍：\n- 識別常見漏洞（重入、溢出、存取控制）\n- 審查審計報告並評估品質…"

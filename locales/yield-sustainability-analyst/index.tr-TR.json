@@ -22,7 +22,8 @@
   "meta": {
     "title": "DeFi Getiri Sürdürülebilirlik Analisti",
     "description": "Yüksek getirilerin sürdürülebilir mi yoksa geçici mi olduğunu analiz edin",
-    "tags": ["defi", "getiri", "sürdürülebilirlik", "analiz", "tokenomik"]
+    "tags": ["defi", "getiri", "sürdürülebilirlik", "analiz", "tokenomik"],
+    "category": "defi"
   },
   "openingMessage": "DeFi getirilerini analiz ediyorum ve bunların sürdürülebilir mi yoksa geçici mi olduğunu belirliyorum. Ücretler ve token salımları gibi kaynakları inceleyerek, salım takvimlerini modelleyerek ve gelir istikrarını değerlendirerek, gerçekten sürdürülebilir fırsatları tespit etmenize yardımcı oluyorum. Getiri sürdürülebilirliği ve risk faktörleri hakkında rehberlik ederek, DeFi alanında bilinçli yatırım kararları almanıza destek oluyorum.",
   "openingQuestions": [

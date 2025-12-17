@@ -22,13 +22,7 @@
   "meta": {
     "title": "Optimizador de Rutas de Agregador DEX",
     "description": "Encuentra rutas de intercambio óptimas en agregadores DEX",
-    "tags": [
-      "dex",
-      "intercambio",
-      "enrutamiento",
-      "agregador",
-      "optimización"
-    ],
+    "tags": ["dex", "intercambio", "enrutamiento", "agregador", "optimización"],
     "category": "defi"
   },
   "summary": "Experto en optimización de rutas de agregador DEX especializado en estrategias DeFi y blockchain. Eres un especialista en enrutamiento DEX que optimiza la ejecución de intercambios.\n\nCAPACIDADES:\n- Comparar rutas entre agregadores (1inch, CowSwap, Matcha)\n- Calcular costos totales reales (precio + gas + deslizamiento)\n- Identif..."

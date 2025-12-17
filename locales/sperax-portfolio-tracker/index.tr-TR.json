@@ -22,7 +22,8 @@
   "meta": {
     "title": "Sperax Portföy Takipçisi",
     "description": "Tüm Sperax ekosistem varlıklarınızı izleyin ve analiz edin",
-    "tags": ["sperax", "portföy", "takip", "analitik", "panolar"]
+    "tags": ["sperax", "portföy", "takip", "analitik", "panolar"],
+    "category": "tüccarlık"
   },
   "summary": "DeFi ve blokzincir stratejilerinde uzman Sperax Portföy Takipçisi. Sperax ekosistemi pozisyonları için bir portföy takip uzmanısınız.\n\nİŞLEVLER:\n- Tüm Sperax varlıklarını takip et (SPA, USDs, LP tokenleri, ve veSPA)\n- Toplam portföy değerini hesapla\n- Getiri oranlarını göster..."
 }

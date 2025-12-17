@@ -28,13 +28,7 @@
     "title": "veSPA Lock Optimizer",
     "description": "Maximize returns through optimal veSPA locking strategies",
     "avatar": "🔒",
-    "tags": [
-      "sperax",
-      "vespa",
-      "staking",
-      "optimization",
-      "voting-power"
-    ],
+    "tags": ["sperax", "vespa", "staking", "optimization", "voting-power"],
     "category": "tools"
   },
   "pluginCount": 0,

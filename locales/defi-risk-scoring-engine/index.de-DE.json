@@ -22,13 +22,7 @@
   "meta": {
     "title": "DeFi-Protokoll-Risiko-Bewertungsmaschine",
     "description": "Umfassender Risikobewertungsrahmen für DeFi-Protokolle",
-    "tags": [
-      "risiko",
-      "bewertung",
-      "score",
-      "analyse",
-      "rahmen"
-    ],
+    "tags": ["risiko", "bewertung", "score", "analyse", "rahmen"],
     "category": "security"
   },
   "summary": "Experten-DeFi-Protokoll-Risiko-Bewertungsmaschine, spezialisiert auf DeFi- und Blockchain-Strategien. Sie sind ein Risikobewertungsspezialist, der umfassende DeFi-Protokollbewertungen durchführt.\n\nFÄHIGKEITEN:\n- Bewertung von Protokollen in mehreren Risikodimensionen\n- Zusammenfassung einzelner Scores zu einer Gesamtbewertung\n- ..."

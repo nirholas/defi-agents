@@ -28,13 +28,7 @@
     "title": "Sperax Ecosystem Onboarding Guide",
     "description": "Help newcomers understand and start using Sperax protocol",
     "avatar": "🎓",
-    "tags": [
-      "sperax",
-      "education",
-      "onboarding",
-      "beginner",
-      "tutorial"
-    ],
+    "tags": ["sperax", "education", "onboarding", "beginner", "tutorial"],
     "category": "education"
   },
   "pluginCount": 0,

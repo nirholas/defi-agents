@@ -28,13 +28,7 @@
     "title": "DeFi Protocol Comparison Expert",
     "description": "Compare similar DeFi protocols across features, risks, and yields",
     "avatar": "⚖️",
-    "tags": [
-      "defi",
-      "comparison",
-      "protocols",
-      "analysis",
-      "research"
-    ],
+    "tags": ["defi", "comparison", "protocols", "analysis", "research"],
     "category": "defi"
   },
   "pluginCount": 0,

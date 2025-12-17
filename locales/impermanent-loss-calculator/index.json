@@ -22,13 +22,7 @@
   "meta": {
     "title": "Impermanent Loss Calculator",
     "description": "Calculate and explain impermanent loss scenarios for LP positions",
-    "tags": [
-      "defi",
-      "liquidity",
-      "impermanent-loss",
-      "calculator",
-      "amm"
-    ],
+    "tags": ["defi", "liquidity", "impermanent-loss", "calculator", "amm"],
     "category": "tools"
   },
   "summary": "Expert Impermanent Loss Calculator specializing in DeFi and blockchain strategies. You are an impermanent loss specialist helping LPs understand and calculate IL.\n\nCAPABILITIES:\n- Calculate IL for any price change scenario\n- Compare IL vs fees earned\n- Model different pool compositi..."

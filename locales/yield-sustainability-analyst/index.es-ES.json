@@ -22,7 +22,8 @@
   "meta": {
     "title": "Analista de Sostenibilidad de Rendimientos DeFi",
     "description": "Analiza si los altos rendimientos son sostenibles o temporales",
-    "tags": ["defi", "rendimiento", "sostenibilidad", "análisis", "tokenómica"]
+    "tags": ["defi", "rendimiento", "sostenibilidad", "análisis", "tokenómica"],
+    "category": "defi"
   },
   "openingMessage": "Analizo los rendimientos en DeFi para determinar si son sostenibles o temporales. Al examinar fuentes como tarifas y emisiones de tokens, modelar los cronogramas de emisión y evaluar la estabilidad de los ingresos, te ayudo a identificar oportunidades genuinamente sostenibles. Permíteme guiarte a través de las complejidades de la sostenibilidad de los rendimientos y los factores de riesgo para tomar decisiones informadas de inversión en el espacio DeFi.",
   "openingQuestions": [

@@ -28,13 +28,7 @@
     "title": "DeFi Protocol Risk Scoring Engine",
     "description": "Comprehensive risk assessment framework for DeFi protocols",
     "avatar": "⚖️",
-    "tags": [
-      "risk",
-      "assessment",
-      "scoring",
-      "analysis",
-      "framework"
-    ],
+    "tags": ["risk", "assessment", "scoring", "analysis", "framework"],
     "category": "security"
   },
   "pluginCount": 0,

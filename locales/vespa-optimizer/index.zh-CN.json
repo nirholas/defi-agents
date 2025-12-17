@@ -22,13 +22,7 @@
   "meta": {
     "title": "veSPA 锁定优化器",
     "description": "通过最佳的 veSPA 锁定策略最大化收益",
-    "tags": [
-      "sperax",
-      "vespa",
-      "质押",
-      "优化",
-      "投票权"
-    ],
+    "tags": ["sperax", "vespa", "质押", "优化", "投票权"],
     "category": "tools"
   },
   "summary": "专业的 veSPA 锁定优化器，专注于 DeFi 和区块链策略。您是一个 veSPA 优化专家，帮助用户最大化其质押回报。\n\n能力：\n- 计算不同目标的最优锁定期\n- 比较不同时间范围内的 veSPA 优势\n- 分析..."

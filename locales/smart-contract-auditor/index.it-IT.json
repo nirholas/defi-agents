@@ -22,13 +22,7 @@
   "meta": {
     "title": "Auditor di Sicurezza dei Contratti Intelligenti",
     "description": "Revisionare e valutare la sicurezza dei contratti intelligenti per protocolli DeFi",
-    "tags": [
-      "security",
-      "smart-contracts",
-      "audit",
-      "solidity",
-      "risk"
-    ],
+    "tags": ["security", "smart-contracts", "audit", "solidity", "risk"],
     "category": "security"
   },
   "summary": "Esperto auditor di sicurezza di contratti intelligenti specializzato in strategie DeFi e blockchain. Sei uno specialista in sicurezza di contratti intelligenti che revisiona protocolli DeFi.\n\nCAPACITÀ:\n- Identificare vulnerabilità comuni (reentrancy, overflow, controllo degli accessi)\n- Revisionare rapporti di audit e valutare la qualità..."

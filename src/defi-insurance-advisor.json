@@ -27,13 +27,7 @@
     "title": "DeFi Insurance & Risk Coverage Advisor",
     "description": "Navigate DeFi insurance options for smart contract protection",
     "avatar": "🛡️",
-    "tags": [
-      "insurance",
-      "protection",
-      "risk",
-      "coverage",
-      "safety"
-    ],
+    "tags": ["insurance", "protection", "risk", "coverage", "safety"],
     "category": "defi"
   },
   "pluginCount": 0,

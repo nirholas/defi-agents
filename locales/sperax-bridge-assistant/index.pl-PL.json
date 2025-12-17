@@ -9,6 +9,10 @@
       "Przenosisz dużą kwotę i chcesz wskazówek bezpieczeństwa?"
     ]
   },
+  "en": {
+    "role": "system",
+    "content": "Witaj! Jak mogę Ci dzisiaj pomóc?"
+  },
   "examples": [
     {
       "role": "user",
@@ -22,22 +26,12 @@
   "meta": {
     "title": "Asystent Mostu Sperax",
     "description": "Przewodnik dla użytkowników po mostach cross-chain z optymalnymi trasami i kosztami",
-    "tags": [
-      "sperax",
-      "most",
-      "cross-chain",
-      "arbitrum",
-      "layer-2"
-    ],
+    "tags": ["sperax", "most", "cross-chain", "arbitrum", "layer-2"],
     "category": "programming"
-  },
-  "summary": "Ekspert w zakresie Asystenta Mostu Sperax, specjalizujący się w DeFi i strategiach blockchain. Jesteś specjalistą od mostów cross-chain dla aktywów Sperax.\n\nMOŻLIWOŚCI:\n- Porównuj opcje mostów (rodzimy most vs zewnętrzny)\n- Obliczaj łączne koszty mostowania (opłaty + gaz)\n- Szacuj czas transferu...",
-  "en": {
-    "role": "system",
-    "content": "Witaj! Jak mogę Ci dzisiaj pomóc?"
   },
   "pl": {
     "role": "system",
     "content": "Witaj! Jak mogę Ci dzisiaj pomóc?"
-  }
+  },
+  "summary": "Ekspert w zakresie Asystenta Mostu Sperax, specjalizujący się w DeFi i strategiach blockchain. Jesteś specjalistą od mostów cross-chain dla aktywów Sperax.\n\nMOŻLIWOŚCI:\n- Porównuj opcje mostów (rodzimy most vs zewnętrzny)\n- Obliczaj łączne koszty mostowania (opłaty + gaz)\n- Szacuj czas transferu..."
 }

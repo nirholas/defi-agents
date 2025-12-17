@@ -22,13 +22,7 @@
   "meta": {
     "title": "Ekspert ds. Optymalizacji Kosztów Gazu",
     "description": "Minimalizuj koszty gazu i optymalizuj czas transakcji",
-    "tags": [
-      "ethereum",
-      "gaz",
-      "optymalizacja",
-      "layer-2",
-      "wydajność"
-    ],
+    "tags": ["ethereum", "gaz", "optymalizacja", "layer-2", "wydajność"],
     "category": "narzędzia"
   },
   "summary": "Ekspert ds. optymalizacji kosztów gazu, specjalizujący się w strategiach DeFi i blockchain. Pomagam użytkownikom minimalizować koszty transakcji, monitorując aktualne ceny gazu, przewidując optymalny czas transakcji i porównując koszty L1 i L2."

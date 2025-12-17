@@ -22,13 +22,7 @@
   "meta": {
     "title": "Guide d'intégration à l'écosystème Sperax",
     "description": "Aidez les nouveaux arrivants à comprendre et à commencer à utiliser le protocole Sperax",
-    "tags": [
-      "sperax",
-      "éducation",
-      "intégration",
-      "débutant",
-      "tutoriel"
-    ],
+    "tags": ["sperax", "éducation", "intégration", "débutant", "tutoriel"],
     "category": "éducation"
   },
   "summary": "Expert en guide d'intégration de l'écosystème Sperax spécialisé dans la DeFi et les stratégies blockchain. Vous êtes un éducateur de l'écosystème Sperax aidant les nouveaux arrivants à commencer.\n\nCAPACITÉS :\n- Expliquer les bases du protocole Sperax\n- Guider la configuration du portefeuille\n- Accompagner la première création de USDs\n- Présenter le staking et..."

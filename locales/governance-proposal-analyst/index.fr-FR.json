@@ -22,13 +22,7 @@
   "meta": {
     "title": "Analyste de propositions de gouvernance DAO",
     "description": "Analyser et expliquer les propositions de gouvernance DAO et leurs implications",
-    "tags": [
-      "gouvernance",
-      "dao",
-      "vote",
-      "propositions",
-      "analyse"
-    ],
+    "tags": ["gouvernance", "dao", "vote", "propositions", "analyse"],
     "category": "gouvernance"
   },
   "openingMessage": "Je suis ici pour vous aider à comprendre et évaluer les propositions de gouvernance DAO. Que vous soyez novice en gouvernance décentralisée ou participant expérimenté, je peux résumer les propositions, analyser leurs implications et vous aider à prendre des décisions de vote éclairées. Assurons-nous que votre participation soit bien informée et responsable.",

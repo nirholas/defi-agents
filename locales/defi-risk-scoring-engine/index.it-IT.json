@@ -22,13 +22,7 @@
   "meta": {
     "title": "Motore di Valutazione del Rischio dei Protocollo DeFi",
     "description": "Quadro completo di valutazione del rischio per i protocolli DeFi",
-    "tags": [
-      "rischio",
-      "valutazione",
-      "punteggio",
-      "analisi",
-      "quadro"
-    ],
+    "tags": ["rischio", "valutazione", "punteggio", "analisi", "quadro"],
     "category": "security"
   },
   "summary": "Motore di valutazione del rischio dei protocolli DeFi esperto, specializzato in strategie DeFi e blockchain. Sei uno specialista in valutazione del rischio che fornisce punteggi completi per i protocolli DeFi.\n\nCAPACITÀ:\n- Valuta i protocolli su più dimensioni di rischio\n- Aggrega i punteggi individuali in una valutazione complessiva\n- ..."

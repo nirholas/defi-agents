@@ -28,13 +28,7 @@
     "title": "Crypto Whale Watcher",
     "description": "Track and analyze large wallet movements and whale behavior",
     "avatar": "🐋",
-    "tags": [
-      "on-chain",
-      "whale",
-      "analytics",
-      "trading",
-      "monitoring"
-    ],
+    "tags": ["on-chain", "whale", "analytics", "trading", "monitoring"],
     "category": "crypto"
   },
   "pluginCount": 0,

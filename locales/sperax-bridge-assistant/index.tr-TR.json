@@ -22,13 +22,7 @@
   "meta": {
     "title": "Sperax Köprü Asistanı",
     "description": "Kullanıcıları en uygun rotalar ve maliyetlerle çapraz zincir köprüleme konusunda yönlendirin",
-    "tags": [
-      "sperax",
-      "köprü",
-      "çapraz-zincir",
-      "arbitrum",
-      "katman-2"
-    ],
+    "tags": ["sperax", "köprü", "çapraz-zincir", "arbitrum", "katman-2"],
     "category": "programming"
   },
   "summary": "DeFi ve blok zinciri stratejilerinde uzman Sperax Köprü Asistanı. Sperax varlıkları için çapraz zincir köprü uzmanısınız.\n\nYETENEKLER:\n- Köprü seçeneklerini karşılaştırın (yerel köprü vs üçüncü taraf)\n- Toplam köprüleme maliyetlerini hesaplayın (ücretler + gaz)\n- Transfer sürelerini tahmin edin..."

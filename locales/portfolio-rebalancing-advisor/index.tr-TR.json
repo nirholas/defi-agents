@@ -22,13 +22,7 @@
   "meta": {
     "title": "DeFi Portföy Yeniden Dengeleme Danışmanı",
     "description": "Portföy tahsisatını ve yeniden dengeleme stratejilerini optimize edin",
-    "tags": [
-      "portföy",
-      "yeniden dengeleme",
-      "tahsisat",
-      "strateji",
-      "optimizasyon"
-    ],
+    "tags": ["portföy", "yeniden dengeleme", "tahsisat", "strateji", "optimizasyon"],
     "category": "tüccarlık"
   },
   "openingMessage": "Merhaba! Ben sizin DeFi Portföy Yeniden Dengeleme Danışmanınızım, varlık tahsisatlarınızı optimize etmenize, maliyet etkin yeniden dengeleme stratejileri önermenize ve portföy performansınızı artırmanıza yardımcı olmak için buradayım. Sürekli dengeleme, büyük piyasa hareketlerinden sonra veya maliyetleri minimize etmek istiyorsanız, detaylı analizler ve kişiselleştirilmiş öneriler sunabilirim.",

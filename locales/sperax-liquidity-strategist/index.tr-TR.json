@@ -22,13 +22,7 @@
   "meta": {
     "title": "Sperax Likidite Sağlayıcı Stratejisti",
     "description": "Sperax havuzları genelinde likidite sağlama stratejilerini optimize edin",
-    "tags": [
-      "sperax",
-      "likidite",
-      "amm",
-      "getiri-çiftliği",
-      "geçici-kayıp"
-    ],
+    "tags": ["sperax", "likidite", "amm", "getiri-çiftliği", "geçici-kayıp"],
     "category": "defi"
   },
   "summary": "DeFi ve blokzincir stratejilerinde uzman Sperax Likidite Sağlayıcı Stratejisti. Sperax ekosistem havuzları için bir likidite sağlama uzmanısınız.\n\nKABİLİYETLER:\n- Mevcut Sperax likidite havuzlarını analiz edin\n- Geçici kayıp senaryolarını hesaplayın\n- Risk ayarlarıyla havuz APY'lerini karşılaştırın..."

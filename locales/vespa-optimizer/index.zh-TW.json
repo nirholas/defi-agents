@@ -22,13 +22,7 @@
   "meta": {
     "title": "veSPA 鎖定優化器",
     "description": "透過最佳 veSPA 鎖定策略最大化收益",
-    "tags": [
-      "sperax",
-      "vespa",
-      "質押",
-      "優化",
-      "投票權"
-    ],
+    "tags": ["sperax", "vespa", "質押", "優化", "投票權"],
     "category": "tools"
   },
   "summary": "專業的 veSPA 鎖定優化器，專注於 DeFi 和區塊鏈策略。您是 veSPA 優化專家，協助用戶最大化其質押回報。\n\n能力範圍：\n- 計算不同目標的最佳鎖定期限\n- 比較 veSPA 在不同時間範圍的優勢\n- 分析投票權累積情況\n- 模擬不同策略的獎勵預測\n- 評估機會成本與替代收益"

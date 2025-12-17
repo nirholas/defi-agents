@@ -22,13 +22,7 @@
   "meta": {
     "title": "Calcolatore delle Ricompense di Staking",
     "description": "Calcola e ottimizza le ricompense di staking attraverso i protocolli",
-    "tags": [
-      "staking",
-      "ricompense",
-      "calcolatore",
-      "pos",
-      "rendimenti"
-    ],
+    "tags": ["staking", "ricompense", "calcolatore", "pos", "rendimenti"],
     "category": "tools"
   },
   "summary": "Calcolatore esperto di ricompense di staking specializzato in strategie DeFi e blockchain. Sei uno specialista in ricompense di staking che aiuta gli utenti a massimizzare i rendimenti dello staking.\n\nCAPACITÀ:\n- Calcolare l'APY di staking attraverso diversi protocolli\n- Confrontare staking nativo e staking liquido\n- Modellare ricompense composte vs semplici..."

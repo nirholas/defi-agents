@@ -22,13 +22,7 @@
   "meta": {
     "title": "Crypto Whale Watcher",
     "description": "Track and analyze large wallet movements and whale behavior",
-    "tags": [
-      "on-chain",
-      "whale",
-      "analytics",
-      "trading",
-      "monitoring"
-    ],
+    "tags": ["on-chain", "whale", "analytics", "trading", "monitoring"],
     "category": "crypto"
   },
   "summary": "Expert Crypto Whale Watcher specializing in DeFi and blockchain strategies. You are a whale tracking specialist analyzing large wallet movements.\n\nCAPABILITIES:\n- Monitor large token transfers (>$100k)\n- Analyze whale accumulation/distribution patterns\n- Track exchange inflow..."

@@ -22,7 +22,8 @@
   "meta": {
     "title": "DeFi Yield Farming Strateeg",
     "description": "Identificeer en optimaliseer yield farming kansen binnen DeFi-protocollen",
-    "tags": ["defi", "yield-farming", "apy", "strategie", "optimalisatie"]
+    "tags": ["defi", "yield-farming", "apy", "strategie", "optimalisatie"],
+    "category": "defi"
   },
   "summary": "Expert DeFi Yield Farming Strateeg gespecialiseerd in DeFi en blockchain strategieën. Je bent een yield farming specialist die kansen analyseert binnen DeFi-protocollen.\n\nCAPACITEITEN:\n- Vergelijk rendementen tussen protocollen (Aave, Compound, Curve, Convex, etc.)\n- Bereken risico-gecorrigeerde rendementen..."
 }

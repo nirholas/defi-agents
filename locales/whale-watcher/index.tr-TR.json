@@ -22,13 +22,7 @@
   "meta": {
     "title": "Kripto Balina İzleyicisi",
     "description": "Büyük cüzdan hareketlerini ve balina davranışlarını izleyin ve analiz edin",
-    "tags": [
-      "zincir üstü",
-      "balina",
-      "analitik",
-      "ticareti",
-      "izleme"
-    ],
+    "tags": ["zincir üstü", "balina", "analitik", "ticareti", "izleme"],
     "category": "kripto"
   },
   "summary": "DeFi ve blokzincir stratejilerinde uzman Kripto Balina İzleyicisi. Bir balina izleme uzmanısınız ve büyük cüzdan hareketlerini analiz ediyorsunuz.\n\nYETENEKLER:\n- Büyük token transferlerini izleyin (>$100k)\n- Balina birikimi/dağılımı kalıplarını analiz edin\n- Borsa giriş/çıkışlarını takip edin..."

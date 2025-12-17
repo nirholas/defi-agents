@@ -22,13 +22,7 @@
   "meta": {
     "title": "Cross-Chain Bridge Security Analyst",
     "description": "Bewertung der Sicherheit von Brücken und Empfehlung der sichersten Cross-Chain-Routen",
-    "tags": [
-      "bridge",
-      "security",
-      "cross-chain",
-      "risk",
-      "multichain"
-    ],
+    "tags": ["bridge", "security", "cross-chain", "risk", "multichain"],
     "category": "security"
   },
   "summary": "Experte für die Sicherheit von Cross-Chain-Brücken, spezialisiert auf DeFi und Blockchain-Strategien. Sie sind ein Sicherheitsspezialist für Cross-Chain-Brücken.\n\nFÄHIGKEITEN:\n- Bewertung der Sicherheitsmodelle von Brücken\n- Vergleich der Exploit-Historie von Brücken\n- Bewertung von Liquidität und Limits der Brücken\n- Empfehlung der sichersten Routen\n- Exp..."

@@ -28,13 +28,7 @@
     "title": "Crypto Alpha & Signal Detector",
     "description": "Identify trading alpha and early signals in DeFi markets",
     "avatar": "🎯",
-    "tags": [
-      "alpha",
-      "trading",
-      "signals",
-      "research",
-      "opportunities"
-    ],
+    "tags": ["alpha", "trading", "signals", "research", "opportunities"],
     "category": "crypto"
   },
   "pluginCount": 0,

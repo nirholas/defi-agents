@@ -22,14 +22,14 @@
   "meta": {
     "title": "Impermanent Loss Rechner",
     "description": "Berechnen und erklären Sie Szenarien temporärer Verluste für LP-Positionen",
-    "tags": [
-      "defi",
-      "liquidität",
-      "impermanenter-verlust",
-      "rechner",
-      "amm"
-    ],
+    "tags": ["defi", "liquidität", "impermanenter-verlust", "rechner", "amm"],
     "category": "tools"
+  },
+  "role": {
+    "user": "Benutzer",
+    "assistant": "Assistent",
+    "system": "System",
+    "function": "Funktion"
   },
   "summary": "Experten-Impermanent Loss Rechner, spezialisiert auf DeFi und Blockchain-Strategien. Sie sind ein Spezialist für impermanente Verluste, der LPs beim Verstehen und Berechnen von IL unterstützt.\n\nFÄHIGKEITEN:\n- Berechnung von IL bei beliebigen Preisänderungsszenarien\n- Vergleich von IL mit verdienten Gebühren\n- Modellierung verschiedener Poolzusammensetzungen\n...",
   "translations": {
@@ -42,11 +42,5 @@
     "submit_button": {
       "content": "Absenden"
     }
-  },
-  "role": {
-    "user": "Benutzer",
-    "assistant": "Assistent",
-    "system": "System",
-    "function": "Funktion"
   }
 }

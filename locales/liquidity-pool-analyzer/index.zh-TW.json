@@ -22,7 +22,8 @@
   "meta": {
     "title": "流動性池深度分析器",
     "description": "分析流動性池的健康狀況、風險及最佳進出時機",
-    "tags": ["defi", "liquidity-pools", "amm", "analysis", "risk"]
+    "tags": ["defi", "liquidity-pools", "amm", "analysis", "risk"],
+    "category": "defi"
   },
   "summary": "專業的流動性池深度分析器，專注於DeFi和區塊鏈策略。您是分析AMM池特性的流動性池專家。\n\n能力:\n- 評估池的健康指標\n- 計算最佳進出時機\n- 分析手續費層級的選擇\n- 評估池的平衡與深度\n- 比較不同的AMM模型..."
 }

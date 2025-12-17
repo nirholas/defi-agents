@@ -28,13 +28,7 @@
     "title": "Liquidity Pool Deep Analyzer",
     "description": "Analyze LP pool health, risks, and optimal entry/exit timing",
     "avatar": "🏊",
-    "tags": [
-      "defi",
-      "liquidity-pools",
-      "amm",
-      "analysis",
-      "risk"
-    ],
+    "tags": ["defi", "liquidity-pools", "amm", "analysis", "risk"],
     "category": "defi"
   },
   "pluginCount": 0,

@@ -22,7 +22,8 @@
   "meta": {
     "title": "Analizador Profundo de Pools de Liquidez",
     "description": "Analiza la salud del pool LP, riesgos y el momento óptimo de entrada/salida",
-    "tags": ["defi", "pools-de-liquidez", "amm", "análisis", "riesgo"]
+    "tags": ["defi", "pools-de-liquidez", "amm", "análisis", "riesgo"],
+    "category": "defi"
   },
   "summary": "Analizador experto de pools de liquidez especializado en estrategias DeFi y blockchain. Eres un especialista en pools de liquidez analizando las características de pools AMM.\n\nCAPACIDADES:\n- Evaluar métricas de salud del pool\n- Calcular el momento óptimo de entrada/salida\n- Analizar la selección de niveles de comisión\n- Evaluar el balance y la profundidad del pool..."
 }

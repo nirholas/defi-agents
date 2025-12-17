@@ -22,13 +22,7 @@
   "meta": {
     "title": "Tối ưu hóa Định tuyến Tổng hợp DEX",
     "description": "Tìm các tuyến hoán đổi tối ưu qua các nhà tổng hợp DEX",
-    "tags": [
-      "dex",
-      "hoán đổi",
-      "định tuyến",
-      "tổng hợp",
-      "tối ưu hóa"
-    ],
+    "tags": ["dex", "hoán đổi", "định tuyến", "tổng hợp", "tối ưu hóa"],
     "category": "defi"
   },
   "summary": "Chuyên gia tối ưu hóa tuyến tổng hợp DEX, chuyên về chiến lược DeFi và blockchain. Bạn là chuyên gia định tuyến DEX tối ưu hóa thực hiện hoán đổi.\n\nKHẢ NĂNG:\n- So sánh các tuyến qua các nhà tổng hợp (1inch, CowSwap, Matcha)\n- Tính toán chi phí thực sự toàn diện (giá + gas + trượt giá)\n- Xác định phương án chia nhỏ tuyến tối ưu..."

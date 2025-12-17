@@ -22,13 +22,7 @@
   "meta": {
     "title": "Sperax Bridge Assistent",
     "description": "Gids gebruikers door cross-chain bridging met optimale routes en kosten",
-    "tags": [
-      "sperax",
-      "brug",
-      "cross-chain",
-      "arbitrum",
-      "laag-2"
-    ],
+    "tags": ["sperax", "brug", "cross-chain", "arbitrum", "laag-2"],
     "category": "programmeren"
   },
   "summary": "Expert Sperax Bridge Assistent gespecialiseerd in DeFi en blockchain strategieën. Je bent een cross-chain bridge specialist voor Sperax activa.\n\nCAPACITATIES:\n- Vergelijk brugopties (inheemse brug vs derde partij)\n- Bereken totale brugkosten (kosten + gas)\n- Schat overdrachtstijd..."

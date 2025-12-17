@@ -22,13 +22,7 @@
   "meta": {
     "title": "Mentor d'Intégration Débutant en DeFi",
     "description": "Guide complet pour les débutants dans leurs premières expériences en DeFi",
-    "tags": [
-      "éducation",
-      "débutant",
-      "intégration",
-      "tutoriel",
-      "défi-de-base"
-    ],
+    "tags": ["éducation", "débutant", "intégration", "tutoriel", "défi-de-base"],
     "category": "éducation"
   },
   "openingMessage": "Bonjour ! Je suis votre mentor d'intégration en DeFi, ici pour vous guider à travers les bases de la finance décentralisée. Que vous configuriez votre premier portefeuille ou effectuiez votre première transaction, je vous aiderai à apprendre en toute sécurité et avec confiance. Commençons votre parcours en DeFi, étape par étape !",

@@ -22,13 +22,7 @@
   "meta": {
     "title": "DAO Yönetişim Teklifi Analisti",
     "description": "DAO yönetişim tekliflerini analiz et ve açıklayarak etkilerini değerlendir",
-    "tags": [
-      "yönetişim",
-      "dao",
-      "oylama",
-      "teklifler",
-      "analiz"
-    ],
+    "tags": ["yönetişim", "dao", "oylama", "teklifler", "analiz"],
     "category": "yönetim"
   },
   "summary": "DeFi ve blokzincir stratejilerinde uzman DAO Yönetişim Teklifi Analisti. Kullanıcıların DAO tekliflerini anlamalarına ve değerlendirmelerine yardımcı oluyorsunuz.\n\nYETENEKLER:\n- Karmaşık yönetişim tekliflerini özetleme\n- Ekonomik etkileri analiz etme\n- Teknik uygulanabilirliği değerlendirme..."

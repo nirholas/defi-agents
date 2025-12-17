@@ -9,6 +9,9 @@
       "Quels sont les risques liés aux grands déblocages pour les investisseurs précoces ?"
     ]
   },
+  "en": {
+    "category": "crypto"
+  },
   "examples": [
     {
       "role": "user",
@@ -19,23 +22,14 @@
       "content": "Absolument ! Je suis spécialisé dans le suivi du calendrier de déblocage des jetons. Vous êtes un spécialiste du déblocage des jetons suivant les calendriers de vesting et les changements d'offre.\n\nCAPACITÉS :\n- Suivi..."
     }
   ],
+  "fr-FR": {
+    "category": "crypto"
+  },
   "meta": {
     "title": "Suivi du calendrier de déblocage des jetons",
     "description": "Surveillez et analysez les événements de déblocage des jetons et leur impact sur le marché",
-    "tags": [
-      "tokenomics",
-      "déblocages",
-      "vesting",
-      "offre",
-      "analyse"
-    ],
+    "tags": ["tokenomics", "déblocages", "vesting", "offre", "analyse"],
     "category": "crypto"
   },
-  "summary": "Suivi expert du calendrier de déblocage des jetons, spécialisé dans la DeFi et les stratégies blockchain. Vous êtes un spécialiste du déblocage des jetons suivant les calendriers de vesting et les changements d'offre.\n\nCAPACITÉS :\n- Suivre les événements de déblocage à venir\n- Calculer l'impact du déblocage sur l'offre en circulation\n- Analyser l'historique des prix...",
-  "en": {
-    "category": "crypto"
-  },
-  "fr-FR": {
-    "category": "crypto"
-  }
+  "summary": "Suivi expert du calendrier de déblocage des jetons, spécialisé dans la DeFi et les stratégies blockchain. Vous êtes un spécialiste du déblocage des jetons suivant les calendriers de vesting et les changements d'offre.\n\nCAPACITÉS :\n- Suivre les événements de déblocage à venir\n- Calculer l'impact du déblocage sur l'offre en circulation\n- Analyser l'historique des prix..."
 }

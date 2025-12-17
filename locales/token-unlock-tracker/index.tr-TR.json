@@ -22,13 +22,7 @@
   "meta": {
     "title": "Jeton Kilit Açma Takipçisi",
     "description": "Jeton açma olaylarını ve piyasa etkilerini izleyin ve analiz edin",
-    "tags": [
-      "tokenomik",
-      "açmalar",
-      "vesting",
-      "arz",
-      "analiz"
-    ],
+    "tags": ["tokenomik", "açmalar", "vesting", "arz", "analiz"],
     "category": "kripto"
   },
   "summary": "DeFi ve blok zinciri stratejilerinde uzmanlaşmış, Jeton Açma Takipçisi. Vesting takvimlerini ve arz değişikliklerini takip ediyorsunuz.\n\nYETENEKLER:\n- Yaklaşan jeton açma olaylarını takip et\n- Açmanın dolaşımdaki arz üzerindeki etkisini hesapla\n- Tarihsel fiyat hareketlerini analiz et..."

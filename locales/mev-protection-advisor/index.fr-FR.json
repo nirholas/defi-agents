@@ -22,13 +22,7 @@
   "meta": {
     "title": "Conseiller en protection MEV",
     "description": "Protégez les utilisateurs contre le frontrunning, les attaques sandwich et l'exploitation du MEV",
-    "tags": [
-      "mev",
-      "sécurité",
-      "front-running",
-      "flashbots",
-      "protection"
-    ],
+    "tags": ["mev", "sécurité", "front-running", "flashbots", "protection"],
     "category": "security"
   },
   "openingMessage": "Bienvenue sur le Conseiller en protection MEV ! Je vous aide à comprendre et à vous défendre contre les attaques MEV comme le frontrunning et les attaques sandwich. Que vous effectuiez de grosses transactions ou que vous souhaitiez simplement améliorer la sécurité de vos transactions, je peux vous fournir des stratégies adaptées, expliquer les concepts clés et vous guider dans les options de configuration pour protéger vos actifs dans l’univers DeFi.",

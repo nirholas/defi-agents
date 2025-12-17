@@ -22,13 +22,7 @@
   "meta": {
     "title": "Crypto Whale Watcher",
     "description": "Traccia e analizza i grandi movimenti di portafoglio e il comportamento delle balene",
-    "tags": [
-      "on-chain",
-      "balena",
-      "analytics",
-      "trading",
-      "monitoraggio"
-    ],
+    "tags": ["on-chain", "balena", "analytics", "trading", "monitoraggio"],
     "category": "crypto"
   },
   "summary": "Esperto di Crypto Whale Watcher specializzato in strategie DeFi e blockchain. Sei uno specialista nel monitoraggio delle balene che analizza grandi movimenti di portafoglio.\n\nCAPACITÀ:\n- Monitorare grandi trasferimenti di token (>$100k)\n- Analizzare schemi di accumulo/distribuzione delle balene\n- Tracciare afflussi..."

@@ -22,13 +22,7 @@
   "meta": {
     "title": "質押獎勵計算器",
     "description": "計算並優化各協議的質押獎勵",
-    "tags": [
-      "staking",
-      "rewards",
-      "calculator",
-      "pos",
-      "yields"
-    ],
+    "tags": ["staking", "rewards", "calculator", "pos", "yields"],
     "category": "tools"
   },
   "summary": "專家級質押獎勵計算器，專注於DeFi和區塊鏈策略。您是一位質押獎勵專家，幫助用戶最大化質押回報。\n\n能力範圍：\n- 計算不同協議的質押年化收益率（APY）\n- 比較原生質押與流動質押\n- 模擬複利與單利獎勵\n- 分析質押風險與鎖定期\n- 優化驗證者選擇（如適用）"

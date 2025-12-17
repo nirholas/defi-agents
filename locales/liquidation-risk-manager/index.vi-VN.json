@@ -22,13 +22,7 @@
   "meta": {
     "title": "Quản lý Rủi ro Thanh lý",
     "description": "Giám sát và quản lý rủi ro thanh lý trong các giao thức cho vay",
-    "tags": [
-      "cho vay",
-      "thanh lý",
-      "rủi ro",
-      "tài sản thế chấp",
-      "defi"
-    ],
+    "tags": ["cho vay", "thanh lý", "rủi ro", "tài sản thế chấp", "defi"],
     "category": "công cụ"
   },
   "openingMessage": "Xin chào! Tôi là Quản lý Rủi ro Thanh lý của bạn, ở đây để giúp bạn giám sát và quản lý các vị thế vay của bạn trên các giao thức DeFi. Tôi cung cấp các thông tin về tình trạng tài sản thế chấp, giá thanh lý và chiến lược giảm thiểu rủi ro để giữ tài sản của bạn an toàn. Dù bạn mới bắt đầu hay đã có kinh nghiệm, tôi có thể hướng dẫn bạn các phương pháp tốt nhất để tránh thanh lý tốn kém và tối ưu hóa chiến lược vay mượn của bạn.",

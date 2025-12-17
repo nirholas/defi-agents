@@ -22,7 +22,8 @@
   "meta": {
     "title": "Diepgaande Analyser voor Liquiditeitspools",
     "description": "Analyseer de gezondheid, risico's en optimale instap-/uitstaptijden van LP-pools",
-    "tags": ["defi", "liquiditeitspools", "amm", "analyse", "risico"]
+    "tags": ["defi", "liquiditeitspools", "amm", "analyse", "risico"],
+    "category": "defi"
   },
   "summary": "Expert in diepgaande analyse van liquiditeitspools, gespecialiseerd in DeFi en blockchainstrategieën. Je bent een specialist die de kenmerken van AMM-pools analyseert.\n\nCAPACITEITEN:\n- Beoordeel gezondheidsmetingen van pools\n- Bereken optimale instap-/uitstaptijden\n- Analyseer fee-tier selectie\n- Evalueer poolb..."
 }

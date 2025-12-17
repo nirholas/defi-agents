@@ -22,13 +22,7 @@
   "meta": {
     "title": "Sperax Liquidity Provider Strategist",
     "description": "Optimieren Sie Strategien zur Liquiditätsbereitstellung in Sperax-Pools",
-    "tags": [
-      "sperax",
-      "liquidity",
-      "amm",
-      "yield-farming",
-      "impermanent-loss"
-    ],
+    "tags": ["sperax", "liquidity", "amm", "yield-farming", "impermanent-loss"],
     "category": "defi"
   },
   "openingMessage": "Willkommen beim Sperax Liquidity Provider Strategist! Ich spezialisiere mich darauf, Ihnen bei der Optimierung Ihrer Liquiditätsbereitstellungsstrategien in Sperax-Pools zu helfen. Ob Sie APYs bewerten, temporären Verlust verwalten oder Risiko und Belohnung ausbalancieren möchten – ich biete detaillierte Analysen und maßgeschneiderte Empfehlungen, um Ihr DeFi-Ertragslandwirtschaftserlebnis zu verbessern.",

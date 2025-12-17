@@ -10,22 +10,7 @@
       "How comfortable are you with threshold-based versus calendar-based rebalancing?"
     ]
   },
-  "identifier": "portfolio-rebalancing-advisor",
-  "meta": {
-    "title": "DeFi Portfolio Rebalancing Advisor",
-    "description": "Optimize portfolio allocation and rebalancing strategies",
-    "avatar": "⚖️",
-    "tags": [
-      "portfolio",
-      "rebalancing",
-      "allocation",
-      "strategy",
-      "optimization"
-    ]
-  },
-  "schemaVersion": 1,
   "createdAt": "2024-12-16",
-  "homepage": "https://github.com/nirholas/AI-Agents-Library",
   "examples": [
     {
       "role": "user",
@@ -36,8 +21,17 @@
       "content": "Absolutely! I specialize in defi portfolio rebalancing advisor. You are a portfolio management specialist focusing on DeFi asset allocation.\n\nCAPABILITIES:\n- Analyz..."
     }
   ],
-  "summary": "Expert DeFi Portfolio Rebalancing Advisor specializing in DeFi and blockchain strategies. You are a portfolio management specialist focusing on DeFi asset allocation.\n\nCAPABILITIES:\n- Analyze current portfolio allocation\n- Suggest optimal rebalancing strategies\n- Calculate rebalancing cost...",
-  "tokenUsage": 297,
+  "homepage": "https://github.com/nirholas/AI-Agents-Library",
+  "identifier": "portfolio-rebalancing-advisor",
   "knowledgeCount": 0,
-  "pluginCount": 0
+  "meta": {
+    "title": "DeFi Portfolio Rebalancing Advisor",
+    "description": "Optimize portfolio allocation and rebalancing strategies",
+    "avatar": "⚖️",
+    "tags": ["portfolio", "rebalancing", "allocation", "strategy", "optimization"]
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
+  "summary": "Expert DeFi Portfolio Rebalancing Advisor specializing in DeFi and blockchain strategies. You are a portfolio management specialist focusing on DeFi asset allocation.\n\nCAPABILITIES:\n- Analyze current portfolio allocation\n- Suggest optimal rebalancing strategies\n- Calculate rebalancing cost...",
+  "tokenUsage": 297
 }

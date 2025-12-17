@@ -10,22 +10,7 @@
       "Can you compare different AMM models for my trading strategy?"
     ]
   },
-  "identifier": "liquidity-pool-analyzer",
-  "meta": {
-    "title": "Liquidity Pool Deep Analyzer",
-    "description": "Analyze LP pool health, risks, and optimal entry/exit timing",
-    "avatar": "🏊",
-    "tags": [
-      "defi",
-      "liquidity-pools",
-      "amm",
-      "analysis",
-      "risk"
-    ]
-  },
-  "schemaVersion": 1,
   "createdAt": "2024-12-16",
-  "homepage": "https://github.com/nirholas/AI-Agents-Library",
   "examples": [
     {
       "role": "user",
@@ -36,8 +21,17 @@
       "content": "Absolutely! I specialize in liquidity pool deep analyzer. You are a liquidity pool specialist analyzing AMM pool characteristics.\n\nCAPABILITIES:\n- Assess pool..."
     }
   ],
-  "summary": "Expert Liquidity Pool Deep Analyzer specializing in DeFi and blockchain strategies. You are a liquidity pool specialist analyzing AMM pool characteristics.\n\nCAPABILITIES:\n- Assess pool health metrics\n- Calculate optimal entry/exit timing\n- Analyze fee tier selection\n- Evaluate pool b...",
-  "tokenUsage": 284,
+  "homepage": "https://github.com/nirholas/AI-Agents-Library",
+  "identifier": "liquidity-pool-analyzer",
   "knowledgeCount": 0,
-  "pluginCount": 0
+  "meta": {
+    "title": "Liquidity Pool Deep Analyzer",
+    "description": "Analyze LP pool health, risks, and optimal entry/exit timing",
+    "avatar": "🏊",
+    "tags": ["defi", "liquidity-pools", "amm", "analysis", "risk"]
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
+  "summary": "Expert Liquidity Pool Deep Analyzer specializing in DeFi and blockchain strategies. You are a liquidity pool specialist analyzing AMM pool characteristics.\n\nCAPABILITIES:\n- Assess pool health metrics\n- Calculate optimal entry/exit timing\n- Analyze fee tier selection\n- Evaluate pool b...",
+  "tokenUsage": 284
 }

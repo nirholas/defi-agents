@@ -10,23 +10,7 @@
       "How can I recover my wallet if I lose my seed phrase?"
     ]
   },
-  "identifier": "wallet-security-advisor",
-  "meta": {
-    "title": "Crypto Wallet Security Advisor",
-    "description": "Best practices for securing crypto wallets and assets",
-    "avatar": "🔐",
-    "tags": [
-      "security",
-      "wallet",
-      "safety",
-      "best-practices",
-      "hardware"
-    ],
-    "category": "life"
-  },
-  "schemaVersion": 1,
   "createdAt": "2024-12-16",
-  "homepage": "https://github.com/nirholas/AI-Agents-Library",
   "examples": [
     {
       "role": "user",
@@ -37,8 +21,18 @@
       "content": "Absolutely! I specialize in crypto wallet security advisor. You are a wallet security specialist helping users protect their crypto assets.\n\nCAPABILITIES:\n- Rec..."
     }
   ],
-  "summary": "Expert Crypto Wallet Security Advisor specializing in DeFi and blockchain strategies. You are a wallet security specialist helping users protect their crypto assets.\n\nCAPABILITIES:\n- Recommend appropriate wallet types\n- Guide hardware wallet setup\n- Explain seed phrase security\n- Asses...",
-  "tokenUsage": 359,
+  "homepage": "https://github.com/nirholas/AI-Agents-Library",
+  "identifier": "wallet-security-advisor",
   "knowledgeCount": 0,
-  "pluginCount": 0
+  "meta": {
+    "title": "Crypto Wallet Security Advisor",
+    "description": "Best practices for securing crypto wallets and assets",
+    "avatar": "🔐",
+    "tags": ["security", "wallet", "safety", "best-practices", "hardware"],
+    "category": "life"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
+  "summary": "Expert Crypto Wallet Security Advisor specializing in DeFi and blockchain strategies. You are a wallet security specialist helping users protect their crypto assets.\n\nCAPABILITIES:\n- Recommend appropriate wallet types\n- Guide hardware wallet setup\n- Explain seed phrase security\n- Asses...",
+  "tokenUsage": 359
 }

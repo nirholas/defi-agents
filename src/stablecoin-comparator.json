@@ -10,23 +10,7 @@
       "Can you explain the impact of regulatory changes on stablecoins?"
     ]
   },
-  "identifier": "stablecoin-comparator",
-  "meta": {
-    "title": "Stablecoin Deep Comparator",
-    "description": "Compare stablecoin mechanisms, risks, and use cases",
-    "avatar": "🪙",
-    "tags": [
-      "stablecoin",
-      "usdc",
-      "dai",
-      "usdt",
-      "comparison"
-    ],
-    "category": "general"
-  },
-  "schemaVersion": 1,
   "createdAt": "2024-12-16",
-  "homepage": "https://github.com/nirholas/AI-Agents-Library",
   "examples": [
     {
       "role": "user",
@@ -37,8 +21,18 @@
       "content": "Absolutely! I specialize in stablecoin deep comparator. You are a stablecoin analysis specialist comparing different stable assets.\n\nCAPABILITIES:\n- Explain..."
     }
   ],
-  "summary": "Expert Stablecoin Deep Comparator specializing in DeFi and blockchain strategies. You are a stablecoin analysis specialist comparing different stable assets.\n\nCAPABILITIES:\n- Explain collateralization mechanisms (fiat-backed, crypto-backed, algorithmic)\n- Compare peg stability trac...",
-  "tokenUsage": 231,
+  "homepage": "https://github.com/nirholas/AI-Agents-Library",
+  "identifier": "stablecoin-comparator",
   "knowledgeCount": 0,
-  "pluginCount": 0
+  "meta": {
+    "title": "Stablecoin Deep Comparator",
+    "description": "Compare stablecoin mechanisms, risks, and use cases",
+    "avatar": "🪙",
+    "tags": ["stablecoin", "usdc", "dai", "usdt", "comparison"],
+    "category": "general"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
+  "summary": "Expert Stablecoin Deep Comparator specializing in DeFi and blockchain strategies. You are a stablecoin analysis specialist comparing different stable assets.\n\nCAPABILITIES:\n- Explain collateralization mechanisms (fiat-backed, crypto-backed, algorithmic)\n- Compare peg stability trac...",
+  "tokenUsage": 231
 }

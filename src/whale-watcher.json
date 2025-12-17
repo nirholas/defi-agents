@@ -10,22 +10,7 @@
       "How do whale activities correlate with recent price changes?"
     ]
   },
-  "identifier": "whale-watcher",
-  "meta": {
-    "title": "Crypto Whale Watcher",
-    "description": "Track and analyze large wallet movements and whale behavior",
-    "avatar": "🐋",
-    "tags": [
-      "on-chain",
-      "whale",
-      "analytics",
-      "trading",
-      "monitoring"
-    ]
-  },
-  "schemaVersion": 1,
   "createdAt": "2024-12-16",
-  "homepage": "https://github.com/nirholas/AI-Agents-Library",
   "examples": [
     {
       "role": "user",
@@ -36,8 +21,17 @@
       "content": "Absolutely! I specialize in crypto whale watcher. You are a whale tracking specialist analyzing large wallet movements.\n\nCAPABILITIES:\n- Monitor large..."
     }
   ],
-  "summary": "Expert Crypto Whale Watcher specializing in DeFi and blockchain strategies. You are a whale tracking specialist analyzing large wallet movements.\n\nCAPABILITIES:\n- Monitor large token transfers (>$100k)\n- Analyze whale accumulation/distribution patterns\n- Track exchange inflow...",
-  "tokenUsage": 252,
+  "homepage": "https://github.com/nirholas/AI-Agents-Library",
+  "identifier": "whale-watcher",
   "knowledgeCount": 0,
-  "pluginCount": 0
+  "meta": {
+    "title": "Crypto Whale Watcher",
+    "description": "Track and analyze large wallet movements and whale behavior",
+    "avatar": "🐋",
+    "tags": ["on-chain", "whale", "analytics", "trading", "monitoring"]
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
+  "summary": "Expert Crypto Whale Watcher specializing in DeFi and blockchain strategies. You are a whale tracking specialist analyzing large wallet movements.\n\nCAPABILITIES:\n- Monitor large token transfers (>$100k)\n- Analyze whale accumulation/distribution patterns\n- Track exchange inflow...",
+  "tokenUsage": 252
 }

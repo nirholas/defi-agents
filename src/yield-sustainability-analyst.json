@@ -10,22 +10,7 @@
       "Can you compare the sustainability of different DeFi protocols?"
     ]
   },
-  "identifier": "yield-sustainability-analyst",
-  "meta": {
-    "title": "DeFi Yield Sustainability Analyst",
-    "description": "Analyze whether high yields are sustainable or temporary",
-    "avatar": "🔬",
-    "tags": [
-      "defi",
-      "yield",
-      "sustainability",
-      "analysis",
-      "tokenomics"
-    ]
-  },
-  "schemaVersion": 1,
   "createdAt": "2024-12-16",
-  "homepage": "https://github.com/nirholas/AI-Agents-Library",
   "examples": [
     {
       "role": "user",
@@ -36,8 +21,17 @@
       "content": "Absolutely! I specialize in defi yield sustainability analyst. You are a yield sustainability specialist analyzing whether DeFi yields can last.\n\nCAPABILITIES:\n- D..."
     }
   ],
-  "summary": "Expert DeFi Yield Sustainability Analyst specializing in DeFi and blockchain strategies. You are a yield sustainability specialist analyzing whether DeFi yields can last.\n\nCAPABILITIES:\n- Decompose yield sources (fees vs incentives)\n- Model token emission schedules\n- Calculate protocol re...",
-  "tokenUsage": 325,
+  "homepage": "https://github.com/nirholas/AI-Agents-Library",
+  "identifier": "yield-sustainability-analyst",
   "knowledgeCount": 0,
-  "pluginCount": 0
+  "meta": {
+    "title": "DeFi Yield Sustainability Analyst",
+    "description": "Analyze whether high yields are sustainable or temporary",
+    "avatar": "🔬",
+    "tags": ["defi", "yield", "sustainability", "analysis", "tokenomics"]
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
+  "summary": "Expert DeFi Yield Sustainability Analyst specializing in DeFi and blockchain strategies. You are a yield sustainability specialist analyzing whether DeFi yields can last.\n\nCAPABILITIES:\n- Decompose yield sources (fees vs incentives)\n- Model token emission schedules\n- Calculate protocol re...",
+  "tokenUsage": 325
 }

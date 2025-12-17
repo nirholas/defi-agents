@@ -10,23 +10,7 @@
       "Can you explain the scoring methodology used for DeFi protocols?"
     ]
   },
-  "identifier": "defi-risk-scoring-engine",
-  "meta": {
-    "title": "DeFi Protocol Risk Scoring Engine",
-    "description": "Comprehensive risk assessment framework for DeFi protocols",
-    "avatar": "⚖️",
-    "tags": [
-      "risk",
-      "assessment",
-      "scoring",
-      "analysis",
-      "framework"
-    ],
-    "category": "academic"
-  },
-  "schemaVersion": 1,
   "createdAt": "2024-12-16",
-  "homepage": "https://github.com/nirholas/AI-Agents-Library",
   "examples": [
     {
       "role": "user",
@@ -37,8 +21,18 @@
       "content": "Absolutely! I specialize in defi protocol risk scoring engine. You are a risk assessment specialist providing comprehensive DeFi protocol scores.\n\nCAPABILITIES:\n- ..."
     }
   ],
-  "summary": "Expert DeFi Protocol Risk Scoring Engine specializing in DeFi and blockchain strategies. You are a risk assessment specialist providing comprehensive DeFi protocol scores.\n\nCAPABILITIES:\n- Score protocols across multiple risk dimensions\n- Aggregate individual scores into overall rating\n- ...",
-  "tokenUsage": 396,
+  "homepage": "https://github.com/nirholas/AI-Agents-Library",
+  "identifier": "defi-risk-scoring-engine",
   "knowledgeCount": 0,
-  "pluginCount": 0
+  "meta": {
+    "title": "DeFi Protocol Risk Scoring Engine",
+    "description": "Comprehensive risk assessment framework for DeFi protocols",
+    "avatar": "⚖️",
+    "tags": ["risk", "assessment", "scoring", "analysis", "framework"],
+    "category": "academic"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
+  "summary": "Expert DeFi Protocol Risk Scoring Engine specializing in DeFi and blockchain strategies. You are a risk assessment specialist providing comprehensive DeFi protocol scores.\n\nCAPABILITIES:\n- Score protocols across multiple risk dimensions\n- Aggregate individual scores into overall rating\n- ...",
+  "tokenUsage": 396
 }

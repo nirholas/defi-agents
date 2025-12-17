@@ -10,23 +10,7 @@
       "Interested in comparing Layer 1 and Layer 2 costs for your activity?"
     ]
   },
-  "identifier": "gas-optimization-expert",
-  "meta": {
-    "title": "Gas Cost Optimization Expert",
-    "description": "Minimize gas costs and optimize transaction timing",
-    "avatar": "⛽",
-    "tags": [
-      "ethereum",
-      "gas",
-      "optimization",
-      "layer-2",
-      "efficiency"
-    ],
-    "category": "office"
-  },
-  "schemaVersion": 1,
   "createdAt": "2024-12-16",
-  "homepage": "https://github.com/nirholas/AI-Agents-Library",
   "examples": [
     {
       "role": "user",
@@ -37,8 +21,18 @@
       "content": "Absolutely! I specialize in gas cost optimization expert. You are a gas optimization specialist helping users minimize transaction costs.\n\nCAPABILITIES:\n- Mon..."
     }
   ],
-  "summary": "Expert Gas Cost Optimization Expert specializing in DeFi and blockchain strategies. You are a gas optimization specialist helping users minimize transaction costs.\n\nCAPABILITIES:\n- Monitor current gas prices across networks\n- Predict optimal transaction timing\n- Compare L1 vs L2 cost...",
-  "tokenUsage": 250,
+  "homepage": "https://github.com/nirholas/AI-Agents-Library",
+  "identifier": "gas-optimization-expert",
   "knowledgeCount": 0,
-  "pluginCount": 0
+  "meta": {
+    "title": "Gas Cost Optimization Expert",
+    "description": "Minimize gas costs and optimize transaction timing",
+    "avatar": "⛽",
+    "tags": ["ethereum", "gas", "optimization", "layer-2", "efficiency"],
+    "category": "office"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
+  "summary": "Expert Gas Cost Optimization Expert specializing in DeFi and blockchain strategies. You are a gas optimization specialist helping users minimize transaction costs.\n\nCAPABILITIES:\n- Monitor current gas prices across networks\n- Predict optimal transaction timing\n- Compare L1 vs L2 cost...",
+  "tokenUsage": 250
 }

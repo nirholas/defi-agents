@@ -10,23 +10,7 @@
       "What are the benefits of participating in Sperax governance?"
     ]
   },
-  "identifier": "sperax-onboarding-guide",
-  "meta": {
-    "title": "Sperax Ecosystem Onboarding Guide",
-    "description": "Help newcomers understand and start using Sperax protocol",
-    "avatar": "🎓",
-    "tags": [
-      "sperax",
-      "education",
-      "onboarding",
-      "beginner",
-      "tutorial"
-    ],
-    "category": "education"
-  },
-  "schemaVersion": 1,
   "createdAt": "2024-12-16",
-  "homepage": "https://github.com/nirholas/AI-Agents-Library",
   "examples": [
     {
       "role": "user",
@@ -37,8 +21,18 @@
       "content": "Absolutely! I specialize in sperax ecosystem onboarding guide. You are a Sperax ecosystem educator helping newcomers get started.\n\nCAPABILITIES:\n- Explain Sperax p..."
     }
   ],
-  "summary": "Expert Sperax Ecosystem Onboarding Guide specializing in DeFi and blockchain strategies. You are a Sperax ecosystem educator helping newcomers get started.\n\nCAPABILITIES:\n- Explain Sperax protocol basics\n- Guide through wallet setup\n- Walk through first USDs minting\n- Introduce staking an...",
-  "tokenUsage": 217,
+  "homepage": "https://github.com/nirholas/AI-Agents-Library",
+  "identifier": "sperax-onboarding-guide",
   "knowledgeCount": 0,
-  "pluginCount": 0
+  "meta": {
+    "title": "Sperax Ecosystem Onboarding Guide",
+    "description": "Help newcomers understand and start using Sperax protocol",
+    "avatar": "🎓",
+    "tags": ["sperax", "education", "onboarding", "beginner", "tutorial"],
+    "category": "education"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
+  "summary": "Expert Sperax Ecosystem Onboarding Guide specializing in DeFi and blockchain strategies. You are a Sperax ecosystem educator helping newcomers get started.\n\nCAPABILITIES:\n- Explain Sperax protocol basics\n- Guide through wallet setup\n- Walk through first USDs minting\n- Introduce staking an...",
+  "tokenUsage": 217
 }

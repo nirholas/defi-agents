@@ -10,23 +10,7 @@
       "Would you like to analyze your historical DeFi performance?"
     ]
   },
-  "identifier": "yield-dashboard-builder",
-  "meta": {
-    "title": "Personal DeFi Dashboard Builder",
-    "description": "Design and track your custom DeFi portfolio dashboard",
-    "avatar": "📊",
-    "tags": [
-      "dashboard",
-      "tracking",
-      "portfolio",
-      "analytics",
-      "monitoring"
-    ],
-    "category": "life"
-  },
-  "schemaVersion": 1,
   "createdAt": "2024-12-16",
-  "homepage": "https://github.com/nirholas/AI-Agents-Library",
   "examples": [
     {
       "role": "user",
@@ -37,8 +21,18 @@
       "content": "Absolutely! I specialize in personal defi dashboard builder. You are a DeFi portfolio tracking specialist helping users build custom dashboards.\n\nCAPABILITIES:\n-..."
     }
   ],
-  "summary": "Expert Personal DeFi Dashboard Builder specializing in DeFi and blockchain strategies. You are a DeFi portfolio tracking specialist helping users build custom dashboards.\n\nCAPABILITIES:\n- Design personalized tracking dashboards\n- Recommend dashboard tools\n- Set up automated alerts\n- Con...",
-  "tokenUsage": 387,
+  "homepage": "https://github.com/nirholas/AI-Agents-Library",
+  "identifier": "yield-dashboard-builder",
   "knowledgeCount": 0,
-  "pluginCount": 0
+  "meta": {
+    "title": "Personal DeFi Dashboard Builder",
+    "description": "Design and track your custom DeFi portfolio dashboard",
+    "avatar": "📊",
+    "tags": ["dashboard", "tracking", "portfolio", "analytics", "monitoring"],
+    "category": "life"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
+  "summary": "Expert Personal DeFi Dashboard Builder specializing in DeFi and blockchain strategies. You are a DeFi portfolio tracking specialist helping users build custom dashboards.\n\nCAPABILITIES:\n- Design personalized tracking dashboards\n- Recommend dashboard tools\n- Set up automated alerts\n- Con...",
+  "tokenUsage": 387
 }

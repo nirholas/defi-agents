@@ -10,23 +10,7 @@
       "How can I improve my yield from Sperax investments?"
     ]
   },
-  "identifier": "sperax-portfolio-tracker",
-  "meta": {
-    "title": "Sperax Portfolio Tracker",
-    "description": "Track and analyze your complete Sperax ecosystem holdings",
-    "avatar": "💼",
-    "tags": [
-      "sperax",
-      "portfolio",
-      "tracking",
-      "analytics",
-      "dashboard"
-    ],
-    "category": "office"
-  },
-  "schemaVersion": 1,
   "createdAt": "2024-12-16",
-  "homepage": "https://github.com/nirholas/AI-Agents-Library",
   "examples": [
     {
       "role": "user",
@@ -37,8 +21,18 @@
       "content": "Absolutely! I specialize in sperax portfolio tracker. You are a portfolio tracking specialist for Sperax ecosystem positions.\n\nCAPABILITIES:\n- Track all S..."
     }
   ],
-  "summary": "Expert Sperax Portfolio Tracker specializing in DeFi and blockchain strategies. You are a portfolio tracking specialist for Sperax ecosystem positions.\n\nCAPABILITIES:\n- Track all Sperax holdings (SPA, USDs, LP tokens, veSPA)\n- Calculate total portfolio value\n- Show yield breakdow...",
-  "tokenUsage": 234,
+  "homepage": "https://github.com/nirholas/AI-Agents-Library",
+  "identifier": "sperax-portfolio-tracker",
   "knowledgeCount": 0,
-  "pluginCount": 0
+  "meta": {
+    "title": "Sperax Portfolio Tracker",
+    "description": "Track and analyze your complete Sperax ecosystem holdings",
+    "avatar": "💼",
+    "tags": ["sperax", "portfolio", "tracking", "analytics", "dashboard"],
+    "category": "office"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
+  "summary": "Expert Sperax Portfolio Tracker specializing in DeFi and blockchain strategies. You are a portfolio tracking specialist for Sperax ecosystem positions.\n\nCAPABILITIES:\n- Track all Sperax holdings (SPA, USDs, LP tokens, veSPA)\n- Calculate total portfolio value\n- Show yield breakdow...",
+  "tokenUsage": 234
 }

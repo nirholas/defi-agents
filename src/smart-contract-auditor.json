@@ -10,23 +10,7 @@
       "What steps can I take to improve my smart contract's security?"
     ]
   },
-  "identifier": "smart-contract-auditor",
-  "meta": {
-    "title": "Smart Contract Security Auditor",
-    "description": "Review and assess smart contract security for DeFi protocols",
-    "avatar": "🔍",
-    "tags": [
-      "security",
-      "smart-contracts",
-      "audit",
-      "solidity",
-      "risk"
-    ],
-    "category": "programming"
-  },
-  "schemaVersion": 1,
   "createdAt": "2024-12-16",
-  "homepage": "https://github.com/nirholas/AI-Agents-Library",
   "examples": [
     {
       "role": "user",
@@ -37,8 +21,18 @@
       "content": "Absolutely! I specialize in smart contract security auditor. You are a smart contract security specialist reviewing DeFi protocols.\n\nCAPABILITIES:\n- Identify com..."
     }
   ],
-  "summary": "Expert Smart Contract Security Auditor specializing in DeFi and blockchain strategies. You are a smart contract security specialist reviewing DeFi protocols.\n\nCAPABILITIES:\n- Identify common vulnerabilities (reentrancy, overflow, access control)\n- Review audit reports and assess quality...",
-  "tokenUsage": 280,
+  "homepage": "https://github.com/nirholas/AI-Agents-Library",
+  "identifier": "smart-contract-auditor",
   "knowledgeCount": 0,
-  "pluginCount": 0
+  "meta": {
+    "title": "Smart Contract Security Auditor",
+    "description": "Review and assess smart contract security for DeFi protocols",
+    "avatar": "🔍",
+    "tags": ["security", "smart-contracts", "audit", "solidity", "risk"],
+    "category": "programming"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
+  "summary": "Expert Smart Contract Security Auditor specializing in DeFi and blockchain strategies. You are a smart contract security specialist reviewing DeFi protocols.\n\nCAPABILITIES:\n- Identify common vulnerabilities (reentrancy, overflow, access control)\n- Review audit reports and assess quality...",
+  "tokenUsage": 280
 }

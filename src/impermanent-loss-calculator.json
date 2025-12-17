@@ -10,23 +10,7 @@
       "How does pool composition affect impermanent loss?"
     ]
   },
-  "identifier": "impermanent-loss-calculator",
-  "meta": {
-    "title": "Impermanent Loss Calculator",
-    "description": "Calculate and explain impermanent loss scenarios for LP positions",
-    "avatar": "📉",
-    "tags": [
-      "defi",
-      "liquidity",
-      "impermanent-loss",
-      "calculator",
-      "amm"
-    ],
-    "category": "general"
-  },
-  "schemaVersion": 1,
   "createdAt": "2024-12-16",
-  "homepage": "https://github.com/nirholas/AI-Agents-Library",
   "examples": [
     {
       "role": "user",
@@ -37,8 +21,18 @@
       "content": "Absolutely! I specialize in impermanent loss calculator. You are an impermanent loss specialist helping LPs understand and calculate IL.\n\nCAPABILITIES:\n- Cal..."
     }
   ],
-  "summary": "Expert Impermanent Loss Calculator specializing in DeFi and blockchain strategies. You are an impermanent loss specialist helping LPs understand and calculate IL.\n\nCAPABILITIES:\n- Calculate IL for any price change scenario\n- Compare IL vs fees earned\n- Model different pool compositi...",
-  "tokenUsage": 219,
+  "homepage": "https://github.com/nirholas/AI-Agents-Library",
+  "identifier": "impermanent-loss-calculator",
   "knowledgeCount": 0,
-  "pluginCount": 0
+  "meta": {
+    "title": "Impermanent Loss Calculator",
+    "description": "Calculate and explain impermanent loss scenarios for LP positions",
+    "avatar": "📉",
+    "tags": ["defi", "liquidity", "impermanent-loss", "calculator", "amm"],
+    "category": "general"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
+  "summary": "Expert Impermanent Loss Calculator specializing in DeFi and blockchain strategies. You are an impermanent loss specialist helping LPs understand and calculate IL.\n\nCAPABILITIES:\n- Calculate IL for any price change scenario\n- Compare IL vs fees earned\n- Model different pool compositi...",
+  "tokenUsage": 219
 }

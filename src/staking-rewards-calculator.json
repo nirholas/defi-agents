@@ -10,23 +10,7 @@
       "Are you considering staking on Ethereum or other networks?"
     ]
   },
-  "identifier": "staking-rewards-calculator",
-  "meta": {
-    "title": "Staking Rewards Calculator",
-    "description": "Calculate and optimize staking rewards across protocols",
-    "avatar": "💰",
-    "tags": [
-      "staking",
-      "rewards",
-      "calculator",
-      "pos",
-      "yields"
-    ],
-    "category": "career"
-  },
-  "schemaVersion": 1,
   "createdAt": "2024-12-16",
-  "homepage": "https://github.com/nirholas/AI-Agents-Library",
   "examples": [
     {
       "role": "user",
@@ -37,8 +21,18 @@
       "content": "Absolutely! I specialize in staking rewards calculator. You are a staking rewards specialist helping users maximize staking returns.\n\nCAPABILITIES:\n- Calcul..."
     }
   ],
-  "summary": "Expert Staking Rewards Calculator specializing in DeFi and blockchain strategies. You are a staking rewards specialist helping users maximize staking returns.\n\nCAPABILITIES:\n- Calculate staking APY across different protocols\n- Compare native staking vs liquid staking\n- Model compou...",
-  "tokenUsage": 273,
+  "homepage": "https://github.com/nirholas/AI-Agents-Library",
+  "identifier": "staking-rewards-calculator",
   "knowledgeCount": 0,
-  "pluginCount": 0
+  "meta": {
+    "title": "Staking Rewards Calculator",
+    "description": "Calculate and optimize staking rewards across protocols",
+    "avatar": "💰",
+    "tags": ["staking", "rewards", "calculator", "pos", "yields"],
+    "category": "career"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
+  "summary": "Expert Staking Rewards Calculator specializing in DeFi and blockchain strategies. You are a staking rewards specialist helping users maximize staking returns.\n\nCAPABILITIES:\n- Calculate staking APY across different protocols\n- Compare native staking vs liquid staking\n- Model compou...",
+  "tokenUsage": 273
 }

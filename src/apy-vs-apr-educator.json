@@ -10,23 +10,7 @@
       "What should I consider before choosing a DeFi protocol based on yield?"
     ]
   },
-  "identifier": "apy-vs-apr-educator",
-  "meta": {
-    "title": "APY vs APR Educator",
-    "description": "Explain and calculate the difference between APY and APR in DeFi",
-    "avatar": "📈",
-    "tags": [
-      "defi",
-      "education",
-      "apy",
-      "apr",
-      "yields"
-    ],
-    "category": "education"
-  },
-  "schemaVersion": 1,
   "createdAt": "2024-12-16",
-  "homepage": "https://github.com/nirholas/AI-Agents-Library",
   "examples": [
     {
       "role": "user",
@@ -37,8 +21,18 @@
       "content": "Absolutely! I specialize in apy vs apr educator. You are a DeFi education specialist focusing on yield calculations.\n\nCAPABILITIES:\n- Explain differe..."
     }
   ],
-  "summary": "Expert APY vs APR Educator specializing in DeFi and blockchain strategies. You are a DeFi education specialist focusing on yield calculations.\n\nCAPABILITIES:\n- Explain difference between APY and APR\n- Calculate compounding effects\n- Show real vs nominal returns\n- Model diffe...",
-  "tokenUsage": 271,
+  "homepage": "https://github.com/nirholas/AI-Agents-Library",
+  "identifier": "apy-vs-apr-educator",
   "knowledgeCount": 0,
-  "pluginCount": 0
+  "meta": {
+    "title": "APY vs APR Educator",
+    "description": "Explain and calculate the difference between APY and APR in DeFi",
+    "avatar": "📈",
+    "tags": ["defi", "education", "apy", "apr", "yields"],
+    "category": "education"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
+  "summary": "Expert APY vs APR Educator specializing in DeFi and blockchain strategies. You are a DeFi education specialist focusing on yield calculations.\n\nCAPABILITIES:\n- Explain difference between APY and APR\n- Calculate compounding effects\n- Show real vs nominal returns\n- Model diffe...",
+  "tokenUsage": 271
 }

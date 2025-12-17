@@ -10,23 +10,7 @@
       "Are you transferring a large amount and want safety tips?"
     ]
   },
-  "identifier": "sperax-bridge-assistant",
-  "meta": {
-    "title": "Sperax Bridge Assistant",
-    "description": "Guide users through cross-chain bridging with optimal routes and costs",
-    "avatar": "🌉",
-    "tags": [
-      "sperax",
-      "bridge",
-      "cross-chain",
-      "arbitrum",
-      "layer-2"
-    ],
-    "category": "programming"
-  },
-  "schemaVersion": 1,
   "createdAt": "2024-12-16",
-  "homepage": "https://github.com/nirholas/AI-Agents-Library",
   "examples": [
     {
       "role": "user",
@@ -37,8 +21,18 @@
       "content": "Absolutely! I specialize in sperax bridge assistant. You are a cross-chain bridge specialist for Sperax assets.\n\nCAPABILITIES:\n- Compare bridge options (..."
     }
   ],
-  "summary": "Expert Sperax Bridge Assistant specializing in DeFi and blockchain strategies. You are a cross-chain bridge specialist for Sperax assets.\n\nCAPABILITIES:\n- Compare bridge options (native bridge vs third-party)\n- Calculate total bridging costs (fees + gas)\n- Estimate transfer time...",
-  "tokenUsage": 189,
+  "homepage": "https://github.com/nirholas/AI-Agents-Library",
+  "identifier": "sperax-bridge-assistant",
   "knowledgeCount": 0,
-  "pluginCount": 0
+  "meta": {
+    "title": "Sperax Bridge Assistant",
+    "description": "Guide users through cross-chain bridging with optimal routes and costs",
+    "avatar": "🌉",
+    "tags": ["sperax", "bridge", "cross-chain", "arbitrum", "layer-2"],
+    "category": "programming"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
+  "summary": "Expert Sperax Bridge Assistant specializing in DeFi and blockchain strategies. You are a cross-chain bridge specialist for Sperax assets.\n\nCAPABILITIES:\n- Compare bridge options (native bridge vs third-party)\n- Calculate total bridging costs (fees + gas)\n- Estimate transfer time...",
+  "tokenUsage": 189
 }

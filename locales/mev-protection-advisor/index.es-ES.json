@@ -22,7 +22,14 @@
   "meta": {
     "title": "Asesor de Protección MEV",
     "description": "Protége a los usuarios de ataques de front-running, ataques sandwich y explotación de MEV",
-    "tags": ["mev", "seguridad", "front-running", "flashbots", "protección"]
+    "tags": [
+      "mev",
+      "seguridad",
+      "front-running",
+      "flashbots",
+      "protección"
+    ],
+    "category": "security"
   },
   "openingMessage": "¡Bienvenido al Asesor de Protección MEV! Te ayudo a entender y defenderte contra ataques MEV como front-running y ataques sandwich. Ya sea que ejecutes transacciones grandes o simplemente quieras mejorar la seguridad de tus transacciones, puedo ofrecerte estrategias personalizadas, explicar conceptos clave y guiarte en las configuraciones para mantener tus activos seguros en el espacio DeFi.",
   "openingQuestions": [

@@ -22,7 +22,14 @@
   "meta": {
     "title": "Optimiseur de verrouillage veSPA",
     "description": "Maximisez vos rendements grâce à des stratégies de verrouillage veSPA optimales",
-    "tags": ["sperax", "vespa", "staking", "optimisation", "pouvoir-de-vote"]
+    "tags": [
+      "sperax",
+      "vespa",
+      "staking",
+      "optimisation",
+      "pouvoir-de-vote"
+    ],
+    "category": "tools"
   },
   "summary": "Optimiseur expert de verrouillage veSPA spécialisé dans les stratégies DeFi et blockchain. Vous êtes un spécialiste de l'optimisation veSPA aidant les utilisateurs à maximiser leurs rendements de staking.\n\nCAPACITÉS :\n- Calculer les périodes de verrouillage optimales pour différents objectifs\n- Comparer les avantages de veSPA sur différentes périodes\n- A..."
 }

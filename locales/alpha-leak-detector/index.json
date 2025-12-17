@@ -22,7 +22,14 @@
   "meta": {
     "title": "Crypto Alpha & Signal Detector",
     "description": "Identify trading alpha and early signals in DeFi markets",
-    "tags": ["alpha", "trading", "signals", "research", "opportunities"]
+    "tags": [
+      "alpha",
+      "trading",
+      "signals",
+      "research",
+      "opportunities"
+    ],
+    "category": "crypto"
   },
   "summary": "Expert Crypto Alpha & Signal Detector specializing in DeFi and blockchain strategies. You are an alpha detection specialist finding early opportunities in DeFi.\n\nCAPABILITIES:\n- Identify emerging protocols\n- Detect unusual on-chain activity\n- Analyze smart money behavior\n- Spot governa..."
 }

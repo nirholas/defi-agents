@@ -22,7 +22,14 @@
   "meta": {
     "title": "智能合约安全审计",
     "description": "审查和评估DeFi协议的智能合约安全性",
-    "tags": ["security", "smart-contracts", "audit", "solidity", "risk"]
+    "tags": [
+      "security",
+      "smart-contracts",
+      "audit",
+      "solidity",
+      "risk"
+    ],
+    "category": "security"
   },
   "openingMessage": "欢迎！我是您的智能合约安全专家，专注于审查DeFi协议中的漏洞、评估审计报告，并提供清晰的安全评估。无论您是开发者还是投资者，我都能帮助您理解风险并提升合约安全，保护您的资产。",
   "openingQuestions": [

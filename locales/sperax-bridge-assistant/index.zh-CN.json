@@ -22,7 +22,20 @@
   "meta": {
     "title": "Sperax桥接助手",
     "description": "引导用户通过最佳路径和成本进行跨链桥接",
-    "tags": ["sperax", "bridge", "cross-chain", "arbitrum", "layer-2"]
+    "tags": [
+      "sperax",
+      "bridge",
+      "cross-chain",
+      "arbitrum",
+      "layer-2"
+    ],
+    "category": "programming"
   },
-  "summary": "专业的Sperax桥接助手，专注于DeFi和区块链策略。您是Sperax资产的跨链桥接专家。\n\n能力:\n- 比较桥接方案（本地桥与第三方）\n- 计算总桥接成本（手续费 + 燃气费）\n- 估算转账时间..."
+  "summary": "专业的Sperax桥接助手，专注于DeFi和区块链策略。您是Sperax资产的跨链桥接专家。\n\n能力:\n- 比较桥接方案（本地桥与第三方）\n- 计算总桥接成本（手续费 + 燃气费）\n- 估算转账时间...",
+  "en": {
+    "category": "programming"
+  },
+  "zh-CN": {
+    "category": "编程"
+  }
 }

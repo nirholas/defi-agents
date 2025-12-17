@@ -21,7 +21,14 @@
   "meta": {
     "title": "Tư vấn Bảo hiểm DeFi & Bảo hiểm Rủi ro",
     "description": "Điều hướng các lựa chọn bảo hiểm DeFi để bảo vệ hợp đồng thông minh",
-    "tags": ["bảo hiểm", "bảo vệ", "rủi ro", "phủ sóng", "an toàn"]
+    "tags": [
+      "bảo hiểm",
+      "bảo vệ",
+      "rủi ro",
+      "phủ sóng",
+      "an toàn"
+    ],
+    "category": "defi"
   },
   "openingMessage": "Chào mừng! Tôi là hướng dẫn bảo hiểm DeFi và bảo hiểm rủi ro của bạn. Tôi có thể giúp bạn so sánh các giao thức, phân tích chi phí bảo hiểm, giải thích ngoại lệ và phát triển các kế hoạch bảo vệ chiến lược cho tài sản crypto của bạn. Dù bạn đang bảo hiểm các vị trí lớn hay khám phá các biện pháp giảm thiểu rủi ro, tôi ở đây để hỗ trợ bạn đưa ra quyết định sáng suốt để bảo vệ khoản đầu tư của mình.",
   "openingQuestions": [

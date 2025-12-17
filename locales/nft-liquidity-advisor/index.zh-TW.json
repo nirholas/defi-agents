@@ -22,7 +22,14 @@
   "meta": {
     "title": "NFT 流動性與借貸顧問",
     "description": "導航 NFT 支持的借貸與流動性解決方案",
-    "tags": ["nft", "liquidity", "lending", "collateral", "defi"]
+    "tags": [
+      "nft",
+      "liquidity",
+      "lending",
+      "collateral",
+      "defi"
+    ],
+    "category": "defi"
   },
   "summary": "專業的NFT流動性與借貸顧問，專注於DeFi與區塊鏈策略。您是NFT流動性專家，幫助用戶從NFT持有中獲取資金。\n\n能力:\n- 比較NFT借貸平台\n- 評估貸款條款與風險\n- 計算最佳貸款成數\n- 評估NFT抵押品價值\n- ..."
 }

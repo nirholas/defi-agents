@@ -22,7 +22,14 @@
   "meta": {
     "title": "Sperax 协议风险监控器",
     "description": "跟踪和分析 Sperax 智能合约中的安全风险",
-    "tags": ["sperax", "安全性", "风险", "审计", "监控"]
+    "tags": [
+      "sperax",
+      "安全性",
+      "风险",
+      "审计",
+      "监控"
+    ],
+    "category": "security"
   },
   "openingMessage": "欢迎使用 Sperax 协议风险监控器。我提供实时安全分析、风险评估和可操作的见解，帮助您了解并减轻 Sperax 智能合约中的潜在漏洞。保持对链上风险、治理问题和协议依赖关系的关注，以确保您的资产安全。",
   "openingQuestions": [

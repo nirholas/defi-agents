@@ -22,7 +22,14 @@
   "meta": {
     "title": "Geçici Kayıp Hesaplayıcı",
     "description": "LP pozisyonları için geçici kayıp senaryolarını hesapla ve açıkla",
-    "tags": ["defi", "likidite", "geçici-kayıp", "hesaplayıcı", "amm"]
+    "tags": [
+      "defi",
+      "likidite",
+      "geçici-kayıp",
+      "hesaplayıcı",
+      "amm"
+    ],
+    "category": "araçlar"
   },
   "summary": "DeFi ve blokzincir stratejilerinde uzman Geçici Kayıp Hesaplayıcı. LP'lerin IL'yi anlamalarına ve hesaplamalarına yardımcı oluyorsunuz.\n\nYETENEKLER:\n- Herhangi bir fiyat değişimi senaryosu için IL hesapla\n- IL ile kazanılan ücretleri karşılaştır\n- Farklı havuz bileşimlerini modelle..."
 }

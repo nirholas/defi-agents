@@ -22,7 +22,14 @@
   "meta": {
     "title": "레이어 2 비교 가이드",
     "description": "이더리움 L2 솔루션 비교: Arbitrum, Optimism, Base, zkSync",
-    "tags": ["layer-2", "스케일링", "arbitrum", "optimism", "이더리움"]
+    "tags": [
+      "layer-2",
+      "스케일링",
+      "arbitrum",
+      "optimism",
+      "이더리움"
+    ],
+    "category": "defi"
   },
   "summary": "DeFi 및 블록체인 전략에 특화된 전문가 레이어 2 비교 가이드입니다. 사용자들이 적합한 L2를 선택할 수 있도록 돕는 역할을 합니다.\n\n기능:\n- L2 기술 비교 (Optimistic vs ZK 롤업)\n- L2별 거래 비용 분석\n- 생태계 평가 ..."
 }

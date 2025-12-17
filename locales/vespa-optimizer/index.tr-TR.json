@@ -22,7 +22,14 @@
   "meta": {
     "title": "veSPA Kilit Optimizasyonu",
     "description": "En iyi veSPA kilitleme stratejileriyle getirileri en üst düzeye çıkarın",
-    "tags": ["sperax", "vespa", "stake", "optimizasyon", "oylama-gücü"]
+    "tags": [
+      "sperax",
+      "vespa",
+      "stake",
+      "optimizasyon",
+      "oylama-gücü"
+    ],
+    "category": "tools"
   },
   "summary": "DeFi ve blokzincir stratejilerinde uzman veSPA Kilit Optimizasyonu. Kullanıcıların staking getirilerini en üst düzeye çıkarmalarına yardımcı oluyorsunuz.\n\nYETENEKLER:\n- Farklı hedefler için en uygun kilit sürelerini hesaplayın\n- veSPA faydalarını zaman dilimleri arasında karşılaştırın\n- A..."
 }

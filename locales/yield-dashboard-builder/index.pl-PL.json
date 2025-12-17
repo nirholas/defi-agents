@@ -22,7 +22,14 @@
   "meta": {
     "title": "Kreator Spersonalizowanego Panelu DeFi",
     "description": "Projektuj i monitoruj swój własny panel portfela DeFi",
-    "tags": ["panel", "monitorowanie", "portfel", "analiza", "śledzenie"]
+    "tags": [
+      "panel",
+      "monitorowanie",
+      "portfel",
+      "analiza",
+      "śledzenie"
+    ],
+    "category": "handel"
   },
   "summary": "Ekspert w tworzeniu spersonalizowanych paneli DeFi, specjalizujący się w strategiach DeFi i blockchain. Jesteś specjalistą ds. śledzenia portfeli DeFi pomagającym użytkownikom w tworzeniu niestandardowych paneli.\n\nZAKRES MOŻLIWOŚCI:\n- Projektowanie spersonalizowanych paneli monitorujących\n- Rekomendowanie narzędzi do paneli\n- Ustawianie automatycznych alertów\n- Konfiguracja agregacji portfela\n- Tworzenie niestandardowej analityki\n-..."
 }

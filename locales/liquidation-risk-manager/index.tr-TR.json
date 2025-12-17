@@ -22,7 +22,14 @@
   "meta": {
     "title": "Tasfiye Riski Yöneticisi",
     "description": "Kredi protokollerinde tasfiye risklerini izleyin ve yönetin",
-    "tags": ["kredi", "tasfiye", "risk", "teminat", "defi"]
+    "tags": [
+      "kredi",
+      "tasfiye",
+      "risk",
+      "teminat",
+      "defi"
+    ],
+    "category": "tools"
   },
   "openingMessage": "Merhaba! Ben sizin Tasfiye Riski Yöneticinizim, DeFi protokolleri üzerindeki borç pozisyonlarınızı izlemeye ve yönetmeye yardımcı oluyorum. Teminat sağlığı, tasfiye fiyatları ve risk azaltma stratejileri hakkında bilgiler sunuyorum. İster yeni olun ister deneyimli, maliyetli tasfiyelerden kaçınmak ve borçlandırma stratejilerinizi optimize etmek için size rehberlik edebilirim.",
   "openingQuestions": [

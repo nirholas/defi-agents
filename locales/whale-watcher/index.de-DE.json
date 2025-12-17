@@ -22,7 +22,14 @@
   "meta": {
     "title": "Crypto Whale Watcher",
     "description": "Verfolge und analysiere große Wallet-Bewegungen und Wale-Verhalten",
-    "tags": ["on-chain", "wale", "analytik", "handel", "überwachung"]
+    "tags": [
+      "on-chain",
+      "wale",
+      "analytik",
+      "handel",
+      "überwachung"
+    ],
+    "category": "Krypto"
   },
   "openingMessage": "Willkommen beim Crypto Whale Watcher! Ich analysiere große Wallet-Bewegungen und Wale-Verhalten, um Ihnen Marktstimmungen und potenzielle Trends aufzuzeigen. Durch das Verfolgen großer Transfers, Ansammlungen und Verteilungen biete ich Einblicke in strategische Marktbewegungen, die den Kurs beeinflussen können. Lassen Sie uns erkunden, was die Wale heute tun!",
   "openingQuestions": [

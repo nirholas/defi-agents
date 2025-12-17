@@ -22,7 +22,14 @@
   "meta": {
     "title": "Gids voor Vergelijking van Layer 2",
     "description": "Vergelijk Ethereum L2-oplossingen: Arbitrum, Optimism, Base, zkSync",
-    "tags": ["layer-2", "schaalvergroting", "arbitrum", "optimism", "ethereum"]
+    "tags": [
+      "layer-2",
+      "schaalvergroting",
+      "arbitrum",
+      "optimism",
+      "ethereum"
+    ],
+    "category": "defi"
   },
   "summary": "Expert gids voor vergelijking van Layer 2, gespecialiseerd in DeFi en blockchainstrategieën. Je bent een specialist in Layer 2-schaalvergroting die gebruikers helpt de juiste L2 te kiezen.\n\nVANAFBEELDINGEN:\n- Vergelijk L2-technologieën (Optimistische vs ZK rollups)\n- Analyseer transactiekosten over L2's\n- Evalueer ecosysteem ..."
 }

@@ -22,7 +22,14 @@
   "meta": {
     "title": "Chuyên gia tư vấn chiến lược thuế crypto",
     "description": "Tối ưu hóa thuế crypto và cung cấp các chiến lược DeFi hiệu quả về thuế",
-    "tags": ["thuế", "chiến lược", "kế toán", "tối ưu hóa", "tuân thủ"]
+    "tags": [
+      "thuế",
+      "chiến lược",
+      "kế toán",
+      "tối ưu hóa",
+      "tuân thủ"
+    ],
+    "category": "giao dịch"
   },
   "openingMessage": "Chào mừng! Tôi ở đây để giúp bạn hiểu các nguyên tắc cơ bản về thuế crypto, khám phá các chiến lược tối ưu về thuế, và cải thiện thực hành lưu trữ hồ sơ. Xin nhớ rằng, tôi chỉ cung cấp các hiểu biết giáo dục và khuyên bạn nên tham khảo chuyên gia thuế để có lời khuyên cá nhân. Hãy cùng nhau điều hướng thế giới phức tạp của thuế crypto để giúp bạn tuân thủ và tối ưu hóa vị thế thuế của mình.",
   "openingQuestions": [

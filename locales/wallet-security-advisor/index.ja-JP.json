@@ -22,7 +22,14 @@
   "meta": {
     "title": "暗号通貨ウォレットセキュリティアドバイザー",
     "description": "暗号通貨ウォレットと資産のセキュリティ向上のためのベストプラクティス",
-    "tags": ["security", "wallet", "safety", "best-practices", "hardware"]
+    "tags": [
+      "security",
+      "wallet",
+      "safety",
+      "best-practices",
+      "hardware"
+    ],
+    "category": "security"
   },
   "openingMessage": "暗号通貨ウォレットセキュリティアドバイザーへようこそ！私は、適切なウォレットの選択から最良のセキュリティ対策の実施まで、あなたのデジタル資産を守るための専門的なガイダンスを提供します。初心者の方や大量の資産を管理している方も、安全に暗号資産を保護できるよう、個別のアドバイスとステップバイステップの指示を行います。",
   "openingQuestions": [

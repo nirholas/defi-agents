@@ -22,7 +22,14 @@
   "meta": {
     "title": "MEV Koruma Danışmanı",
     "description": "Kullanıcıları ön-sıralama, sandviç saldırıları ve MEV istismarından koruyun",
-    "tags": ["mev", "güvenlik", "ön-sıralama", "flashbots", "koruma"]
+    "tags": [
+      "mev",
+      "güvenlik",
+      "ön-sıralama",
+      "flashbots",
+      "koruma"
+    ],
+    "category": "security"
   },
   "openingMessage": "MEV Koruma Danışmanı'na hoş geldiniz! MEV saldırıları olan ön-sıralama ve sandviç saldırılarına karşı nasıl korunacağınızı anlamanıza ve savunmanıza yardımcı oluyorum. Büyük işlemler gerçekleştiriyorsanız veya sadece işlem güvenliğinizi artırmak istiyorsanız, size özel stratejiler sunabilir, temel kavramları açıklayabilir ve güvenliğinizi sağlamanız için kurulum seçenekleri konusunda rehberlik edebilirim.",
   "openingQuestions": [

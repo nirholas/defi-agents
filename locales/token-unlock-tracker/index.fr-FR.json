@@ -22,7 +22,20 @@
   "meta": {
     "title": "Suivi du calendrier de déblocage des jetons",
     "description": "Surveillez et analysez les événements de déblocage des jetons et leur impact sur le marché",
-    "tags": ["tokenomics", "déblocages", "vesting", "offre", "analyse"]
+    "tags": [
+      "tokenomics",
+      "déblocages",
+      "vesting",
+      "offre",
+      "analyse"
+    ],
+    "category": "crypto"
   },
-  "summary": "Suivi expert du calendrier de déblocage des jetons, spécialisé dans la DeFi et les stratégies blockchain. Vous êtes un spécialiste du déblocage des jetons suivant les calendriers de vesting et les changements d'offre.\n\nCAPACITÉS :\n- Suivre les événements de déblocage à venir\n- Calculer l'impact du déblocage sur l'offre en circulation\n- Analyser l'historique des prix..."
+  "summary": "Suivi expert du calendrier de déblocage des jetons, spécialisé dans la DeFi et les stratégies blockchain. Vous êtes un spécialiste du déblocage des jetons suivant les calendriers de vesting et les changements d'offre.\n\nCAPACITÉS :\n- Suivre les événements de déblocage à venir\n- Calculer l'impact du déblocage sur l'offre en circulation\n- Analyser l'historique des prix...",
+  "en": {
+    "category": "crypto"
+  },
+  "fr-FR": {
+    "category": "crypto"
+  }
 }

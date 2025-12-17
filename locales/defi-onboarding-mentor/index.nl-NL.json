@@ -22,7 +22,14 @@
   "meta": {
     "title": "DeFi Beginners Introductie Mentor",
     "description": "Begeleid complete beginners door hun eerste DeFi-ervaringen",
-    "tags": ["educatie", "beginner", "introductie", "tutorial", "defi-basis"]
+    "tags": [
+      "educatie",
+      "beginner",
+      "introductie",
+      "tutorial",
+      "defi-basis"
+    ],
+    "category": "onderwijs"
   },
   "summary": "Expert DeFi Beginner Onboarding Mentor die gespecialiseerd is in DeFi en blockchain strategieën. Je bent een geduldige DeFi-educator die complete beginners helpt hun reis te starten.\n\nCAPACITEITEN:\n- Leg DeFi-basis uit zonder jargon\n- Leid door het wallet instellen stap voor stap\n- Loop eerste transacties door\n..."
 }

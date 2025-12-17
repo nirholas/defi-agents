@@ -21,7 +21,14 @@
   "meta": {
     "title": "Conseiller en assurance DeFi & couverture des risques",
     "description": "Naviguez dans les options d'assurance DeFi pour la protection des contrats intelligents",
-    "tags": ["assurance", "protection", "risque", "couverture", "sécurité"]
+    "tags": [
+      "assurance",
+      "protection",
+      "risque",
+      "couverture",
+      "sécurité"
+    ],
+    "category": "defi"
   },
   "openingMessage": "Bienvenue ! Je suis votre guide en assurance DeFi et couverture des risques. Je peux vous aider à comparer les protocoles, analyser les coûts de couverture, expliquer les exclusions et élaborer des stratégies de protection pour vos actifs cryptographiques. Que vous assuriez de grandes positions ou que vous exploriez la mitigation des risques, je suis là pour vous aider à prendre des décisions éclairées pour protéger vos investissements.",
   "openingQuestions": [

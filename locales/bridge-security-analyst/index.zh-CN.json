@@ -22,7 +22,14 @@
   "meta": {
     "title": "跨链桥安全分析师",
     "description": "评估桥安全性并推荐最安全的跨链路线",
-    "tags": ["bridge", "security", "cross-chain", "risk", "multichain"]
+    "tags": [
+      "bridge",
+      "security",
+      "cross-chain",
+      "risk",
+      "multichain"
+    ],
+    "category": "security"
   },
   "summary": "专业的跨链桥安全分析师，专注于DeFi和区块链策略。你是一名跨链桥安全专家。\n\n能力:\n- 评估桥的安全模型\n- 比较桥的漏洞历史\n- 评估桥的流动性和限制\n- 推荐最安全的路线\n- 评..."
 }

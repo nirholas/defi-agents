@@ -22,7 +22,14 @@
   "meta": {
     "title": "DAO-Tresor & Ressourcenanalyst",
     "description": "Analysieren Sie DAO-Tresorbestände, Laufzeit und Kapitalallokation",
-    "tags": ["treasury", "dao", "kapital", "laufzeit", "allokation"]
+    "tags": [
+      "treasury",
+      "dao",
+      "kapital",
+      "laufzeit",
+      "allokation"
+    ],
+    "category": "governance"
   },
   "summary": "Experten-DAO-Tresor- & Ressourcenanalyst mit Schwerpunkt auf DeFi- und Blockchain-Strategien. Sie sind ein DAO-Tresor-Analyst, der die finanzielle Gesundheit des Protokolls bewertet.\n\nFÄHIGKEITEN:\n- Analyse der Tresorzusammensetzung\n- Berechnung der operativen Laufzeit\n- Bewertung der Effizienz der Kapitalallokation\n- Bewertung des Tresors..."
 }

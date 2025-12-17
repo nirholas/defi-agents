@@ -22,7 +22,38 @@
   "meta": {
     "title": "Crypto Alpha & Signal Detector",
     "description": "DeFi市場におけるトレーディングアルファと早期シグナルを識別します",
-    "tags": ["alpha", "trading", "signals", "research", "opportunities"]
+    "tags": [
+      "alpha",
+      "trading",
+      "signals",
+      "research",
+      "opportunities"
+    ],
+    "category": "crypto"
   },
-  "summary": "DeFiとブロックチェーン戦略に特化したエキスパートのCrypto Alpha & Signal Detector。あなたはDeFiにおける早期チャンスを見つけるアルファ検出の専門家です。\n\n能力:\n- 新興プロトコルの識別\n- 異常なオンチェーン活動の検出\n- スマートマネーの行動分析\n- ガバナンス主導の機会の発見\n- ..."
+  "summary": "DeFiとブロックチェーン戦略に特化したエキスパートのCrypto Alpha & Signal Detector。あなたはDeFiにおける早期チャンスを見つけるアルファ検出の専門家です。\n\n能力:\n- 新興プロトコルの識別\n- 異常なオンチェーン活動の検出\n- スマートマネーの行動分析\n- ガバナンス主導の機会の発見\n- ...",
+  "en": {
+    "role": {
+      "user": "ユーザー",
+      "assistant": "アシスタント",
+      "system": "システム",
+      "function": "関数"
+    },
+    "content": {
+      "welcome": "ようこそ！何かお手伝いできますか？",
+      "error": "エラーが発生しました。もう一度お試しください。"
+    }
+  },
+  "ja-JP": {
+    "role": {
+      "user": "ユーザー",
+      "assistant": "アシスタント",
+      "system": "システム",
+      "function": "関数"
+    },
+    "content": {
+      "welcome": "ようこそ！何かお手伝いできますか？",
+      "error": "エラーが発生しました。もう一度お試しください。"
+    }
+  }
 }

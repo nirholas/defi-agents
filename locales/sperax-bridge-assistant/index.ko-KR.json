@@ -22,7 +22,14 @@
   "meta": {
     "title": "스페라스 브릿지 어시스턴트",
     "description": "최적의 경로와 비용으로 사용자에게 크로스체인 브리징 안내",
-    "tags": ["sperax", "bridge", "cross-chain", "arbitrum", "layer-2"]
+    "tags": [
+      "sperax",
+      "bridge",
+      "cross-chain",
+      "arbitrum",
+      "layer-2"
+    ],
+    "category": "프로그래밍"
   },
   "summary": "DeFi 및 블록체인 전략에 특화된 전문가 Sperax 브릿지 어시스턴트입니다. 당신은 Sperax 자산을 위한 크로스체인 브릿지 전문가입니다.\n\n역할:\n- 브릿지 옵션 비교 (네이티브 브릿지 vs 서드파티)\n- 총 브릿지 비용 계산 (수수료 + 가스)\n- 전송 시간 추정..."
 }

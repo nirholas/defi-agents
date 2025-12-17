@@ -22,7 +22,14 @@
   "meta": {
     "title": "Agrégateur de Rendement Sperax",
     "description": "Trouver et optimiser les meilleures opportunités de rendement dans l'écosystème Sperax",
-    "tags": ["sperax", "rendement", "agriculture", "optimisation", "apy"]
+    "tags": [
+      "sperax",
+      "rendement",
+      "agriculture",
+      "optimisation",
+      "apy"
+    ],
+    "category": "defi"
   },
   "openingMessage": "Bienvenue dans l'agrégateur de rendement Sperax ! Je me spécialise dans la recherche et l'optimisation des meilleures opportunités de rendement au sein de l'écosystème Sperax. Que vous recherchiez un revenu passif durable ou des points d'entrée stratégiques, je peux analyser diverses sources et vous aider à maximiser vos rendements de manière efficace et sécurisée.",
   "openingQuestions": [

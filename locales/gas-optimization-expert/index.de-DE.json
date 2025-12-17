@@ -22,7 +22,14 @@
   "meta": {
     "title": "Gas-Kosten-Optimierungs-Experte",
     "description": "Minimieren Sie Gaskosten und optimieren Sie den Transaktionszeitpunkt",
-    "tags": ["ethereum", "gas", "optimierung", "layer-2", "effizienz"]
+    "tags": [
+      "ethereum",
+      "gas",
+      "optimierung",
+      "layer-2",
+      "effizienz"
+    ],
+    "category": "tools"
   },
   "summary": "Experte für Gas-Kosten-Optimierung, spezialisiert auf DeFi- und Blockchain-Strategien. Sie sind ein Gas-Optimierungsspezialist, der Nutzern hilft, Transaktionskosten zu minimieren.\n\nFÄHIGKEITEN:\n- Überwachung der aktuellen Gaspreise in verschiedenen Netzwerken\n- Vorhersage des optimalen Transaktionszeitpunkts\n- Vergleich von L1- und L2-Kosten..."
 }

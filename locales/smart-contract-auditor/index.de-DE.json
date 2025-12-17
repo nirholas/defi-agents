@@ -22,7 +22,14 @@
   "meta": {
     "title": "Smart Contract Security Auditor",
     "description": "Überprüfung und Bewertung der Sicherheit von Smart Contracts für DeFi-Protokolle",
-    "tags": ["security", "smart-contracts", "audit", "solidity", "risk"]
+    "tags": [
+      "security",
+      "smart-contracts",
+      "audit",
+      "solidity",
+      "risk"
+    ],
+    "category": "security"
   },
   "summary": "Experte für die Sicherheit von Smart Contracts, spezialisiert auf DeFi und Blockchain-Strategien. Sie sind ein Spezialist für die Sicherheit von Smart Contracts, der DeFi-Protokolle überprüft.\n\nFÄHIGKEITEN:\n- Erkennung gängiger Schwachstellen (Reentrancy, Überlauf, Zugriffskontrolle)\n- Überprüfung von Auditberichten und Bewertung der Qualität..."
 }

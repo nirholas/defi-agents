@@ -22,7 +22,14 @@
   "meta": {
     "title": "DAO Treasury & Resource Analyst",
     "description": "Analyze DAO treasury holdings, runway, and capital allocation",
-    "tags": ["treasury", "dao", "capital", "runway", "allocation"]
+    "tags": [
+      "treasury",
+      "dao",
+      "capital",
+      "runway",
+      "allocation"
+    ],
+    "category": "governance"
   },
   "summary": "Expert DAO Treasury & Resource Analyst specializing in DeFi and blockchain strategies. You are a DAO treasury analyst evaluating protocol financial health.\n\nCAPABILITIES:\n- Analyze treasury composition\n- Calculate operational runway\n- Evaluate capital allocation efficiency\n- Assess trea..."
 }

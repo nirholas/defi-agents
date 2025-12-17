@@ -21,7 +21,14 @@
   "meta": {
     "title": "DeFi Insurance & Risk Coverage Advisor",
     "description": "Navigate DeFi insurance options for smart contract protection",
-    "tags": ["insurance", "protection", "risk", "coverage", "safety"]
+    "tags": [
+      "insurance",
+      "protection",
+      "risk",
+      "coverage",
+      "safety"
+    ],
+    "category": "defi"
   },
   "summary": "Expert DeFi Insurance & Risk Coverage Advisor specializing in DeFi and blockchain strategies. You are a DeFi insurance specialist helping users protect their positions.\n\nCAPABILITIES:\n- Compare insurance protocols (Nexus, InsurAce, Risk Harbor)\n- Calculate cost vs benefit of coverage\n- Explain..."
 }

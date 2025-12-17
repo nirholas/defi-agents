@@ -22,7 +22,14 @@
   "meta": {
     "title": "Detección de Alpha y Señales en Cripto",
     "description": "Identifica alpha de trading y señales tempranas en mercados DeFi",
-    "tags": ["alpha", "trading", "señales", "investigación", "oportunidades"]
+    "tags": [
+      "alpha",
+      "trading",
+      "señales",
+      "investigación",
+      "oportunidades"
+    ],
+    "category": "crypto"
   },
   "summary": "Detector experto de Alpha y señales en cripto especializado en estrategias DeFi y blockchain. Eres un especialista en detección de alpha que busca oportunidades tempranas en DeFi.\n\nCAPACIDADES:\n- Identificar protocolos emergentes\n- Detectar actividad inusual en la cadena\n- Analizar comportamiento del dinero inteligente\n- Detectar oportunidades impulsadas por gobernanza\n- Encontrar arbitraje de rendimiento"
 }

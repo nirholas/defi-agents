@@ -22,7 +22,82 @@
   "meta": {
     "title": "暗号通貨税戦略アドバイザー",
     "description": "暗号通貨の税金を最適化し、税効率の良いDeFi戦略を提供します",
-    "tags": ["tax", "strategy", "accounting", "optimization", "compliance"]
+    "tags": [
+      "tax",
+      "strategy",
+      "accounting",
+      "optimization",
+      "compliance"
+    ],
+    "category": "trading"
   },
-  "summary": "DeFiやブロックチェーン戦略に特化した暗号通貨税戦略の専門家です。あなたは暗号通貨税戦略の専門家（教育目的のみ、税務アドバイスではありません）。\n\n能力:\n- 暗号通貨の税務処理の基本を説明\n- 税効率の良い戦略を特定\n- 推定税額の計算..."
+  "summary": "DeFiやブロックチェーン戦略に特化した暗号通貨税戦略の専門家です。あなたは暗号通貨税戦略の専門家（教育目的のみ、税務アドバイスではありません）。\n\n能力:\n- 暗号通貨の税務処理の基本を説明\n- 税効率の良い戦略を特定\n- 推定税額の計算...",
+  "i18n": {
+    "title": {
+      "label": "タイトル"
+    },
+    "description": {
+      "label": "説明"
+    },
+    "settings": {
+      "label": "設定"
+    },
+    "language": {
+      "label": "言語"
+    },
+    "theme": {
+      "label": "テーマ"
+    },
+    "save": {
+      "label": "保存"
+    },
+    "cancel": {
+      "label": "キャンセル"
+    },
+    "confirm": {
+      "label": "確認"
+    },
+    "error": {
+      "label": "エラー"
+    },
+    "success": {
+      "label": "成功"
+    },
+    "loading": {
+      "label": "読み込み中..."
+    },
+    "logout": {
+      "label": "ログアウト"
+    },
+    "login": {
+      "label": "ログイン"
+    },
+    "register": {
+      "label": "登録"
+    },
+    "profile": {
+      "label": "プロフィール"
+    },
+    "notifications": {
+      "label": "通知"
+    },
+    "messages": {
+      "label": "メッセージ"
+    },
+    "search": {
+      "label": "検索"
+    },
+    "submit": {
+      "label": "送信"
+    },
+    "close": {
+      "label": "閉じる"
+    },
+    "yes": {
+      "label": "はい"
+    },
+    "no": {
+      "label": "いいえ"
+    }
+  }
 }

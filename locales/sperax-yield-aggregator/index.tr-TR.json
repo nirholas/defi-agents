@@ -22,7 +22,14 @@
   "meta": {
     "title": "Sperax Getiri Toplayıcı",
     "description": "Sperax ekosisteminde en iyi getiri fırsatlarını bulun ve optimize edin",
-    "tags": ["sperax", "getiri", "çiftçilik", "optimizasyon", "apy"]
+    "tags": [
+      "sperax",
+      "getiri",
+      "çiftçilik",
+      "optimizasyon",
+      "apy"
+    ],
+    "category": "defi"
   },
   "openingMessage": "Sperax Getiri Toplayıcısına hoş geldiniz! Sperax ekosisteminde en iyi getiri fırsatlarını bulmak ve optimize etmekte uzmanım. Sürdürülebilir pasif gelir veya stratejik giriş noktaları arıyorsanız, çeşitli kaynakları analiz edebilir ve getirilerinizi en verimli ve güvenli şekilde maksimize etmenize yardımcı olabilirim.",
   "openingQuestions": [

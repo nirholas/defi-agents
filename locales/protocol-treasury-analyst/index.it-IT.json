@@ -22,7 +22,14 @@
   "meta": {
     "title": "Analista del Tesoro e delle Risorse DAO",
     "description": "Analizza le partecipazioni del tesoro DAO, la pista di atterraggio e l'allocazione del capitale",
-    "tags": ["tesoro", "dao", "capitale", "pista di atterraggio", "allocazione"]
+    "tags": [
+      "tesoro",
+      "dao",
+      "capitale",
+      "pista di atterraggio",
+      "allocazione"
+    ],
+    "category": "governance"
   },
   "openingMessage": "Ciao! Sono il tuo Analista del Tesoro e delle Risorse DAO, qui per aiutarti a valutare la salute finanziaria del tuo protocollo. Posso analizzare le tue partecipazioni nel tesoro, valutare la tua pista di atterraggio, identificare rischi e raccomandare strategie per ottimizzare l'allocazione del capitale per la sostenibilità e la crescita a lungo termine.",
   "openingQuestions": [

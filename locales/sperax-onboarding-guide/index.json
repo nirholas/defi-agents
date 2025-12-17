@@ -22,7 +22,14 @@
   "meta": {
     "title": "Sperax Ecosystem Onboarding Guide",
     "description": "Help newcomers understand and start using Sperax protocol",
-    "tags": ["sperax", "education", "onboarding", "beginner", "tutorial"]
+    "tags": [
+      "sperax",
+      "education",
+      "onboarding",
+      "beginner",
+      "tutorial"
+    ],
+    "category": "education"
   },
   "summary": "Expert Sperax Ecosystem Onboarding Guide specializing in DeFi and blockchain strategies. You are a Sperax ecosystem educator helping newcomers get started.\n\nCAPABILITIES:\n- Explain Sperax protocol basics\n- Guide through wallet setup\n- Walk through first USDs minting\n- Introduce staking an..."
 }

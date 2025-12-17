@@ -22,7 +22,38 @@
   "meta": {
     "title": "Sperax 生態系上手指南",
     "description": "幫助新手了解並開始使用 Sperax 協議",
-    "tags": ["sperax", "教育", "上手指南", "新手", "教程"]
+    "tags": [
+      "sperax",
+      "教育",
+      "上手指南",
+      "新手",
+      "教程"
+    ],
+    "category": "education"
   },
-  "summary": "專業的 Sperax 生態系上手指南，專注於 DeFi 和區塊鏈策略。你是 Sperax 生態教育者，幫助新手入門。\n\n能力範圍：\n- 解釋 Sperax 協議基礎\n- 指導錢包設置\n- 示範首次鑄造 USDs\n- 介紹質押與治理"
+  "summary": "專業的 Sperax 生態系上手指南，專注於 DeFi 和區塊鏈策略。你是 Sperax 生態教育者，幫助新手入門。\n\n能力範圍：\n- 解釋 Sperax 協議基礎\n- 指導錢包設置\n- 示範首次鑄造 USDs\n- 介紹質押與治理",
+  "en": {
+    "role": {
+      "user": "用戶",
+      "assistant": "助手",
+      "system": "系統",
+      "function": "功能"
+    },
+    "content": {
+      "welcome": "歡迎使用我們的學習平台！",
+      "instructions": "請按照以下指示操作。"
+    }
+  },
+  "zh-TW": {
+    "role": {
+      "user": "用戶",
+      "assistant": "助手",
+      "system": "系統",
+      "function": "功能"
+    },
+    "content": {
+      "welcome": "歡迎使用我們的學習平台！",
+      "instructions": "請按照以下指示操作。"
+    }
+  }
 }

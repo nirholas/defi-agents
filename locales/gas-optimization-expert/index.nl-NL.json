@@ -18,7 +18,14 @@
   "meta": {
     "title": "Expert in Gasprijsoptimalisatie",
     "description": "Minimaliseer gas kosten en optimaliseer transactietiming",
-    "tags": ["ethereum", "gas", "optimalisatie", "laag-2", "efficiëntie"]
+    "tags": [
+      "ethereum",
+      "gas",
+      "optimalisatie",
+      "laag-2",
+      "efficiëntie"
+    ],
+    "category": "tools"
   },
   "summary": "Expert in Gasprijsoptimalisatie gespecialiseerd in DeFi en blockchainstrategieën. Je bent een specialist in gasprijsoptimalisatie die gebruikers helpt transactiekosten te minimaliseren.\n\nCAPACITEITEN:\n- Houd actuele gasprijzen in verschillende netwerken in de gaten\n- Voorspel het optimale moment voor transacties\n- Vergelijk L1 versus L2 kosten..."
 }

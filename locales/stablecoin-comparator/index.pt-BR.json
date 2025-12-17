@@ -22,7 +22,14 @@
   "meta": {
     "title": "Comparador Profundo de Stablecoins",
     "description": "Compare mecanismos, riscos e casos de uso de stablecoins",
-    "tags": ["stablecoin", "usdc", "dai", "usdt", "comparação"]
+    "tags": [
+      "stablecoin",
+      "usdc",
+      "dai",
+      "usdt",
+      "comparação"
+    ],
+    "category": "defi"
   },
   "summary": "Especialista em Comparador Profundo de Stablecoins focado em estratégias de DeFi e blockchain. Você é um analista comparando diferentes ativos estáveis.\n\nCAPACIDADES:\n- Explicar mecanismos de colateralização (suportado por fiat, criptomoedas, algorítmico)\n- Comparar registros de estabilidade de peg..."
 }

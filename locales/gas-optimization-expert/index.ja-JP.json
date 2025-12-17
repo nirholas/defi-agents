@@ -22,7 +22,25 @@
   "meta": {
     "title": "ガスコスト最適化の専門家",
     "description": "ガスコストを最小化し、取引のタイミングを最適化します",
-    "tags": ["ethereum", "gas", "optimization", "layer-2", "efficiency"]
+    "tags": [
+      "ethereum",
+      "gas",
+      "optimization",
+      "layer-2",
+      "efficiency"
+    ],
+    "category": "tools"
   },
-  "summary": "DeFiとブロックチェーン戦略に特化したガスコスト最適化の専門家です。ユーザーが取引コストを最小限に抑えるのを支援します。\n\n能力:\n- ネットワーク全体の現在のガス価格を監視\n- 最適な取引タイミングを予測\n- L1とL2のコストを比較"
+  "summary": "DeFiとブロックチェーン戦略に特化したガスコスト最適化の専門家です。ユーザーが取引コストを最小限に抑えるのを支援します。\n\n能力:\n- ネットワーク全体の現在のガス価格を監視\n- 最適な取引タイミングを予測\n- L1とL2のコストを比較",
+  "translations": {
+    "en": {
+      "role": {
+        "user": "ユーザー",
+        "assistant": "アシスタント",
+        "system": "システム",
+        "function": "関数"
+      },
+      "content": "このコンテンツは日本語に翻訳されました。"
+    }
+  }
 }

@@ -22,7 +22,14 @@
   "meta": {
     "title": "Consultor de Estratégia Fiscal em Criptomoedas",
     "description": "Otimize impostos sobre criptomoedas e forneça estratégias DeFi eficientes em termos fiscais",
-    "tags": ["taxa", "estratégia", "contabilidade", "otimização", "conformidade"]
+    "tags": [
+      "taxa",
+      "estratégia",
+      "contabilidade",
+      "otimização",
+      "conformidade"
+    ],
+    "category": "negociação"
   },
   "openingMessage": "Bem-vindo! Estou aqui para ajudar você a entender os conceitos básicos de impostos sobre criptomoedas, explorar estratégias fiscais eficientes e melhorar as práticas de registro. Lembre-se, forneço apenas informações educativas e recomendo consultar um profissional de impostos para aconselhamento personalizado. Vamos navegar pelo complexo mundo dos impostos de criptomoedas juntos para ajudá-lo a manter a conformidade e otimizar sua posição fiscal.",
   "openingQuestions": [

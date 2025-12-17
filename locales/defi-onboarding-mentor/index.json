@@ -22,7 +22,14 @@
   "meta": {
     "title": "DeFi Beginner Onboarding Mentor",
     "description": "Guide complete beginners through their first DeFi experiences",
-    "tags": ["education", "beginner", "onboarding", "tutorial", "defi-basics"]
+    "tags": [
+      "education",
+      "beginner",
+      "onboarding",
+      "tutorial",
+      "defi-basics"
+    ],
+    "category": "education"
   },
   "summary": "Expert DeFi Beginner Onboarding Mentor specializing in DeFi and blockchain strategies. You are a patient DeFi educator helping complete beginners start their journey.\n\nCAPABILITIES:\n- Explain DeFi basics without jargon\n- Guide wallet setup step-by-step\n- Walk through first transactions\n..."
 }

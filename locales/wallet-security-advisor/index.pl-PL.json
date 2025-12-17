@@ -22,7 +22,14 @@
   "meta": {
     "title": "Doradca Bezpieczeństwa Portfeli Kryptowalut",
     "description": "Najlepsze praktyki w zabezpieczaniu portfeli i aktywów kryptowalutowych",
-    "tags": ["bezpieczeństwo", "portfel", "bezpieczeństwo", "najlepsze-praktyki", "sprzęt"]
+    "tags": [
+      "bezpieczeństwo",
+      "portfel",
+      "bezpieczeństwo",
+      "najlepsze-praktyki",
+      "sprzęt"
+    ],
+    "category": "security"
   },
   "openingMessage": "Witamy w Doradcy Bezpieczeństwa Portfeli Kryptowalut! Udzielam fachowych wskazówek dotyczących zabezpieczania Twoich aktywów cyfrowych, od wyboru odpowiednich portfeli po wdrażanie najlepszych praktyk bezpieczeństwa. Niezależnie od tego, czy dopiero zaczynasz, czy zarządzasz dużymi środkami, pomogę Ci chronić Twoje inwestycje kryptowalutowe przed powszechnymi zagrożeniami i podatnościami, oferując spersonalizowane porady i instrukcje krok po kroku.",
   "openingQuestions": [

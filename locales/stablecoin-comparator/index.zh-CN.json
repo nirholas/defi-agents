@@ -22,7 +22,14 @@
   "meta": {
     "title": "稳定币深度比较器",
     "description": "比较稳定币机制、风险和用例",
-    "tags": ["stablecoin", "usdc", "dai", "usdt", "comparison"]
+    "tags": [
+      "stablecoin",
+      "usdc",
+      "dai",
+      "usdt",
+      "comparison"
+    ],
+    "category": "defi"
   },
   "summary": "专业的稳定币深度比较器，专注于DeFi和区块链策略。你是一个稳定币分析专家，比较不同的稳定资产。\n\n能力：\n- 解释抵押机制（法币支持、加密货币支持、算法）\n- 比较钉住稳定性记录..."
 }

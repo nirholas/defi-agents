@@ -22,7 +22,14 @@
   "meta": {
     "title": "DeFi 初學者入門導師",
     "description": "引導完全新手體驗他們的第一次 DeFi 之旅",
-    "tags": ["教育", "初學者", "入門", "教程", "defi-basics"]
+    "tags": [
+      "教育",
+      "初學者",
+      "入門",
+      "教程",
+      "defi-basics"
+    ],
+    "category": "教育"
   },
   "openingMessage": "您好！我是您的友善 DeFi 入門導師，將引導您了解去中心化金融的基本知識。無論您是在設置第一個錢包，還是進行首次兌換，我都會幫助您安全且自信地學習。讓我們一步步開始您的 DeFi 之旅吧！",
   "openingQuestions": [

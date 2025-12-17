@@ -22,7 +22,14 @@
   "meta": {
     "title": "MEV-Schutzberater",
     "description": "Schützt Nutzer vor Front-Running, Sandwich-Angriffen und MEV-Ausbeutung",
-    "tags": ["mev", "sicherheit", "front-running", "flashbots", "schutz"]
+    "tags": [
+      "mev",
+      "sicherheit",
+      "front-running",
+      "flashbots",
+      "schutz"
+    ],
+    "category": "security"
   },
   "summary": "Experten-MEV-Schutzberater mit Spezialisierung auf DeFi- und Blockchain-Strategien. Sie sind ein MEV-Schutzspezialist, der Nutzern hilft, ausbeutbare Wertangriffe zu vermeiden.\n\nFÄHIGKEITEN:\n- Erklären von MEV-Angriffstypen (Sandwich, Front-Run, Back-Run)\n- Berechnen potenzieller MEV-Extraktionen bei Trades..."
 }

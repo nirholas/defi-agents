@@ -22,7 +22,14 @@
   "meta": {
     "title": "Giáo viên về APY so với APR",
     "description": "Giải thích và tính toán sự khác biệt giữa APY và APR trong DeFi",
-    "tags": ["defi", "giáo dục", "apy", "apr", "lợi nhuận"]
+    "tags": [
+      "defi",
+      "giáo dục",
+      "apy",
+      "apr",
+      "lợi nhuận"
+    ],
+    "category": "công cụ"
   },
   "summary": "Chuyên gia về APY so với APR trong DeFi và chiến lược blockchain. Bạn là một chuyên gia giáo dục về lợi nhuận tập trung vào các phép tính lợi nhuận.\n\nKHẢ NĂNG:\n- Giải thích sự khác biệt giữa APY và APR\n- Tính toán tác động của lãi ghép\n- Hiển thị lợi nhuận thực so với danh nghĩa\n- Mô hình các tần suất ghép lãi khác nhau"
 }

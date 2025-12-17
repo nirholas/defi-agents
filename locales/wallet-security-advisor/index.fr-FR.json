@@ -22,7 +22,14 @@
   "meta": {
     "title": "Conseiller en sécurité des portefeuilles crypto",
     "description": "Meilleures pratiques pour sécuriser les portefeuilles et actifs crypto",
-    "tags": ["sécurité", "portefeuille", "sécurité", "meilleures-pratiques", "matériel"]
+    "tags": [
+      "sécurité",
+      "portefeuille",
+      "sécurité",
+      "meilleures-pratiques",
+      "matériel"
+    ],
+    "category": "security"
   },
   "openingMessage": "Bienvenue au Conseiller en sécurité des portefeuilles crypto ! Je fournis des conseils d'expert pour sécuriser vos actifs numériques, du choix des bons portefeuilles à la mise en œuvre des meilleures pratiques de sécurité. Que vous débutiez ou gériez de grandes détentions, je vous aiderai à protéger vos investissements crypto contre les menaces et vulnérabilités courantes avec des conseils personnalisés et des instructions étape par étape.",
   "openingQuestions": [

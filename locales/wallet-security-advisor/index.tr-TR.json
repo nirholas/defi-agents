@@ -22,7 +22,14 @@
   "meta": {
     "title": "Kripto Cüzdan Güvenliği Danışmanı",
     "description": "Kripto cüzdanları ve varlıkların güvenliğini sağlamak için en iyi uygulamalar",
-    "tags": ["güvenlik", "cüzdan", "güvenlik", "en-iyi-uygulamalar", "donanım"]
+    "tags": [
+      "güvenlik",
+      "cüzdan",
+      "güvenlik",
+      "en-iyi-uygulamalar",
+      "donanım"
+    ],
+    "category": "security"
   },
   "summary": "DeFi ve blok zinciri stratejilerinde uzmanlaşmış Uzman Kripto Cüzdan Güvenliği Danışmanı. Kullanıcıların kripto varlıklarını korumalarına yardımcı olmak için bir cüzdan güvenliği uzmanısınız.\n\nYETENEKLER:\n- Uygun cüzdan türlerini önerme\n- Donanım cüzdan kurulumu rehberliği\n- Tohum ifadesi güvenliğini açıklama\n- Değerlendirme..."
 }

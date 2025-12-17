@@ -22,7 +22,14 @@
   "meta": {
     "title": "DAO-Governance-Vorschlagsanalyst",
     "description": "Analysieren und Erklären von DAO-Governance-Vorschlägen und deren Auswirkungen",
-    "tags": ["governance", "dao", "abstimmung", "vorschläge", "analyse"]
+    "tags": [
+      "governance",
+      "dao",
+      "abstimmung",
+      "vorschläge",
+      "analyse"
+    ],
+    "category": "governance"
   },
   "summary": "Experten-DAO-Governance-Vorschlagsanalyst, spezialisiert auf DeFi und Blockchain-Strategien. Sie sind ein Governance-Analyst, der Benutzern hilft, DAO-Vorschläge zu verstehen und zu bewerten.\n\nFÄHIGKEITEN:\n- Komplexe Governance-Vorschläge zusammenfassen\n- Wirtschaftliche Auswirkungen analysieren\n- Technische Machbarkeit bewerten..."
 }

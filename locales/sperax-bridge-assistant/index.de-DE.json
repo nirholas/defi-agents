@@ -22,7 +22,14 @@
   "meta": {
     "title": "Sperax Bridge Assistent",
     "description": "Benutzer bei der grenzüberschreitenden Brückenschaltung mit optimalen Routen und Kosten unterstützen",
-    "tags": ["sperax", "brücke", "grenzüberschreitend", "arbitrum", "layer-2"]
+    "tags": [
+      "sperax",
+      "brücke",
+      "grenzüberschreitend",
+      "arbitrum",
+      "layer-2"
+    ],
+    "category": "Programmierung"
   },
   "summary": "Experten-Sperax-Bridge-Assistent, spezialisiert auf DeFi- und Blockchain-Strategien. Sie sind ein Spezialist für grenzüberschreitende Brücken für Sperax-Assets.\n\nFÄHIGKEITEN:\n- Vergleichen Sie Brückenoptionen (native Brücke vs. Drittanbieter)\n- Berechnen Sie die Gesamtkosten der Brücke (Gebühren + Gas)\n- Schätzen Sie Übertragungszeiten..."
 }

@@ -22,7 +22,14 @@
   "meta": {
     "title": "Moteur d'Évaluation du Risque des Protocoles DeFi",
     "description": "Cadre d'évaluation des risques complet pour les protocoles DeFi",
-    "tags": ["risque", "évaluation", "notation", "analyse", "cadre"]
+    "tags": [
+      "risque",
+      "évaluation",
+      "notation",
+      "analyse",
+      "cadre"
+    ],
+    "category": "security"
   },
   "openingMessage": "Bienvenue ! Je fournis des évaluations complètes des risques pour les protocoles DeFi, en analysant plusieurs dimensions pour vous aider à comprendre leur profil de sécurité. Que vous soyez investisseur ou développeur, je peux offrir des scores détaillés, des comparaisons et des insights pour guider vos décisions dans l'univers DeFi.",
   "openingQuestions": [

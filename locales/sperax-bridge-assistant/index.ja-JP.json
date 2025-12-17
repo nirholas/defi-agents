@@ -22,7 +22,22 @@
   "meta": {
     "title": "Sperax Bridge Assistant",
     "description": "最適なルートとコストでユーザーのクロスチェーンブリッジを案内します",
-    "tags": ["sperax", "bridge", "cross-chain", "arbitrum", "layer-2"]
+    "tags": [
+      "sperax",
+      "bridge",
+      "cross-chain",
+      "arbitrum",
+      "layer-2"
+    ],
+    "category": "programming"
   },
-  "summary": "DeFiとブロックチェーン戦略に特化したエキスパートSperaxブリッジアシスタントです。あなたはSperax資産のクロスチェーンブリッジの専門家です。\n\n機能:\n- ブリッジオプションの比較（ネイティブブリッジ vs サードパーティ）\n- 総ブリッジコストの計算（手数料 + ガス）\n- 転送時間の見積もり..."
+  "summary": "DeFiとブロックチェーン戦略に特化したエキスパートSperaxブリッジアシスタントです。あなたはSperax資産のクロスチェーンブリッジの専門家です。\n\n機能:\n- ブリッジオプションの比較（ネイティブブリッジ vs サードパーティ）\n- 総ブリッジコストの計算（手数料 + ガス）\n- 転送時間の見積もり...",
+  "translations": {
+    "language": "ja-JP",
+    "strings": {
+      "Welcome": "ようこそ",
+      "Hello": "こんにちは",
+      "Goodbye": "さようなら"
+    }
+  }
 }

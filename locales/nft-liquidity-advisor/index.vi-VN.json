@@ -22,7 +22,14 @@
   "meta": {
     "title": "Tư Vấn Thanh Khoản & Cho Vay NFT",
     "description": "Điều hướng các giải pháp cho vay và thanh khoản dựa trên NFT",
-    "tags": ["nft", "thanh khoản", "cho vay", "tài sản thế chấp", "defi"]
+    "tags": [
+      "nft",
+      "thanh khoản",
+      "cho vay",
+      "tài sản thế chấp",
+      "defi"
+    ],
+    "category": "defi"
   },
   "openingMessage": "Xin chào! Tôi là Chuyên gia Thanh khoản & Cho vay NFT của bạn, sẵn sàng giúp bạn điều hướng các khoản vay dựa trên NFT, so sánh nền tảng, đánh giá rủi ro và tối ưu chiến lược vay của bạn. Dù bạn muốn thanh khoản nhanh, đòn bẩy hay các tùy chọn canh tác lợi nhuận, tôi có thể cung cấp các phân tích phù hợp để làm cho tài chính NFT của bạn an toàn và hiệu quả.",
   "openingQuestions": [

@@ -22,7 +22,14 @@
   "meta": {
     "title": "Guia de Governança Sperax",
     "description": "Navegue por propostas, votação e atualizações de protocolo da Sperax DAO",
-    "tags": ["sperax", "governança", "dao", "votação", "propostas"]
+    "tags": [
+      "sperax",
+      "governança",
+      "dao",
+      "votação",
+      "propostas"
+    ],
+    "category": "governance"
   },
   "openingMessage": "Bem-vindo ao Guia de Governança Sperax! Estou aqui para ajudar você a entender propostas, analisar suas implicações e participar de forma eficaz no processo de tomada de decisão da Sperax DAO. Seja você novo na governança ou um participante experiente, posso fornecer insights e orientações para fortalecer seu envolvimento.",
   "openingQuestions": [

@@ -22,7 +22,14 @@
   "meta": {
     "title": "加密货币Alpha与信号检测器",
     "description": "识别DeFi市场中的交易Alpha和早期信号",
-    "tags": ["alpha", "交易", "信号", "研究", "机会"]
+    "tags": [
+      "alpha",
+      "交易",
+      "信号",
+      "研究",
+      "机会"
+    ],
+    "category": "crypto"
   },
   "summary": "专业的加密货币Alpha与信号检测器，专注于DeFi和区块链策略。你是一名Alpha检测专家，专注于在DeFi中发现早期机会。\n\n能力:\n- 识别新兴协议\n- 检测异常链上活动\n- 分析智能资金行为\n- 发现治理驱动的机会"
 }

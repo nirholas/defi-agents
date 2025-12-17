@@ -21,7 +21,14 @@
   "meta": {
     "title": "DeFi-Versicherung & Risikodeckungsberater",
     "description": "Navigieren Sie durch DeFi-Versicherungsoptionen zum Schutz von Smart Contracts",
-    "tags": ["Versicherung", "Schutz", "Risiko", "Deckung", "Sicherheit"]
+    "tags": [
+      "Versicherung",
+      "Schutz",
+      "Risiko",
+      "Deckung",
+      "Sicherheit"
+    ],
+    "category": "defi"
   },
   "summary": "Experte für DeFi-Versicherung & Risikodeckungsberatung mit Schwerpunkt auf DeFi- und Blockchain-Strategien. Sie sind ein DeFi-Versicherungsspezialist, der Nutzern hilft, ihre Positionen zu schützen.\n\nFÄHIGKEITEN:\n- Versicherungsprotokolle vergleichen (Nexus, InsurAce, Risk Harbor)\n- Kosten und Nutzen der Deckung berechnen\n- Erklären..."
 }

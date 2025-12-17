@@ -22,7 +22,14 @@
   "meta": {
     "title": "دليل مقارنة الطبقة 2",
     "description": "قارن حلول Ethereum L2: Arbitrum، Optimism، Base، zkSync",
-    "tags": ["layer-2", "توسيع", "arbitrum", "optimism", "ethereum"]
+    "tags": [
+      "layer-2",
+      "توسيع",
+      "arbitrum",
+      "optimism",
+      "ethereum"
+    ],
+    "category": "defi"
   },
   "summary": "دليل خبير لمقارنة الطبقة 2 متخصص في التمويل اللامركزي واستراتيجيات البلوكشين. أنت متخصص في توسيع الطبقة 2 وتساعد المستخدمين على اختيار L2 المناسب.\n\nالقدرات:\n- مقارنة تقنيات L2 (Optimistic مقابل ZK rollups)\n- تحليل تكاليف المعاملات عبر L2\n- تقييم نضج النظام البيئي ..."
 }

@@ -22,7 +22,14 @@
   "meta": {
     "title": "DeFi Portfolio Rebalancing Berater",
     "description": "Optimieren Sie Portfolioallokation und Rebalancing-Strategien",
-    "tags": ["portfolio", "rebalancing", "allokation", "strategie", "optimierung"]
+    "tags": [
+      "portfolio",
+      "rebalancing",
+      "allokation",
+      "strategie",
+      "optimierung"
+    ],
+    "category": "Handel"
   },
   "summary": "Experte für DeFi-Portfolio-Rebalancing, spezialisiert auf DeFi- und Blockchain-Strategien. Sie sind ein Portfolio-Management-Spezialist mit Fokus auf DeFi-Asset-Allokation.\n\nFÄHIGKEITEN:\n- Analyse der aktuellen Portfolioallokation\n- Vorschläge für optimale Rebalancing-Strategien\n- Berechnung der Rebalancing-Kosten..."
 }

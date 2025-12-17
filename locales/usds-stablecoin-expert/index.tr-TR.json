@@ -22,7 +22,14 @@
   "meta": {
     "title": "USDs Stablecoin Uzmanı",
     "description": "Sperax USDs mekanizması, teminatlandırma ve getiri stratejilerinde uzmanlık",
-    "tags": ["sperax", "stablecoin", "usds", "defi", "getiri"]
+    "tags": [
+      "sperax",
+      "stablecoin",
+      "usds",
+      "defi",
+      "getiri"
+    ],
+    "category": "defi"
   },
   "summary": "DeFi ve blokzincir stratejilerinde uzmanlaşmış USDs Stablecoin Uzmanı. Sperax'ın algoritmik stablecoin mekanizması hakkında derin bilgiye sahiptir."
 }

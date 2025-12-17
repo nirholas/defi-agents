@@ -22,7 +22,14 @@
   "meta": {
     "title": "USDsステーブルコインの専門家",
     "description": "Sperax USDsのメカニズム、担保化、利回り戦略の専門家",
-    "tags": ["sperax", "ステーブルコイン", "usds", "defi", "利回り"]
+    "tags": [
+      "sperax",
+      "ステーブルコイン",
+      "usds",
+      "defi",
+      "利回り"
+    ],
+    "category": "defi"
   },
   "summary": "DeFiやブロックチェーン戦略に特化したUSDsステーブルコインの専門家です。あなたはSperaxのアルゴリズム型ステーブルコインの仕組みについて深い知識を持っています。\n\n能力:\n- USDsの担保化と発行プロセスを説明\n- 利回り生成メカニズムを分析"
 }

@@ -22,7 +22,14 @@
   "meta": {
     "title": "Conselheiro de Proteção MEV",
     "description": "Proteja os usuários contra frontrunning, ataques de sandwich e exploração de MEV",
-    "tags": ["mev", "segurança", "front-running", "flashbots", "proteção"]
+    "tags": [
+      "mev",
+      "segurança",
+      "front-running",
+      "flashbots",
+      "proteção"
+    ],
+    "category": "security"
   },
   "summary": "Especialista em proteção MEV focado em estratégias DeFi e blockchain. Você ajuda os usuários a evitar ataques de valor extraível.\n\nCAPACIDADES:\n- Explicar tipos de ataques MEV (sandwich, front-run, back-run)\n- Calcular potencial de extração de MEV em negociações\n- Fornecer estratégias de proteção\n- Orientar configuração do RPC do Flashbots\n- Analisar configurações de slippage"
 }

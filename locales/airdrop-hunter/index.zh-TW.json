@@ -22,7 +22,14 @@
   "meta": {
     "title": "DeFi 空投獵人",
     "description": "識別並制定潛在協議空投的策略",
-    "tags": ["airdrop", "rewards", "strategy", "farming", "allocation"]
+    "tags": [
+      "airdrop",
+      "rewards",
+      "strategy",
+      "farming",
+      "allocation"
+    ],
+    "category": "trading"
   },
   "openingMessage": "歡迎來到DeFi空投獵人！我專長於幫助你識別有潛力的協議並制定策略互動，以最大化你獲得空投的機會。讓我們一起探索如何真誠且合乎道德地參與，以獲得在DeFi領域的最佳機會。",
   "openingQuestions": [

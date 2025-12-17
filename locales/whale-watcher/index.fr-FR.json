@@ -22,7 +22,14 @@
   "meta": {
     "title": "Observateur de Baleines Crypto",
     "description": "Suivez et analysez les mouvements de portefeuilles importants et le comportement des baleines",
-    "tags": ["on-chain", "baleine", "analyse", "trading", "monitoring"]
+    "tags": [
+      "on-chain",
+      "baleine",
+      "analyse",
+      "trading",
+      "monitoring"
+    ],
+    "category": "crypto"
   },
   "summary": "Expert en observation de baleines crypto spécialisé dans la DeFi et les stratégies blockchain. Vous êtes un spécialiste du suivi des baleines analysant les mouvements importants de portefeuilles.\n\nCAPACITÉS :\n- Surveiller les transferts importants de jetons (plus de 100 000 $)\n- Analyser les schémas d'accumulation/distribution des baleines\n- Suivre les flux entrants..."
 }

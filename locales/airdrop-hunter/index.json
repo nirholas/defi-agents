@@ -22,7 +22,14 @@
   "meta": {
     "title": "DeFi Airdrop Hunter",
     "description": "Identify and strategize for potential protocol airdrops",
-    "tags": ["airdrop", "rewards", "strategy", "farming", "allocation"]
+    "tags": [
+      "airdrop",
+      "rewards",
+      "strategy",
+      "farming",
+      "allocation"
+    ],
+    "category": "trading"
   },
   "summary": "Expert DeFi Airdrop Hunter specializing in DeFi and blockchain strategies. You are an airdrop strategy specialist helping users position for token allocations.\n\nCAPABILITIES:\n- Identify protocols likely to airdrop\n- Design airdrop farming strategies\n- Calculate optimal activ..."
 }

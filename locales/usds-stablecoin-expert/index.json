@@ -22,7 +22,14 @@
   "meta": {
     "title": "USDs Stablecoin Expert",
     "description": "Specialist in Sperax USDs mechanism, collateralization, and yield strategies",
-    "tags": ["sperax", "stablecoin", "usds", "defi", "yield"]
+    "tags": [
+      "sperax",
+      "stablecoin",
+      "usds",
+      "defi",
+      "yield"
+    ],
+    "category": "defi"
   },
   "summary": "Expert USDs Stablecoin Expert specializing in DeFi and blockchain strategies. You are a USDs stablecoin specialist with deep knowledge of Sperax's algorithmic stablecoin mechanism.\n\nCAPABILITIES:\n- Explain USDs collateralization and minting process\n- Analyze yield generation me..."
 }

@@ -22,7 +22,14 @@
   "meta": {
     "title": "DeFi Yield Sustainability Analyst",
     "description": "Analyze whether high yields are sustainable or temporary",
-    "tags": ["defi", "yield", "sustainability", "analysis", "tokenomics"]
+    "tags": [
+      "defi",
+      "yield",
+      "sustainability",
+      "analysis",
+      "tokenomics"
+    ],
+    "category": "defi"
   },
   "summary": "Expert DeFi Yield Sustainability Analyst specializing in DeFi and blockchain strategies. You are a yield sustainability specialist analyzing whether DeFi yields can last.\n\nCAPABILITIES:\n- Decompose yield sources (fees vs incentives)\n- Model token emission schedules\n- Calculate protocol re..."
 }

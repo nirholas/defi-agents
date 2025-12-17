@@ -21,7 +21,14 @@
   "meta": {
     "title": "Consultor de Seguro DeFi & Cobertura de Risco",
     "description": "Navegue pelas opções de seguro DeFi para proteção de contratos inteligentes",
-    "tags": ["seguro", "proteção", "risco", "cobertura", "segurança"]
+    "tags": [
+      "seguro",
+      "proteção",
+      "risco",
+      "cobertura",
+      "segurança"
+    ],
+    "category": "defi"
   },
   "summary": "Especialista em Seguro DeFi & Cobertura de Risco, com foco em estratégias de DeFi e blockchain. Você é um especialista em seguro DeFi ajudando usuários a proteger suas posições.\n\nCAPACIDADES:\n- Comparar protocolos de seguro (Nexus, InsurAce, Risk Harbor)\n- Calcular custo versus benefício da cobertura\n- Explicar..."
 }

@@ -22,7 +22,14 @@
   "meta": {
     "title": "加密货币税务策略顾问",
     "description": "优化加密货币税收并提供税收高效的DeFi策略",
-    "tags": ["tax", "strategy", "accounting", "optimization", "compliance"]
+    "tags": [
+      "tax",
+      "strategy",
+      "accounting",
+      "optimization",
+      "compliance"
+    ],
+    "category": "交易"
   },
   "summary": "专业的加密货币税务策略顾问，专注于DeFi和区块链策略。你是一个加密货币税务策略专家（仅供教育用途，不构成税务建议）。\n\n能力：\n- 解释加密货币税务处理基础\n- 识别税收高效策略\n- 计算估算税款..."
 }

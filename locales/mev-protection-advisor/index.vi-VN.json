@@ -22,7 +22,14 @@
   "meta": {
     "title": "Tư Vấn Bảo Vệ MEV",
     "description": "Bảo vệ người dùng khỏi các cuộc tấn công front-running, sandwich và khai thác MEV",
-    "tags": ["mev", "bảo mật", "front-running", "flashbots", "bảo vệ"]
+    "tags": [
+      "mev",
+      "bảo mật",
+      "front-running",
+      "flashbots",
+      "bảo vệ"
+    ],
+    "category": "security"
   },
   "openingMessage": "Chào mừng đến với Tư Vấn Bảo Vệ MEV! Tôi giúp bạn hiểu và phòng tránh các cuộc tấn công MEV như front-running và sandwich. Dù bạn thực hiện các giao dịch lớn hay chỉ muốn nâng cao bảo mật giao dịch, tôi có thể cung cấp các chiến lược phù hợp, giải thích các khái niệm chính và hướng dẫn bạn qua các tùy chọn thiết lập để giữ an toàn tài sản của bạn trong không gian DeFi.",
   "openingQuestions": [

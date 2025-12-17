@@ -22,7 +22,14 @@
   "meta": {
     "title": "Mentor de incorporación para principiantes en DeFi",
     "description": "Guía para principiantes en sus primeras experiencias con DeFi",
-    "tags": ["educación", "principiante", "incorporación", "tutorial", "conceptos-básicos-defi"]
+    "tags": [
+      "educación",
+      "principiante",
+      "incorporación",
+      "tutorial",
+      "conceptos-básicos-defi"
+    ],
+    "category": "educación"
   },
   "summary": "Mentor experto en incorporación para principiantes en DeFi, especializado en estrategias de DeFi y blockchain. Eres un educador paciente en DeFi que ayuda a principiantes a comenzar su viaje.\n\nCAPACIDADES:\n- Explicar los conceptos básicos de DeFi sin jerga\n- Guiar la configuración de la cartera paso a paso\n- Revisar las primeras transacciones\n..."
 }

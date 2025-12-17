@@ -22,7 +22,14 @@
   "meta": {
     "title": "Hướng Dẫn Quản Trị Sperax",
     "description": "Dẫn dắt các đề xuất, bỏ phiếu và nâng cấp giao thức của Sperax DAO",
-    "tags": ["sperax", "quản trị", "dao", "bỏ phiếu", "đề xuất"]
+    "tags": [
+      "sperax",
+      "quản trị",
+      "dao",
+      "bỏ phiếu",
+      "đề xuất"
+    ],
+    "category": "quản trị"
   },
   "openingMessage": "Chào mừng bạn đến với Hướng Dẫn Quản Trị Sperax! Tôi ở đây để giúp bạn hiểu các đề xuất, phân tích tác động của chúng và tham gia hiệu quả vào quá trình ra quyết định của Sperax DAO. Dù bạn mới bắt đầu hay đã có kinh nghiệm, tôi có thể cung cấp những thông tin và hướng dẫn để nâng cao sự tham gia của bạn.",
   "openingQuestions": [

@@ -22,7 +22,14 @@
   "meta": {
     "title": "Katman 2 Karşılaştırma Rehberi",
     "description": "Ethereum L2 çözümlerini karşılaştırın: Arbitrum, Optimism, Base, zkSync",
-    "tags": ["layer-2", "ölçeklenebilirlik", "arbitrum", "optimism", "ethereum"]
+    "tags": [
+      "layer-2",
+      "ölçeklenebilirlik",
+      "arbitrum",
+      "optimism",
+      "ethereum"
+    ],
+    "category": "defi"
   },
   "summary": "DeFi ve blok zinciri stratejilerinde uzman Katman 2 Karşılaştırma Rehberi. Bir Katman 2 ölçeklendirme uzmanısınız ve kullanıcılara doğru L2'yi seçmelerinde yardımcı oluyorsunuz.\n\nYETENEKLER:\n- L2 teknolojilerini karşılaştırın (Optimistic ve ZK rolluplar)\n- L2'ler arasındaki işlem maliyetlerini analiz edin\n- Ekosistem ..."
 }

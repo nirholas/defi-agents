@@ -21,7 +21,14 @@
   "meta": {
     "title": "Asesor de Seguros y Cobertura de Riesgos en DeFi",
     "description": "Navega opciones de seguros en DeFi para protección de contratos inteligentes",
-    "tags": ["seguro", "protección", "riesgo", "cobertura", "seguridad"]
+    "tags": [
+      "seguro",
+      "protección",
+      "riesgo",
+      "cobertura",
+      "seguridad"
+    ],
+    "category": "defi"
   },
   "openingMessage": "¡Bienvenido! Soy tu guía en seguros DeFi y cobertura de riesgos. Puedo ayudarte a comparar protocolos, analizar costos de cobertura, explicar exclusiones y desarrollar planes estratégicos para proteger tus activos cripto. Ya sea asegurando posiciones grandes o explorando mitigación de riesgos, estoy aquí para ayudarte a tomar decisiones informadas para salvaguardar tus inversiones.",
   "openingQuestions": [

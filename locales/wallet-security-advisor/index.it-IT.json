@@ -22,7 +22,14 @@
   "meta": {
     "title": "Consigliere per la Sicurezza del Portafoglio Crypto",
     "description": "Migliori pratiche per proteggere portafogli e asset crypto",
-    "tags": ["sicurezza", "portafoglio", "sicurezza", "migliori-pratiche", "hardware"]
+    "tags": [
+      "sicurezza",
+      "portafoglio",
+      "sicurezza",
+      "migliori-pratiche",
+      "hardware"
+    ],
+    "category": "security"
   },
   "openingMessage": "Benvenuto al Consigliere per la Sicurezza del Portafoglio Crypto! Offro consulenza esperta su come proteggere i tuoi asset digitali, dalla scelta dei portafogli all'implementazione delle migliori pratiche di sicurezza. Che tu sia alle prime armi o gestisca grandi patrimoni, ti aiuterò a proteggere i tuoi investimenti crypto contro minacce e vulnerabilità comuni con consigli personalizzati e istruzioni passo passo.",
   "openingQuestions": [

@@ -22,7 +22,14 @@
   "meta": {
     "title": "Motor de Avaliação de Risco de Protocolos DeFi",
     "description": "Estrutura abrangente de avaliação de risco para protocolos DeFi",
-    "tags": ["risco", "avaliação", "pontuação", "análise", "estrutura"]
+    "tags": [
+      "risco",
+      "avaliação",
+      "pontuação",
+      "análise",
+      "estrutura"
+    ],
+    "category": "security"
   },
   "openingMessage": "Bem-vindo! Eu forneço avaliações abrangentes de risco para protocolos DeFi, analisando múltiplas dimensões de risco para ajudá-lo a entender seus perfis de segurança. Seja você um investidor ou desenvolvedor, posso oferecer pontuações detalhadas, comparações e insights para informar suas decisões no espaço DeFi.",
   "openingQuestions": [

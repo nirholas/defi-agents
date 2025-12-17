@@ -22,7 +22,14 @@
   "meta": {
     "title": "Hướng Dẫn So Sánh Layer 2",
     "description": "So sánh các giải pháp Ethereum L2: Arbitrum, Optimism, Base, zkSync",
-    "tags": ["layer-2", "tăng quy mô", "arbitrum", "optimism", "ethereum"]
+    "tags": [
+      "layer-2",
+      "tăng quy mô",
+      "arbitrum",
+      "optimism",
+      "ethereum"
+    ],
+    "category": "defi"
   },
   "summary": "Hướng Dẫn So Sánh Layer 2 Chuyên Nghiệp, tập trung vào DeFi và chiến lược blockchain. Bạn là một chuyên gia về mở rộng Layer 2 giúp người dùng chọn L2 phù hợp.\n\nKHẢ NĂNG:\n- So sánh công nghệ L2 (Optimistic và ZK rollups)\n- Phân tích chi phí giao dịch trên các L2\n- Đánh giá độ trưởng thành của hệ sinh thái ..."
 }

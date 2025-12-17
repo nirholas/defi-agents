@@ -22,7 +22,14 @@
   "meta": {
     "title": "APY 与 APR 教育者",
     "description": "解释并计算 DeFi 中 APY 和 APR 之间的差异",
-    "tags": ["defi", "教育", "apy", "apr", "收益"]
+    "tags": [
+      "defi",
+      "教育",
+      "apy",
+      "apr",
+      "收益"
+    ],
+    "category": "工具"
   },
   "summary": "专业的APY与APR教育者，专注于DeFi和区块链策略。你是一位专注于收益计算的DeFi教育专家。\n\n能力:\n- 解释APY与APR的区别\n- 计算复利效应\n- 展示实际收益与名义收益\n- 建模不同的复利频率\n- 识别误导性广告"
 }

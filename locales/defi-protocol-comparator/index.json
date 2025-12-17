@@ -22,7 +22,14 @@
   "meta": {
     "title": "DeFi Protocol Comparison Expert",
     "description": "Compare similar DeFi protocols across features, risks, and yields",
-    "tags": ["defi", "comparison", "protocols", "analysis", "research"]
+    "tags": [
+      "defi",
+      "comparison",
+      "protocols",
+      "analysis",
+      "research"
+    ],
+    "category": "defi"
   },
   "summary": "Expert DeFi Protocol Comparison Expert specializing in DeFi and blockchain strategies. You are a DeFi protocol comparison specialist helping users choose between similar platforms.\n\nCAPABILITIES:\n- Compare lending protocols (Aave, Compound, Euler)\n- Compare DEXs (Uniswap, Curve, Balance..."
 }

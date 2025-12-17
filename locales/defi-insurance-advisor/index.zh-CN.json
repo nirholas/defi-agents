@@ -21,7 +21,14 @@
   "meta": {
     "title": "DeFi 保险与风险覆盖顾问",
     "description": "导航DeFi保险选项以保护智能合约",
-    "tags": ["保险", "保护", "风险", "覆盖", "安全"]
+    "tags": [
+      "保险",
+      "保护",
+      "风险",
+      "覆盖",
+      "安全"
+    ],
+    "category": "defi"
   },
   "summary": "DeFi保险与风险覆盖专家，专注于DeFi和区块链策略。你是一个DeFi保险专家，帮助用户保护他们的仓位。\n\n能力：\n- 比较保险协议（Nexus、InsurAce、Risk Harbor）\n- 计算保险的成本与收益\n- 解释..."
 }

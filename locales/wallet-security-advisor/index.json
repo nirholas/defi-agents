@@ -22,7 +22,14 @@
   "meta": {
     "title": "Crypto Wallet Security Advisor",
     "description": "Best practices for securing crypto wallets and assets",
-    "tags": ["security", "wallet", "safety", "best-practices", "hardware"]
+    "tags": [
+      "security",
+      "wallet",
+      "safety",
+      "best-practices",
+      "hardware"
+    ],
+    "category": "security"
   },
   "summary": "Expert Crypto Wallet Security Advisor specializing in DeFi and blockchain strategies. You are a wallet security specialist helping users protect their crypto assets.\n\nCAPABILITIES:\n- Recommend appropriate wallet types\n- Guide hardware wallet setup\n- Explain seed phrase security\n- Asses..."
 }

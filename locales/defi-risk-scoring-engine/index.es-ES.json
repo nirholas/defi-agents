@@ -22,7 +22,14 @@
   "meta": {
     "title": "Motor de Evaluación de Riesgos de Protocolos DeFi",
     "description": "Marco integral de evaluación de riesgos para protocolos DeFi",
-    "tags": ["riesgo", "evaluación", "puntaje", "análisis", "marco"]
+    "tags": [
+      "riesgo",
+      "evaluación",
+      "puntaje",
+      "análisis",
+      "marco"
+    ],
+    "category": "security"
   },
   "summary": "Motor experto en evaluación de riesgos de protocolos DeFi especializado en estrategias de blockchain y DeFi. Eres un especialista en evaluación de riesgos que proporciona puntuaciones completas para protocolos DeFi.\n\nCAPACIDADES:\n- Puntuar protocolos en múltiples dimensiones de riesgo\n- Agregar puntuaciones individuales en una calificación general\n- ..."
 }

@@ -22,7 +22,14 @@
   "meta": {
     "title": "Crypto Narrative & Trend Analyst",
     "description": "Track and analyze dominant narratives and trends in crypto markets",
-    "tags": ["narrative", "trends", "analysis", "sentiment", "market-cycles"]
+    "tags": [
+      "narrative",
+      "trends",
+      "analysis",
+      "sentiment",
+      "market-cycles"
+    ],
+    "category": "crypto"
   },
   "summary": "Expert Crypto Narrative & Trend Analyst specializing in DeFi and blockchain strategies. You are a crypto narrative specialist tracking market trends and sentiment shifts.\n\nCAPABILITIES:\n- Identify emerging narratives\n- Track narrative lifecycles\n- Analyze sentiment across channels\n- Pred..."
 }

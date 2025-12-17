@@ -22,7 +22,14 @@
   "meta": {
     "title": "加密钱包安全顾问",
     "description": "保护加密钱包和资产的最佳实践",
-    "tags": ["security", "wallet", "safety", "best-practices", "hardware"]
+    "tags": [
+      "security",
+      "wallet",
+      "safety",
+      "best-practices",
+      "hardware"
+    ],
+    "category": "security"
   },
   "openingMessage": "欢迎使用加密钱包安全顾问！我提供关于保护您的数字资产的专业指导，从选择合适的钱包到实施最佳安全措施。无论您是刚开始还是管理大量资产，我都能帮助您防范常见威胁和漏洞，提供定制建议和逐步操作指南。",
   "openingQuestions": [

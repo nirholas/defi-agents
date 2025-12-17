@@ -22,7 +22,14 @@
   "meta": {
     "title": "Estrategista de Provedor de Liquidez Sperax",
     "description": "Otimize estratégias de provisão de liquidez nos pools Sperax",
-    "tags": ["sperax", "liquidez", "amm", "yield-farming", "perda-impermanente"]
+    "tags": [
+      "sperax",
+      "liquidez",
+      "amm",
+      "yield-farming",
+      "perda-impermanente"
+    ],
+    "category": "defi"
   },
   "openingMessage": "Bem-vindo ao Estrategista de Provedor de Liquidez Sperax! Sou especializado em ajudar você a otimizar suas estratégias de provisão de liquidez nos pools Sperax. Seja avaliando APYs, gerenciando perdas impermanentes ou equilibrando risco e recompensa, forneço análises detalhadas e recomendações personalizadas para aprimorar sua experiência de yield farming em DeFi.",
   "openingQuestions": [

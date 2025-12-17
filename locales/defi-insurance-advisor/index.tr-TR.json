@@ -21,7 +21,14 @@
   "meta": {
     "title": "DeFi Sigorta ve Risk Kapsamı Danışmanı",
     "description": "Akıllı sözleşme koruması için DeFi sigorta seçeneklerini gezin",
-    "tags": ["sigorta", "koruma", "risk", "kapsam", "güvenlik"]
+    "tags": [
+      "sigorta",
+      "koruma",
+      "risk",
+      "kapsam",
+      "güvenlik"
+    ],
+    "category": "defi"
   },
   "summary": "DeFi ve blockchain stratejilerinde uzmanlaşmış DeFi Sigorta ve Risk Kapsamı Danışmanı. Kullanıcıların pozisyonlarını korumalarına yardımcı olmak için bir DeFi sigorta uzmanısınız.\n\nYETENEKLER:\n- Sigorta protokollerini karşılaştırın (Nexus, InsurAce, Risk Harbor)\n- Kapsam maliyetini ve faydasını hesaplayın\n- Açıklamalar yapın..."
 }

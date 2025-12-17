@@ -3,6 +3,7 @@ module.exports = {
     'meta.title',
     'meta.description',
     'meta.tags',
+    'meta.category',
     'config.systemRole',
     'config.openingMessage',
     'config.openingQuestions',

@@ -1,7 +1,9 @@
 # SEO & LLM Discovery Strategy
 
 ## Goal
+
 Make this repo the #1 result when developers, users, or AI systems (ChatGPT, Claude, Grok) search for:
+
 - AI agents for crypto/DeFi/Web3/blockchain
 - Agent indexes and marketplaces
 - Agent APIs and definitions
@@ -27,9 +29,11 @@ Make this repo the #1 result when developers, users, or AI systems (ChatGPT, Cla
 ### 🎯 Critical Next Steps (Do These on GitHub.com)
 
 #### 1. **Repository Settings** (2 minutes)
-Go to: https://github.com/nirholas/defi-agents/settings
+
+Go to: <https://github.com/nirholas/defi-agents/settings>
 
 **Update "About" section:**
+
 - **Description**: `DeFi agent definitions JSON API - 57 production-ready agents for Web3, crypto trading, portfolio management, and blockchain automation`
 - **Website**: `https://sperax.click`
 - **Topics** (20 recommended):
@@ -59,44 +63,56 @@ Go to: https://github.com/nirholas/defi-agents/settings
 #### 2. **Social Proof Signals**
 
 **Create GitHub Releases:**
-- Go to: https://github.com/nirholas/defi-agents/releases/new
+
+- Go to: <https://github.com/nirholas/defi-agents/releases/new>
 - Tag: `v1.0.0`
 - Title: `DeFi Agents API v1.0.0 - 57 Production-Ready AI Agents`
 - Description:
-  ```markdown
+
+  ````markdown
   # 🚀 DeFi Agents API v1.0.0
-  
+
   The most comprehensive AI agent definitions API for DeFi, Web3, and cryptocurrency applications.
-  
+
   ## 🎉 What's Included
+
   - ✅ 57 specialized AI agents
   - ✅ 18 language translations
   - ✅ RESTful JSON API
   - ✅ Complete documentation
   - ✅ Machine-readable indexes
-  
+
   ## 📦 Agent Categories
+
   - **Sperax Ecosystem** (23 agents)
   - **DeFi & Crypto** (34 agents)
-  
+
   ## 🔗 Quick Links
+
   - API Documentation: https://sperax.click/docs/API.md
   - Agent Manifest: https://sperax.click/agents-manifest.json
   - All Agents: https://sperax.click/index.json
-  
+
   ## 🛠️ Integration
+
   ```bash
   curl https://sperax.click/index.json
   ```
-  
+  ````
+
   Full changelog: [CHANGELOG.md](CHANGELOG.md)
+
+  ```
+
   ```
 
 **Enable GitHub Discussions:**
+
 - Go to: Settings → General → Features → Enable Discussions
 - Creates community hub and increases SEO signals
 
 **Add Star History Badge** to README:
+
 ```markdown
 [![Star History](https://api.star-history.com/svg?repos=nirholas/defi-agents&type=Date)](https://star-history.com/#nirholas/defi-agents)
 ```
@@ -107,15 +123,15 @@ Go to: https://github.com/nirholas/defi-agents/settings
 
 1. **GitHub Topics Pages**
    - After adding topics, your repo appears on: `github.com/topics/ai-agents`
-   
+
 2. **Awesome Lists**
    - Submit PR to: `awesome-chatgpt`, `awesome-llm`, `awesome-defi`
    - Create PR template in docs/PR_TEMPLATE.md
-   
+
 3. **Product Hunt** (when ready)
    - Launch as "Free Open Source DeFi Agent API"
    - Links from PH are high-value SEO signals
-   
+
 4. **Dev.to / Medium Articles**
    - Write: "Building AI Agents for DeFi: Complete Guide"
    - Link to your repo
@@ -130,11 +146,13 @@ Go to: https://github.com/nirholas/defi-agents/settings
 **Create Blog Posts** (host on GitHub Pages):
 
 Create `docs/blog/` directory with:
+
 - `2025-12-21-introducing-defi-agents-api.md`
 - `2025-12-28-building-crypto-agents-guide.md`
 - `2026-01-05-multi-agent-defi-systems.md`
 
 Each post should:
+
 - Use target keywords naturally
 - Link to your API
 - Include code examples
@@ -142,8 +160,10 @@ Each post should:
 - Have proper H1/H2 structure
 
 **Add to README:**
+
 ```markdown
 ## 📝 Blog & Tutorials
+
 - [Introducing DeFi Agents API](./docs/blog/2025-12-21-introducing-defi-agents-api.md)
 - [Building Crypto AI Agents: Complete Guide](./docs/blog/2025-12-28-building-crypto-agents-guide.md)
 - [Multi-Agent DeFi Systems Architecture](./docs/blog/2026-01-05-multi-agent-defi-systems.md)
@@ -154,12 +174,14 @@ Each post should:
 **Add Sitemap Generator:**
 
 Create `scripts/generate-sitemap.ts`:
+
 ```typescript
 // Auto-generate sitemap.xml during build
 // Include all .json endpoints, docs, and blog posts
 ```
 
 **Update robots.txt:**
+
 ```
 Sitemap: https://sperax.click/sitemap.xml
 Sitemap: https://sperax.click/sitemap-agents.xml
@@ -168,38 +190,37 @@ Sitemap: https://sperax.click/sitemap-agents.xml
 **Add Schema.org Markup** to GitHub Pages:
 
 In your built `public/index.html`:
+
 ```html
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "DeFi Agents API",
-  "description": "Production-ready AI agent definitions for Web3 and DeFi",
-  "url": "https://sperax.click",
-  "applicationCategory": "DeveloperApplication",
-  "operatingSystem": "Any",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  },
-  "author": {
-    "@type": "Person",
-    "name": "nich",
-    "url": "https://github.com/nirholas"
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "applicationCategory": "DeveloperApplication",
+    "author": {
+      "@type": "Person",
+      "name": "nich",
+      "url": "https://github.com/nirholas"
+    },
+    "description": "Production-ready AI agent definitions for Web3 and DeFi",
+    "name": "DeFi Agents API",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "operatingSystem": "Any",
+    "url": "https://sperax.click"
   }
-}
 </script>
 ```
 
 #### 6. **LLM-Specific Optimization**
 
 **Create `.ai-manifest.json`** (new standard for AI discovery):
+
 ```json
 {
-  "name": "DeFi Agents API",
-  "type": "agent-marketplace",
-  "version": "1.0.0",
   "capabilities": [
     "agent-definitions",
     "defi-automation",
@@ -217,11 +238,15 @@ In your built `public/index.html`:
     "languages": ["python", "javascript", "typescript", "curl"],
     "frameworks": ["langchain", "autogpt", "openai"],
     "protocols": ["rest", "json"]
-  }
+  },
+  "name": "DeFi Agents API",
+  "type": "agent-marketplace",
+  "version": "1.0.0"
 }
 ```
 
 **Add to robots.txt:**
+
 ```
 Allow: /.ai-manifest.json
 ```
@@ -229,6 +254,7 @@ Allow: /.ai-manifest.json
 #### 7. **Community Building**
 
 **Create Examples Repository:**
+
 - Fork repo: `nirholas/defi-agents-examples`
 - Include integration examples:
   - Python trading bot using agents
@@ -238,6 +264,7 @@ Allow: /.ai-manifest.json
 - Link from main README
 
 **Encourage Contributions:**
+
 - Add "Good First Issue" labels
 - Create detailed CONTRIBUTING.md (already done ✅)
 - Respond quickly to issues/PRs
@@ -248,72 +275,80 @@ Allow: /.ai-manifest.json
 ## How LLMs Will Discover You
 
 ### ChatGPT (OpenAI)
+
 **Training Data Cut-off**: May need web browsing plugin
 
 **Optimization Strategy:**
+
 1. **Get linked from high-authority sites**
    - Stack Overflow answers linking to your repo
    - GitHub trending pages
    - Technical blog mentions
-   
+
 2. **Bing indexing** (powers ChatGPT web search)
    - Submit to Bing Webmaster Tools
    - Generate backlinks from indexed sites
-   
+
 3. **OpenAI Plugin/GPT Store**
    - Create custom GPT that uses your API
    - Name: "DeFi Agent Assistant"
    - Description: "Access 57 specialized DeFi agents"
 
 ### Claude (Anthropic)
+
 **Training Data**: More recent, includes web crawls
 
 **Optimization Strategy:**
+
 1. **Comprehensive documentation**
    - Claude favors detailed, well-structured docs
    - Your current docs are good ✅
-   
+
 2. **Academic/research signals**
    - Write technical paper: "Multi-Agent Architecture for DeFi"
    - Post to arXiv or similar (if applicable)
-   
+
 3. **GitHub prominence**
    - Stars, forks, watchers matter
    - Active issues and PRs signal quality
 
 ### Grok (X/Twitter)
+
 **Training Data**: Real-time from X/Twitter
 
 **Optimization Strategy:**
+
 1. **Twitter presence**
    - Tweet launch announcement
    - Use hashtags: #AI #DeFi #Web3 #Agents #Crypto
    - Tag relevant accounts: @OpenAI @AnthropicAI @elonmusk
-   
+
 2. **X posts with code examples**
    - Share API usage snippets
    - Demo agent interactions
    - Show integration examples
-   
+
 3. **Engagement**
    - Reply to questions about DeFi agents
    - Link to your repo as solution
    - Build authority in the space
 
 ### Perplexity & Phind
+
 **Training Data**: Real-time web search
 
 **Optimization Strategy:**
+
 1. **Fresh content**
    - Regular updates to CHANGELOG
    - New agents added monthly
    - Blog posts with timestamps
-   
+
 2. **Direct answers**
    - Format docs to answer specific questions
-   - Use Q&A format in FAQ
+   - Use Q\&A format in FAQ
    - Include "How to" guides
-   
+
 3. **Speed and accessibility**
    - Fast-loading API (CDN ✅)
    - Mobile-responsive docs
@@ -324,24 +359,31 @@ Allow: /.ai-manifest.json
 ## Measurement & Tracking
 
 ### GitHub Insights
+
 Monitor:
+
 - Traffic (views, unique visitors, referrers)
 - Clones
 - Stars over time
 - Most viewed files
 
 ### Custom Analytics (Optional)
+
 Add Plausible or Simple Analytics to GitHub Pages:
+
 - Track API endpoint usage
 - Monitor documentation views
 - Identify popular agents
 
 ### Search Console
+
 Submit to:
+
 - Google Search Console
 - Bing Webmaster Tools
 
 Track:
+
 - Search queries bringing traffic
 - Page rankings
 - Crawl errors
@@ -352,24 +394,28 @@ Track:
 ## Timeline
 
 ### Week 1 (Now)
+
 - [x] Update repo description & topics ← **DO THIS FIRST**
 - [x] Create GitHub release v1.0.0
 - [ ] Enable GitHub Discussions
 - [ ] Add badges to README
 
 ### Week 2
+
 - [ ] Write launch blog post
 - [ ] Post to Hacker News
 - [ ] Submit to awesome lists
 - [ ] Create example integrations
 
 ### Week 3-4
+
 - [ ] Build example apps
 - [ ] Write tutorials
 - [ ] Engage on Twitter/X
 - [ ] Create custom GPT
 
 ### Month 2+
+
 - [ ] Guest posts on Dev.to/Medium
 - [ ] Product Hunt launch
 - [ ] Conference talks/demos
@@ -380,19 +426,22 @@ Track:
 ## Success Metrics
 
 ### Short-term (1-3 months)
+
 - 100+ GitHub stars
 - 10+ forks
 - Indexed by Google/Bing
 - Appears in "ai agents" search results
 
 ### Medium-term (3-6 months)
+
 - 500+ GitHub stars
 - 50+ forks
 - LLMs mention repo in responses
 - Traffic from ChatGPT/Claude searches
 
 ### Long-term (6-12 months)
-- #1 result for "defi agents api"
+
+- \#1 result for "defi agents api"
 - Referenced by AI systems regularly
 - Active community contributions
 - Considered industry standard

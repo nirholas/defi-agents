@@ -28,7 +28,13 @@
     "title": "Sperax Trading Assistant",
     "description": "Execute cryptocurrency trades with real-time market data and order management",
     "avatar": "💱",
-    "tags": ["trading", "execution", "orders", "swap", "sperax"],
+    "tags": [
+      "trading",
+      "execution",
+      "orders",
+      "swap",
+      "sperax"
+    ],
     "category": "trading"
   },
   "pluginCount": 0,

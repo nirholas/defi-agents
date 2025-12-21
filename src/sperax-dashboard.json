@@ -28,7 +28,12 @@
     "title": "Sperax Portfolio Dashboard",
     "description": "Portfolio overview dashboard with total value, allocation, and performance metrics",
     "avatar": "📊",
-    "tags": ["portfolio", "dashboard", "overview", "sperax"],
+    "tags": [
+      "portfolio",
+      "dashboard",
+      "overview",
+      "sperax"
+    ],
     "category": "trading"
   },
   "pluginCount": 0,

@@ -28,7 +28,13 @@
     "title": "Sperax Help Center",
     "description": "Help center with FAQs, tutorials, and support system",
     "avatar": "❓",
-    "tags": ["help", "support", "faq", "documentation", "sperax"],
+    "tags": [
+      "help",
+      "support",
+      "faq",
+      "documentation",
+      "sperax"
+    ],
     "category": "trading"
   },
   "pluginCount": 0,

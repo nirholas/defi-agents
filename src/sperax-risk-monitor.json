@@ -28,7 +28,13 @@
     "title": "Sperax Protocol Risk Monitor",
     "description": "Track and analyze security risks across Sperax smart contracts",
     "avatar": "🛡️",
-    "tags": ["sperax", "security", "risk", "audit", "monitoring"],
+    "tags": [
+      "sperax",
+      "security",
+      "risk",
+      "audit",
+      "monitoring"
+    ],
     "category": "security"
   },
   "pluginCount": 0,

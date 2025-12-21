@@ -28,7 +28,13 @@
     "title": "Cross-Chain Bridge Security Analyst",
     "description": "Evaluate bridge security and recommend safest cross-chain routes",
     "avatar": "🌉",
-    "tags": ["bridge", "security", "cross-chain", "risk", "multichain"],
+    "tags": [
+      "bridge",
+      "security",
+      "cross-chain",
+      "risk",
+      "multichain"
+    ],
     "category": "security"
   },
   "pluginCount": 0,

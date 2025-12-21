@@ -28,7 +28,13 @@
     "title": "Sperax DeFi Protocols",
     "description": "DeFi protocol explorer with TVL tracking and APY comparison",
     "avatar": "📋",
-    "tags": ["defi", "protocols", "tvl", "research", "sperax"],
+    "tags": [
+      "defi",
+      "protocols",
+      "tvl",
+      "research",
+      "sperax"
+    ],
     "category": "trading"
   },
   "pluginCount": 0,

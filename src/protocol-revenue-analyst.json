@@ -28,7 +28,13 @@
     "title": "Protocol Revenue & Fundamentals Analyst",
     "description": "Analyze DeFi protocol business models and revenue generation",
     "avatar": "💼",
-    "tags": ["defi", "revenue", "analysis", "fundamentals", "tokenomics"],
+    "tags": [
+      "defi",
+      "revenue",
+      "analysis",
+      "fundamentals",
+      "tokenomics"
+    ],
     "category": "defi"
   },
   "pluginCount": 0,

@@ -96,6 +96,14 @@ Currently, the marketplace is free and open-source. Monetization features may be
 
 ## Sperax Portfolio Agents
 
+### What is the Sperax Portfolio master agent?
+
+The **Sperax Portfolio** (🎯) is an all-in-one master agent that consolidates all 16 portfolio specialist agents into one comprehensive interface. It's recommended for most users as it provides access to 100% of portfolio features while maintaining conversation context.
+
+**Current Status:**
+- ✅ Read-only portfolio tracking and analytics available now
+- 🚧 Automated trading, bots, and DeFi interactions coming soon (in SperaxOS roadmap)
+
 ### What domain do the Sperax portfolio agents use?
 
 Currently, the Sperax portfolio agents (Dashboard, Trading Assistant, DCA Bot, etc.) use **sperax.fun** for testing and development purposes.

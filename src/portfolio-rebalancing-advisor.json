@@ -28,7 +28,13 @@
     "title": "DeFi Portfolio Rebalancing Advisor",
     "description": "Optimize portfolio allocation and rebalancing strategies",
     "avatar": "⚖️",
-    "tags": ["portfolio", "rebalancing", "allocation", "strategy", "optimization"],
+    "tags": [
+      "portfolio",
+      "rebalancing",
+      "allocation",
+      "strategy",
+      "optimization"
+    ],
     "category": "trading"
   },
   "pluginCount": 0,

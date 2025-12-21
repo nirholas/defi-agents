@@ -28,7 +28,13 @@
     "title": "Sperax Settings Manager",
     "description": "Application settings and preferences manager",
     "avatar": "⚙️",
-    "tags": ["settings", "configuration", "preferences", "api-keys", "sperax"],
+    "tags": [
+      "settings",
+      "configuration",
+      "preferences",
+      "api-keys",
+      "sperax"
+    ],
     "category": "trading"
   },
   "pluginCount": 0,

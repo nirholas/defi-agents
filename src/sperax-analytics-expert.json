@@ -28,7 +28,13 @@
     "title": "Sperax Analytics Expert",
     "description": "Deep portfolio analytics with performance charts and profit/loss analysis",
     "avatar": "📈",
-    "tags": ["analytics", "performance", "charts", "insights", "sperax"],
+    "tags": [
+      "analytics",
+      "performance",
+      "charts",
+      "insights",
+      "sperax"
+    ],
     "category": "trading"
   },
   "pluginCount": 0,

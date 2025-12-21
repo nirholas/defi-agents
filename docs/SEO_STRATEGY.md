@@ -34,7 +34,7 @@ Go to: <https://github.com/nirholas/defi-agents/settings>
 
 **Update "About" section:**
 
-- **Description**: `DeFi agent definitions JSON API - 57 production-ready agents for Web3, crypto trading, portfolio management, and blockchain automation`
+- **Description**: `DeFi agent definitions JSON API - 58 production-ready agents for Web3, crypto trading, portfolio management, and blockchain automation`
 - **Website**: `https://sperax.click`
 - **Topics** (20 recommended):
   ```
@@ -138,7 +138,7 @@ Go to: <https://github.com/nirholas/defi-agents/settings>
    - LLMs index Medium and Dev.to heavily
 
 5. **Hacker News**
-   - Post: "Show HN: Open-source DeFi Agent API with 57 agents in 18 languages"
+   - Post: "Show HN: Open-source DeFi Agent API with 58 agents in 18 languages"
    - Frontpage = massive LLM training signal
 
 #### 4. **Content Marketing**

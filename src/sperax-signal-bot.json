@@ -28,7 +28,13 @@
     "title": "Sperax Signal Bot",
     "description": "Trading signals based on technical analysis and market indicators",
     "avatar": "📡",
-    "tags": ["signals", "technical-analysis", "indicators", "alerts", "sperax"],
+    "tags": [
+      "signals",
+      "technical-analysis",
+      "indicators",
+      "alerts",
+      "sperax"
+    ],
     "category": "trading"
   },
   "pluginCount": 0,

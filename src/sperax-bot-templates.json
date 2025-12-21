@@ -28,7 +28,13 @@
     "title": "Sperax Bot Templates",
     "description": "Pre-built bot configurations for quick deployment",
     "avatar": "🔧",
-    "tags": ["templates", "bots", "configuration", "automation", "sperax"],
+    "tags": [
+      "templates",
+      "bots",
+      "configuration",
+      "automation",
+      "sperax"
+    ],
     "category": "trading"
   },
   "pluginCount": 0,

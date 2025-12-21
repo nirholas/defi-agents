@@ -28,7 +28,13 @@
     "title": "Sperax Wallet Manager",
     "description": "Manage multiple crypto wallets with balance tracking and synchronization",
     "avatar": "👛",
-    "tags": ["wallets", "addresses", "management", "sync", "sperax"],
+    "tags": [
+      "wallets",
+      "addresses",
+      "management",
+      "sync",
+      "sperax"
+    ],
     "category": "trading"
   },
   "pluginCount": 0,

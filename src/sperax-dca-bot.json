@@ -28,7 +28,13 @@
     "title": "Sperax DCA Bot",
     "description": "Dollar-cost averaging automation for recurring crypto purchases",
     "avatar": "💰",
-    "tags": ["dca", "recurring", "automation", "accumulation", "sperax"],
+    "tags": [
+      "dca",
+      "recurring",
+      "automation",
+      "accumulation",
+      "sperax"
+    ],
     "category": "trading"
   },
   "pluginCount": 0,

@@ -28,7 +28,13 @@
     "title": "Sperax Strategies Marketplace",
     "description": "Trading strategy marketplace to browse and deploy proven strategies",
     "avatar": "📈",
-    "tags": ["strategies", "marketplace", "trading", "templates", "sperax"],
+    "tags": [
+      "strategies",
+      "marketplace",
+      "trading",
+      "templates",
+      "sperax"
+    ],
     "category": "trading"
   },
   "pluginCount": 0,

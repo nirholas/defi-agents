@@ -28,7 +28,13 @@
     "title": "Sperax Arbitrage Bot",
     "description": "Cross-exchange arbitrage detection and automated execution",
     "avatar": "⚖️",
-    "tags": ["arbitrage", "cross-exchange", "profit", "opportunity", "sperax"],
+    "tags": [
+      "arbitrage",
+      "cross-exchange",
+      "profit",
+      "opportunity",
+      "sperax"
+    ],
     "category": "trading"
   },
   "pluginCount": 0,

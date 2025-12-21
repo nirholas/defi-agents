@@ -7,6 +7,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## \[1.1.0] - 2025-12-21
+
+### Added
+
+#### Master Agent for Simplified UX
+
+- **sperax-portfolio** 🎯 - All-in-one cryptocurrency portfolio management master agent
+  - Combines ALL 16 portfolio plugin features into ONE comprehensive agent
+  - Portfolio tracking, trading automation, DeFi protocols, analytics, and more
+  - Maintains conversation context across all features
+  - Perfect for 80%+ of users - install once, access everything
+  - Recommended as primary Sperax agent for most use cases
+  - **Note:** Currently supports read-only portfolio features; automated trading/bots planned for future SperaxOS releases
+
+### Changed
+
+- **Total Agents**: 57 → 58 (added master agent)
+- **Sperax Ecosystem**: 23 → 24 agents (1 master + 7 core + 16 specialists)
+- **README**: Featured master agent prominently with recommendation badge
+- **Marketplace Strategy**: Master agent as default, specialists for power users
+
+---
+
 ## \[1.0.0] - 2025-12-21
 
 ### Added

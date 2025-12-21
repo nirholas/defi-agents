@@ -1,6 +1,6 @@
 # 🤖 DeFi Agents API - AI Agent Definitions for Web3
 
-> **57 production-ready AI agent definitions for DeFi, portfolio management, trading, and Web3 workflows. RESTful JSON API with 18-language support.**
+> **58 production-ready AI agent definitions for DeFi, portfolio management, trading, and Web3 workflows. RESTful JSON API with 18-language support.**
 
 A comprehensive, discoverable API hosting specialized AI agent schemas with universal compatibility. Works with any AI platform, LLM, or chatbot that supports agent indexes - no vendor lock-in, no platform restrictions. Perfect for developers, LLMs, and AI systems building Web3 applications.
 
@@ -8,7 +8,7 @@ A comprehensive, discoverable API hosting specialized AI agent schemas with univ
 
 ## ✨ Key Features
 
-- ✅ **57 Production-Ready Agents** - DeFi, portfolio, trading, Web3, education
+- ✅ **58 Production-Ready Agents** - DeFi, portfolio, trading, Web3, education
 - ✅ **18 Languages** - Automated i18n translation workflow ([Learn More →](./docs/I18N_WORKFLOW.md))
 - ✅ **RESTful JSON API** - Easy integration for developers and LLMs ([API Docs →](./docs/API.md))
 - ✅ **Machine-Readable Indexes** - Agent manifest for AI crawlers ([agents-manifest.json](./agents-manifest.json))
@@ -70,17 +70,32 @@ bun run build
 
 ## 📦 Agent Categories
 
-### 🪙 DeFi & Crypto (57 Specialized Agents)
+### 🌟 Featured Agent
 
-**Sperax Ecosystem (23 Agents):**
+**🎯 Sperax Portfolio** - All-in-one crypto portfolio management ⭐ **RECOMMENDED**
+- Complete portfolio tracking, trading automation, DeFi protocols, and analytics
+- ONE agent for 100% of portfolio management features
+- Perfect for most users - install once, access everything
+
+⚠️ **Current Status:** Read-only portfolio tracking and analytics available now. Automated trading, bots, and DeFi interactions coming soon in SperaxOS roadmap.
+
+[View Agent →](https://sperax.click/sperax-portfolio.json) | [Try Now →](https://sperax.fun/discover/assistant/sperax-portfolio)
+
+---
+
+### 🪙 DeFi & Crypto (58 Specialized Agents)
+
+**Sperax Ecosystem (24 Agents):**
+
+**Master Agent (Recommended):**
+- **Sperax Portfolio** 🎯 - All-in-one portfolio management (dashboard, trading, bots, DeFi, analytics)
 
 **Original Sperax Agents (7):**
-
 - USDs Stablecoin Expert, SPA Tokenomics Analyst, veSPA Lock Optimizer
 - Governance Guide, Liquidity Strategist, Bridge Assistant, Yield Aggregator
 
-**SperaxOS Portfolio Plugin Agents (16):**
-
+**SperaxOS Portfolio Specialists (16):**
+💡 *For advanced users who prefer focused tools*
 - Portfolio Dashboard, Assets Tracker, Analytics Expert, Wallet Manager
 - Trading Assistant, AI Trading Bot, Signal Bot, DCA Bot
 - Arbitrage Bot, Pump Screener, DeFi Center, DeFi Protocols
@@ -319,7 +334,7 @@ defi_agents = [a for a in agents if 'defi' in a['meta']['tags']]
 
 ## 📊 Stats
 
-- **57 Agents** - DeFi-focused coverage
+- **58 Agents** - DeFi-focused coverage
 - **18 Languages** - Global accessibility via automated translation
 - **23 Sperax Specialists** - Ecosystem-specific agents (7 core + 16 portfolio plugins)
 - **34 General DeFi Agents** - Comprehensive DeFi toolkit

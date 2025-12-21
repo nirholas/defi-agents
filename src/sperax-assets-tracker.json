@@ -28,7 +28,13 @@
     "title": "Sperax Assets Tracker",
     "description": "Track and analyze cryptocurrency holdings with detailed asset breakdowns",
     "avatar": "💰",
-    "tags": ["assets", "holdings", "crypto", "tracking", "sperax"],
+    "tags": [
+      "assets",
+      "holdings",
+      "crypto",
+      "tracking",
+      "sperax"
+    ],
     "category": "trading"
   },
   "pluginCount": 0,

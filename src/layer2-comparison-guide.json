@@ -28,7 +28,13 @@
     "title": "Layer 2 Comparison Guide",
     "description": "Compare Ethereum L2 solutions: Arbitrum, Optimism, Base, zkSync",
     "avatar": "⚡",
-    "tags": ["layer-2", "scaling", "arbitrum", "optimism", "ethereum"],
+    "tags": [
+      "layer-2",
+      "scaling",
+      "arbitrum",
+      "optimism",
+      "ethereum"
+    ],
     "category": "defi"
   },
   "pluginCount": 0,

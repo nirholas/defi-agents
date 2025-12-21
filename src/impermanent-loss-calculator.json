@@ -28,7 +28,13 @@
     "title": "Impermanent Loss Calculator",
     "description": "Calculate and explain impermanent loss scenarios for LP positions",
     "avatar": "📉",
-    "tags": ["defi", "liquidity", "impermanent-loss", "calculator", "amm"],
+    "tags": [
+      "defi",
+      "liquidity",
+      "impermanent-loss",
+      "calculator",
+      "amm"
+    ],
     "category": "tools"
   },
   "pluginCount": 0,

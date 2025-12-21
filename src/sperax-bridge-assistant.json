@@ -28,7 +28,13 @@
     "title": "Sperax Bridge Assistant",
     "description": "Guide users through cross-chain bridging with optimal routes and costs",
     "avatar": "🌉",
-    "tags": ["sperax", "bridge", "cross-chain", "arbitrum", "layer-2"],
+    "tags": [
+      "sperax",
+      "bridge",
+      "cross-chain",
+      "arbitrum",
+      "layer-2"
+    ],
     "category": "programming"
   },
   "pluginCount": 0,

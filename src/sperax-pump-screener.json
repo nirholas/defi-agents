@@ -28,7 +28,13 @@
     "title": "Sperax Pump Screener",
     "description": "High-momentum token screener for detecting pumping tokens",
     "avatar": "🚀",
-    "tags": ["screener", "momentum", "pump", "volume", "sperax"],
+    "tags": [
+      "screener",
+      "momentum",
+      "pump",
+      "volume",
+      "sperax"
+    ],
     "category": "trading"
   },
   "pluginCount": 0,

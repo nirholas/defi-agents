@@ -28,7 +28,13 @@
     "title": "USDs Stablecoin Expert",
     "description": "Specialist in Sperax USDs mechanism, collateralization, and yield strategies",
     "avatar": "💵",
-    "tags": ["sperax", "stablecoin", "usds", "defi", "yield"],
+    "tags": [
+      "sperax",
+      "stablecoin",
+      "usds",
+      "defi",
+      "yield"
+    ],
     "category": "defi"
   },
   "pluginCount": 0,

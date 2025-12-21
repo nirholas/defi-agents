@@ -28,7 +28,13 @@
     "title": "Token Unlock Schedule Tracker",
     "description": "Monitor and analyze token unlock events and their market impact",
     "avatar": "🔓",
-    "tags": ["tokenomics", "unlocks", "vesting", "supply", "analysis"],
+    "tags": [
+      "tokenomics",
+      "unlocks",
+      "vesting",
+      "supply",
+      "analysis"
+    ],
     "category": "crypto"
   },
   "pluginCount": 0,

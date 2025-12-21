@@ -7,11 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [1.0.0] - 2025-12-21
+## \[1.0.0] - 2025-12-21
 
 ### Added
 
 #### New Sperax Portfolio Plugin Agents (16 Agents)
+
 - **sperax-dashboard** - Portfolio overview dashboard with total value, allocation, and performance metrics
 - **sperax-assets-tracker** - Asset tracking and analytics for portfolio positions
 - **sperax-analytics-expert** - Performance analytics and insights for portfolio optimization
@@ -30,6 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **sperax-help-center** - Help and documentation for Sperax ecosystem
 
 #### Documentation
+
 - Comprehensive API documentation ([docs/API.md](docs/API.md))
 - Agent manifest for machine-readable indexing ([agents-manifest.json](agents-manifest.json))
 - robots.txt for SEO and AI crawler access
@@ -37,6 +39,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Workflow guides and deployment documentation
 
 #### Infrastructure
+
 - Automated i18n translation pipeline (18 languages)
 - Schema validation for all agents
 - GitHub Pages CDN deployment
@@ -44,17 +47,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - CNAME auto-copying for domain persistence
 
 #### Technical Improvements
+
 - Agent schema validation
 - Translation quality checks
 - Build optimization
 - GitHub Actions CI/CD automation
 
 ### Changed
+
 - Expanded agent collection from 41 to 57 agents
 - Enhanced documentation structure
 - Improved discoverability for search engines and LLMs
 
 ### Features
+
 - ✅ 57 Specialized Agents
 - ✅ 18 Language Translations
 - ✅ RESTful JSON API
@@ -66,9 +72,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [0.9.0] - 2025-12-20
+## \[0.9.0] - 2025-12-20
 
 ### Added
+
 - Initial 41 DeFi agent templates
 - Basic i18n translation system
 - GitHub Pages hosting
@@ -77,10 +84,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Version History
 
-| Version | Date       | Agents | Languages | Status      |
-|---------|------------|--------|-----------|-------------|
-| 1.0.0   | 2025-12-21 | 57     | 18        | Latest      |
-| 0.9.0   | 2025-12-20 | 41     | 18        | Deprecated  |
+| Version | Date       | Agents | Languages | Status     |
+| ------- | ---------- | ------ | --------- | ---------- |
+| 1.0.0   | 2025-12-21 | 57     | 18        | Latest     |
+| 0.9.0   | 2025-12-20 | 41     | 18        | Deprecated |
 
 ---
 
@@ -89,6 +96,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 **Current API Version**: 1.0
 
 The API follows semantic versioning for backwards compatibility:
+
 - **Major**: Breaking changes to schema or endpoint structure
 - **Minor**: New agents or features (backwards compatible)
 - **Patch**: Bug fixes and improvements
@@ -123,6 +131,7 @@ As of v1.0.0, all agents are available in 18 languages:
 ## Agent Categories
 
 ### Sperax Ecosystem (23 Agents)
+
 - **Portfolio Management**: Dashboard, Assets Tracker, Portfolio Tracker, Analytics Expert
 - **Trading**: Trading Assistant, AI Trading Bot, Signal Bot, DCA Bot, Arbitrage Bot, Pump Screener
 - **DeFi**: DeFi Center, DeFi Protocols, Yield Aggregator, Liquidity Strategist
@@ -131,6 +140,7 @@ As of v1.0.0, all agents are available in 18 languages:
 - **Onboarding**: Onboarding Guide
 
 ### DeFi & Crypto (34 Agents)
+
 - **Yield Farming**: DeFi Yield Farmer, Staking Rewards Calculator, Yield Sustainability Analyst
 - **Risk Management**: Liquidation Risk Manager, DeFi Risk Scoring Engine, DeFi Insurance Advisor
 - **Trading Optimization**: DEX Aggregator Optimizer, Gas Optimization Expert, MEV Protection Advisor
@@ -144,6 +154,7 @@ As of v1.0.0, all agents are available in 18 languages:
 ## Future Roadmap
 
 ### Planned (v1.1.0)
+
 - [ ] GraphQL endpoint for agent queries
 - [ ] Analytics dashboard for API usage
 - [ ] WebSocket support for real-time updates
@@ -151,6 +162,7 @@ As of v1.0.0, all agents are available in 18 languages:
 - [ ] Community contributions framework
 
 ### Under Consideration
+
 - Additional language support (50+ languages)
 - Multi-agent team coordination API
 - Agent performance metrics
@@ -171,6 +183,7 @@ No breaking changes have been introduced since v1.0.0.
 No migration required. The API is fully backwards compatible with all previously published agents. New agents and features are additive only.
 
 **Benefits of Upgrading**:
+
 - Access 16 new Sperax portfolio agents
 - Better documentation and examples
 - Improved API discoverability
@@ -182,7 +195,7 @@ No migration required. The API is fully backwards compatible with all previously
 
 ### Security Policy
 
-For security concerns or vulnerability reports, please email security@sperax.click or open a private security advisory on GitHub.
+For security concerns or vulnerability reports, please email <security@sperax.click> or open a private security advisory on GitHub.
 
 No vulnerabilities have been reported in the JSON API format. All agent definitions are stateless and contain no sensitive data.
 
@@ -192,7 +205,7 @@ No vulnerabilities have been reported in the JSON API format. All agent definiti
 
 For questions, issues, or feedback:
 
-- **GitHub Issues**: https://github.com/nirholas/defi-agents/issues
+- **GitHub Issues**: <https://github.com/nirholas/defi-agents/issues>
 - **Documentation**: [docs/API.md](docs/API.md)
 - **Contributing**: [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md)
 

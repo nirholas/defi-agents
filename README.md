@@ -26,16 +26,17 @@ A comprehensive collection of specialized AI agents with universal compatibility
 Add agents to your AI platform:
 
 ```
-https://nirholas.github.io/AI-Agents-Library/index.json
+https://nirholas.github.io/defi-agents/index.json
 ```
 
 ### For Developers
 
 ```bash
-git clone https://github.com/nirholas/AI-Agents-Library.git
-cd AI-Agents-Library
-npm install
-npm run build
+git clone https://github.com/nirholas/defi-agents.git
+cd defi-agents
+bun install
+bun run format
+bun run build
 ```
 
 ---

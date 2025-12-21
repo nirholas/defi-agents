@@ -57,10 +57,12 @@ npm run build
 **Sperax 生态系统（23 个智能体）：**
 
 **原始 Sperax 智能体（7 个）：**
+
 - USDs 稳定币专家、SPA 代币经济分析师、veSPA 锁仓优化器
 - 治理指南、流动性策略师、跨链桥助手、收益聚合器
 
 **SperaxOS 投资组合插件智能体（16 个）：**
+
 - 投资组合仪表板、资产追踪器、分析专家、钱包管理器
 - 交易助手、AI 交易机器人、信号机器人、定投机器人
 - 套利机器人、热点筛选器、DeFi 中心、DeFi 协议
@@ -232,7 +234,7 @@ const agentConfig = await agent.json();
 
 ### GitHub Pages（自动）
 
-1. **Fork/克隆此仓库**
+1. **Fork / 克隆此仓库**
 2. **选择域名方案：**
    - **默认 GitHub Pages：** 删除 `CNAME` 文件
    - **自定义域名：** 用您的域名更新 `CNAME`
@@ -241,6 +243,7 @@ const agentConfig = await agent.json();
 4. **推送到 main** - GitHub Actions 自动构建和部署
 
 您的智能体地址：
+
 - 默认：`https://[username].github.io/[repository]/index.json`
 - 自定义：`https://yourdomain.com/index.json`
 

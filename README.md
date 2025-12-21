@@ -50,10 +50,12 @@ bun run build
 **Sperax Ecosystem (23 Agents):**
 
 **Original Sperax Agents (7):**
+
 - USDs Stablecoin Expert, SPA Tokenomics Analyst, veSPA Lock Optimizer
 - Governance Guide, Liquidity Strategist, Bridge Assistant, Yield Aggregator
 
 **SperaxOS Portfolio Plugin Agents (16):**
+
 - Portfolio Dashboard, Assets Tracker, Analytics Expert, Wallet Manager
 - Trading Assistant, AI Trading Bot, Signal Bot, DCA Bot
 - Arbitrage Bot, Pump Screener, DeFi Center, DeFi Protocols
@@ -214,6 +216,7 @@ Our automated workflow will translate your agent to 18 languages and deploy it g
 4. **Push to main** - GitHub Actions automatically builds and deploys
 
 Your agents will be at:
+
 - Default: `https://[username].github.io/[repository]/index.json`
 - Custom: `https://yourdomain.com/index.json`
 

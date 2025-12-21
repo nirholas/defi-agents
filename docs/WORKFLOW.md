@@ -21,6 +21,7 @@
 ## Overview
 
 This repository uses an automated workflow that takes agent definitions and:
+
 1. ✅ Translates them to 18 languages
 2. ✅ Builds a CDN-ready index
 3. ✅ Deploys to GitHub Pages
@@ -56,9 +57,9 @@ bun install
 echo "OPENAI_API_KEY=sk-xxx" > .env
 
 # Development cycle
-bun run format      # Translate agents
-bun run build       # Build public index
-bun run test        # Validate everything
+bun run format # Translate agents
+bun run build  # Build public index
+bun run test   # Validate everything
 
 # Deploy (automatic on push to main)
 git push origin main
@@ -165,10 +166,7 @@ touch src/my-defi-agent.json
   "config": {
     "systemRole": "You are a DeFi expert specializing in...",
     "openingMessage": "Hello! I can help you with...",
-    "openingQuestions": [
-      "What's the best yield strategy?",
-      "How do I minimize impermanent loss?"
-    ]
+    "openingQuestions": ["What's the best yield strategy?", "How do I minimize impermanent loss?"]
   },
   "createdAt": "2024-12-21",
   "examples": [
@@ -205,12 +203,14 @@ bun run format
 ```
 
 **What happens:**
+
 - ✅ Validates JSON structure
 - ✅ Calls OpenAI GPT-4 for translation
 - ✅ Creates `locales/my-defi-agent/` with 18 files
-- ✅ Takes ~2-5 minutes depending on agent complexity
+- ✅ Takes \~2-5 minutes depending on agent complexity
 
 **Output:**
+
 ```
 locales/
   my-defi-agent/
@@ -227,6 +227,7 @@ bun run build
 ```
 
 **What happens:**
+
 - ✅ Merges `src/` + `locales/`
 - ✅ Generates `public/index.json` with all agents
 - ✅ Creates localized indexes (index.zh-CN.json, etc.)
@@ -234,6 +235,7 @@ bun run build
 - ✅ Generates schema files
 
 **Output:**
+
 ```
 public/
   ├── CNAME                    # Your custom domain
@@ -269,12 +271,14 @@ git push origin main
 ### Step 6: Automatic Deployment
 
 GitHub Actions automatically:
+
 1. ✅ Runs `bun run format` (translates)
 2. ✅ Runs `bun run build` (builds)
 3. ✅ Deploys `public/` to `gh-pages` branch
 4. ✅ GitHub Pages serves your site
 
-**Live in ~5 minutes at:**
+**Live in \~5 minutes at:**
+
 - Default: `https://yourusername.github.io/defi-agents/index.json`
 - Custom: `https://yourdomain.com/index.json`
 
@@ -358,6 +362,7 @@ git push origin main
 **Triggers:** Every push to `main` branch
 
 **Steps:**
+
 1. **Checkout** - Fetch repository
 2. **Install Bun** - Setup runtime
 3. **Install Dependencies** - `bun install`
@@ -405,9 +410,9 @@ The build step (`bun run build`) calls `agent-builder.ts` which:
 
 ```typescript
 run = async () => {
-  this.buildSchema();           // Generate schema
+  this.buildSchema(); // Generate schema
   await this.buildFullLocaleAgents(); // Build all languages
-  this.copyCNAME();             // Copy CNAME
+  this.copyCNAME(); // Copy CNAME
 };
 ```
 
@@ -459,6 +464,7 @@ git push
 4. GitHub Pages reads `CNAME` and serves site at custom domain
 
 **For forks:**
+
 - Original repo has `sperax.click` in CNAME
 - Fork maintainer updates CNAME to `their-domain.com`
 - Build automatically copies their CNAME
@@ -470,7 +476,7 @@ git push
 copyCNAME = () => {
   const cnamePath = resolve(root, 'CNAME');
   const publicCNAMEPath = resolve(publicDir, 'CNAME');
-  
+
   if (existsSync(cnamePath)) {
     copyFileSync(cnamePath, publicCNAMEPath);
     Logger.success('CNAME 文件已复制到 public 目录');
@@ -489,12 +495,14 @@ copyCNAME = () => {
 3. **Submit PR** (translation happens in CI)
 
 **You do NOT need to:**
+
 - ❌ Translate manually
 - ❌ Run `bun run format` locally
 - ❌ Create locale files
 - ❌ Build the public index
 
 **CI will automatically:**
+
 - ✅ Translate to 18 languages
 - ✅ Build and deploy
 - ✅ Update the marketplace
@@ -532,7 +540,7 @@ echo "yourdomain.com" > CNAME
 # Settings → Pages → Source: gh-pages branch
 
 # 6. Push to trigger first deployment
-git add CNAME  # or git rm CNAME
+git add CNAME # or git rm CNAME
 git commit -m "Configure domain"
 git push origin main
 ```
@@ -592,6 +600,7 @@ Developer → Create agent.json → Push to GitHub
 ```
 
 **Key Files:**
+
 - `src/*.json` - Source agents (English)
 - `locales/*/index.*.json` - Translations (18 languages)
 - `public/` - Build output (gitignored, generated)
@@ -600,6 +609,7 @@ Developer → Create agent.json → Push to GitHub
 - `scripts/builders/agent-builder.ts` - Build logic
 
 **Key Commands:**
+
 - `bun run format` - Translate agents
 - `bun run build` - Build index (includes CNAME copy)
 - `bun run test` - Validate everything

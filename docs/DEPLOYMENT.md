@@ -9,6 +9,7 @@ This repository is configured for automatic deployment to GitHub Pages using Git
 #### Option 1: Use Default GitHub Pages Domain
 
 1. **Delete the CNAME file:**
+
    ```bash
    rm CNAME
    git add CNAME
@@ -25,6 +26,7 @@ This repository is configured for automatic deployment to GitHub Pages using Git
 #### Option 2: Use Your Custom Domain
 
 1. **Update the CNAME file:**
+
    ```bash
    echo "yourdomain.com" > CNAME
    git add CNAME
@@ -58,16 +60,19 @@ The automated deployment process:
 ### Troubleshooting
 
 **Custom domain not working?**
+
 - Verify DNS records are correct (use `dig yourdomain.com` or `nslookup`)
 - Wait for DNS propagation (can take 24-48 hours)
 - Check GitHub Pages settings show your domain correctly
 
 **Still using old domain after fork?**
+
 - Make sure you updated/deleted the `CNAME` file in the root directory
 - Push changes and wait for GitHub Actions to complete
 - Clear browser cache or try incognito mode
 
 **Build failing?**
+
 - Check that `OPENAI_API_KEY` secret is set in repository settings
 - Review GitHub Actions logs for specific errors
 
@@ -123,14 +128,17 @@ GitHub Actions Workflow:
 ### Domain Configuration Examples
 
 **Subdomain (Recommended):**
+
 ```
 Type: CNAME
 Host: agents (or subdomain of choice)
 Value: yourusername.github.io
 ```
+
 Your agents will be at: `agents.yourdomain.com`
 
 **Apex Domain:**
+
 ```
 Type: A
 Host: @
@@ -139,6 +147,7 @@ Value: 185.199.109.153
 Value: 185.199.110.153
 Value: 185.199.111.153
 ```
+
 Your agents will be at: `yourdomain.com`
 
 ### Security Notes
@@ -151,6 +160,7 @@ Your agents will be at: `yourdomain.com`
 ### Support
 
 For issues or questions:
+
 - Check [Troubleshooting Guide](./TROUBLESHOOTING.md)
 - Review [GitHub Pages Documentation](https://docs.github.com/en/pages)
 - Open an issue in this repository

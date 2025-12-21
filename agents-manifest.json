@@ -1,57 +1,10 @@
 {
-  "name": "DeFi Agents API",
-  "description": "Production-ready AI agent definitions API - 57 specialized agents for DeFi, portfolio management, trading, and Web3 workflows",
-  "version": "1.0.0",
-  "updated": "2025-12-21",
-  "apiVersion": "1.0",
-  "homepage": "https://github.com/nirholas/defi-agents",
-  "documentation": "https://sperax.click/docs/API.md",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nirholas/defi-agents.git"
-  },
-  "license": "MIT",
-  "stats": {
-    "totalAgents": 57,
-    "supportedLanguages": 18,
-    "categories": 5,
-    "speraxAgents": 23,
-    "defiAgents": 34
-  },
-  "supportedLanguages": [
-    "en-US",
-    "ar",
-    "bg-BG",
-    "zh-CN",
-    "zh-TW",
-    "de-DE",
-    "es-ES",
-    "fa-IR",
-    "fr-FR",
-    "it-IT",
-    "ja-JP",
-    "ko-KR",
-    "nl-NL",
-    "pl-PL",
-    "pt-BR",
-    "ru-RU",
-    "tr-TR",
-    "vi-VN"
-  ],
-  "categories": [
-    "trading",
-    "defi",
-    "portfolio",
-    "security",
-    "education"
-  ],
-  "endpoints": {
-    "allAgentsEnglish": "https://sperax.click/index.json",
-    "allAgentsByLanguage": "https://sperax.click/index.{locale}.json",
-    "singleAgent": "https://sperax.click/{agent-id}.json",
-    "singleAgentByLanguage": "https://sperax.click/{agent-id}.{locale}.json",
-    "manifest": "https://sperax.click/agents-manifest.json",
-    "schema": "https://sperax.click/schema/speraxAgentSchema_v1.json"
+  "accessPatterns": {
+    "getAllAgents": "GET /index.json",
+    "getAgentsByLanguage": "GET /index.{locale}.json",
+    "getSingleAgent": "GET /{agent-id}.json",
+    "getSingleAgentLocalized": "GET /{agent-id}.{locale}.json",
+    "getManifest": "GET /agents-manifest.json"
   },
   "agents": {
     "sperax": {
@@ -250,11 +203,7 @@
           ]
         },
         "security": {
-          "agents": [
-            "smart-contract-auditor",
-            "bridge-security-analyst",
-            "wallet-security-advisor"
-          ]
+          "agents": ["smart-contract-auditor", "bridge-security-analyst", "wallet-security-advisor"]
         },
         "analysis": {
           "agents": [
@@ -290,7 +239,18 @@
       }
     }
   },
-  "schemaVersion": 1,
+  "apiVersion": "1.0",
+  "categories": ["trading", "defi", "portfolio", "security", "education"],
+  "description": "Production-ready AI agent definitions API - 57 specialized agents for DeFi, portfolio management, trading, and Web3 workflows",
+  "documentation": "https://sperax.click/docs/API.md",
+  "endpoints": {
+    "allAgentsEnglish": "https://sperax.click/index.json",
+    "allAgentsByLanguage": "https://sperax.click/index.{locale}.json",
+    "singleAgent": "https://sperax.click/{agent-id}.json",
+    "singleAgentByLanguage": "https://sperax.click/{agent-id}.{locale}.json",
+    "manifest": "https://sperax.click/agents-manifest.json",
+    "schema": "https://sperax.click/schema/speraxAgentSchema_v1.json"
+  },
   "features": [
     "57 specialized AI agents",
     "18 language translations",
@@ -303,17 +263,47 @@
     "Machine-readable indexes",
     "Automated i18n workflow"
   ],
-  "accessPatterns": {
-    "getAllAgents": "GET /index.json",
-    "getAgentsByLanguage": "GET /index.{locale}.json",
-    "getSingleAgent": "GET /{agent-id}.json",
-    "getSingleAgentLocalized": "GET /{agent-id}.{locale}.json",
-    "getManifest": "GET /agents-manifest.json"
+  "homepage": "https://github.com/nirholas/defi-agents",
+  "license": "MIT",
+  "name": "DeFi Agents API",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nirholas/defi-agents.git"
   },
+  "schemaVersion": 1,
+  "stats": {
+    "totalAgents": 57,
+    "supportedLanguages": 18,
+    "categories": 5,
+    "speraxAgents": 23,
+    "defiAgents": 34
+  },
+  "supportedLanguages": [
+    "en-US",
+    "ar",
+    "bg-BG",
+    "zh-CN",
+    "zh-TW",
+    "de-DE",
+    "es-ES",
+    "fa-IR",
+    "fr-FR",
+    "it-IT",
+    "ja-JP",
+    "ko-KR",
+    "nl-NL",
+    "pl-PL",
+    "pt-BR",
+    "ru-RU",
+    "tr-TR",
+    "vi-VN"
+  ],
+  "updated": "2025-12-21",
   "usage": {
     "curl": "curl https://sperax.click/index.json",
     "python": "import requests; agents = requests.get('https://sperax.click/index.json').json()",
     "javascript": "const agents = await fetch('https://sperax.click/index.json').then(r => r.json())",
     "documentation": "https://github.com/nirholas/defi-agents/blob/main/docs/API.md"
-  }
+  },
+  "version": "1.0.0"
 }

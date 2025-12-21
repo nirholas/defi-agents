@@ -21,6 +21,7 @@ GET /index.json
 **Response**: Array of agent objects with full definitions
 
 **Example**:
+
 ```bash
 curl https://sperax.click/index.json | jq '.[] | {id: .identifier, name: .meta.title}'
 ```
@@ -36,6 +37,7 @@ GET /index.{locale}.json
 ```
 
 **Supported Locales**:
+
 - `en-US` (English)
 - `ar` (Arabic)
 - `bg-BG` (Bulgarian)
@@ -56,8 +58,9 @@ GET /index.{locale}.json
 - `vi-VN` (Vietnamese)
 
 **Example**:
+
 ```bash
-curl https://sperax.click/index.zh-CN.json  # Get all agents in Chinese
+curl https://sperax.click/index.zh-CN.json # Get all agents in Chinese
 ```
 
 ---
@@ -71,6 +74,7 @@ GET /{agent-id}.json
 ```
 
 **Example**:
+
 ```bash
 curl https://sperax.click/sperax-dashboard.json
 ```
@@ -84,8 +88,9 @@ GET /{agent-id}.{locale}.json
 ```
 
 **Example**:
+
 ```bash
-curl https://sperax.click/sperax-dashboard.fr-FR.json  # French
+curl https://sperax.click/sperax-dashboard.fr-FR.json # French
 ```
 
 ---
@@ -99,6 +104,7 @@ GET /agents-manifest.json
 ```
 
 **Example**:
+
 ```bash
 curl https://sperax.click/agents-manifest.json
 ```
@@ -111,37 +117,38 @@ Each agent follows this JSON structure:
 
 ```json
 {
-  "author": "string",           // Agent creator/organization
-  "identifier": "string",       // Unique agent ID (used in URLs)
-  "createdAt": "YYYY-MM-DD",   // Creation date
-  "schemaVersion": 1,           // Schema version number
-  
-  "meta": {
-    "title": "string",          // Display name
-    "description": "string",    // Short description
-    "avatar": "string",         // Emoji or icon
-    "tags": ["string"],         // Searchable tags
-    "category": "string"        // Category (trading, defi, portfolio, etc.)
-  },
-  
+  "author": "string", // Agent creator/organization
   "config": {
-    "systemRole": "string",     // System prompt/instructions
+    "systemRole": "string", // System prompt/instructions
     "openingMessage": "string", // Welcome message
     "openingQuestions": ["string"] // Suggested first questions
   },
-  
-  "summary": "string",          // Detailed summary
-  "homepage": "string",         // URL to agent home/docs
-  "examples": [                 // Example interactions
+
+  "createdAt": "YYYY-MM-DD", // Creation date
+  "examples": [
+    // Example interactions
     {
       "role": "user|assistant",
       "content": "string"
     }
   ],
-  
-  "tokenUsage": 150,            // Typical token usage
-  "knowledgeCount": 0,          // Number of knowledge files
-  "pluginCount": 0              // Number of plugins/integrations
+
+  "homepage": "string", // URL to agent home/docs
+  "identifier": "string", // Unique agent ID (used in URLs)
+  "knowledgeCount": 0, // Number of knowledge files
+  "meta": {
+    "title": "string", // Display name
+    "description": "string", // Short description
+    "avatar": "string", // Emoji or icon
+    "tags": ["string"], // Searchable tags
+    "category": "string" // Category (trading, defi, portfolio, etc.)
+  },
+
+  "pluginCount": 0, // Number of plugins/integrations
+  "schemaVersion": 1, // Schema version number
+
+  "summary": "string", // Detailed summary
+  "tokenUsage": 150 // Typical token usage
 }
 ```
 
@@ -163,23 +170,27 @@ All endpoints return JSON with the following characteristics:
 ## Query Examples
 
 ### Example 1: Get all agents in German
+
 ```bash
 curl https://sperax.click/index.de-DE.json
 ```
 
 ### Example 2: Parse agent names and categories
+
 ```bash
-curl https://sperax.click/index.json | \
-  jq '.[] | {name: .meta.title, category: .meta.category, tags: .meta.tags}'
+curl https://sperax.click/index.json \
+  | jq '.[] | {name: .meta.title, category: .meta.category, tags: .meta.tags}'
 ```
 
 ### Example 3: Filter agents by category
+
 ```bash
-curl https://sperax.click/index.json | \
-  jq '.[] | select(.meta.category == "trading")'
+curl https://sperax.click/index.json \
+  | jq '.[] | select(.meta.category == "trading")'
 ```
 
 ### Example 4: Get manifest data for indexing
+
 ```bash
 curl https://sperax.click/agents-manifest.json | jq '.stats'
 ```
@@ -189,6 +200,7 @@ curl https://sperax.click/agents-manifest.json | jq '.stats'
 ## Integration Examples
 
 ### Python
+
 ```python
 import requests
 import json
@@ -206,18 +218,20 @@ spanish_agents = requests.get('https://sperax.click/index.es-ES.json').json()
 ```
 
 ### JavaScript/Node.js
+
 ```javascript
 // Fetch all agents
-const agents = await fetch('https://sperax.click/index.json').then(r => r.json());
+const agents = await fetch('https://sperax.click/index.json').then((r) => r.json());
 
 // Get specific agent
-const dashboard = await fetch('https://sperax.click/sperax-dashboard.json').then(r => r.json());
+const dashboard = await fetch('https://sperax.click/sperax-dashboard.json').then((r) => r.json());
 
 // Filter by tags
-const defiAgents = agents.filter(a => a.meta.tags.includes('defi'));
+const defiAgents = agents.filter((a) => a.meta.tags.includes('defi'));
 ```
 
 ### cURL
+
 ```bash
 # Get all agents
 curl https://sperax.click/index.json
@@ -240,6 +254,7 @@ No rate limiting. All endpoints are static JSON files served via GitHub Pages CD
 ## Caching
 
 Recommended HTTP headers for caching:
+
 ```
 Cache-Control: public, max-age=3600
 ```
@@ -249,9 +264,11 @@ Cache-Control: public, max-age=3600
 ## Agent Categories
 
 ### 🪙 Sperax Ecosystem Agents (23 Agents)
+
 Portfolio management, trading, DeFi protocols, governance
 
 **Key Agents**:
+
 - `sperax-dashboard` - Portfolio overview
 - `sperax-assets-tracker` - Asset tracking
 - `sperax-analytics-expert` - Performance analytics
@@ -262,9 +279,11 @@ Portfolio management, trading, DeFi protocols, governance
 - And 16 more...
 
 ### 💰 DeFi & Crypto Agents (34 Agents)
+
 Risk analysis, yield farming, security, tokenomics
 
 **Categories**:
+
 - **Yield & Income**: `defi-yield-farmer`, `staking-rewards-calculator`, `yield-sustainability-analyst`
 - **Risk Management**: `liquidation-risk-manager`, `defi-risk-scoring-engine`, `defi-insurance-advisor`
 - **Trading**: `dex-aggregator-optimizer`, `gas-optimization-expert`, `mev-protection-advisor`
@@ -282,8 +301,9 @@ See [CHANGELOG.md](../CHANGELOG.md) for version history, new agents, and schema 
 ## Support
 
 For issues, questions, or contributions, visit:
-- **GitHub**: https://github.com/nirholas/defi-agents
-- **Issues**: https://github.com/nirholas/defi-agents/issues
+
+- **GitHub**: <https://github.com/nirholas/defi-agents>
+- **Issues**: <https://github.com/nirholas/defi-agents/issues>
 - **Contributing**: See [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ---
@@ -291,25 +311,26 @@ For issues, questions, or contributions, visit:
 ## License
 
 MIT License - See [LICENSE](../LICENSE) for details.
-      "meta": {
-        "title": "string",
-        "description": "string",
-        "avatar": "string",
-        "tags": ["string"],
-        "systemRole": "string"
-      },
-      "schemaVersion": 1,
-      "createAt": "ISO date string"
-    }
-  ]
+"meta": {
+"title": "string",
+"description": "string",
+"avatar": "string",
+"tags": \["string"],
+"systemRole": "string"
+},
+"schemaVersion": 1,
+"createAt": "ISO date string"
 }
-```
+]
+}
+
+````
 
 **Example:**
 
 ```bash
 curl https://nirholas.github.io/AI-Agents-Library/index.json
-```
+````
 
 ---
 

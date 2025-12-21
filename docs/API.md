@@ -1,33 +1,296 @@
-# API Documentation
+# DeFi Agents API Documentation
 
-Programmatic access to the AI Agents Library agent marketplace index.
+## Overview
+
+The DeFi Agents API is a RESTful JSON API providing access to 57 production-ready AI agent definitions for DeFi, portfolio management, trading, and Web3 workflows. All agents are available in 18 languages.
+
+**Base URL**: `https://sperax.click`
 
 ---
 
-## Base URL
-
-```
-https://nirholas.github.io/AI-Agents-Library/
-```
-
 ## Endpoints
 
-### Main Index
+### 1. **Get All Agents (English)**
+
+Retrieve the complete index of all 57 agents in English.
 
 ```
 GET /index.json
 ```
 
-Returns the complete agent index with all 505+ agents.
+**Response**: Array of agent objects with full definitions
 
-**Response Format:**
+**Example**:
+```bash
+curl https://sperax.click/index.json | jq '.[] | {id: .identifier, name: .meta.title}'
+```
+
+---
+
+### 2. **Get Agents in Specific Language**
+
+Retrieve all agents in a supported language.
+
+```
+GET /index.{locale}.json
+```
+
+**Supported Locales**:
+- `en-US` (English)
+- `ar` (Arabic)
+- `bg-BG` (Bulgarian)
+- `zh-CN` (Chinese Simplified)
+- `zh-TW` (Chinese Traditional)
+- `de-DE` (German)
+- `es-ES` (Spanish)
+- `fa-IR` (Persian)
+- `fr-FR` (French)
+- `it-IT` (Italian)
+- `ja-JP` (Japanese)
+- `ko-KR` (Korean)
+- `nl-NL` (Dutch)
+- `pl-PL` (Polish)
+- `pt-BR` (Portuguese Brazilian)
+- `ru-RU` (Russian)
+- `tr-TR` (Turkish)
+- `vi-VN` (Vietnamese)
+
+**Example**:
+```bash
+curl https://sperax.click/index.zh-CN.json  # Get all agents in Chinese
+```
+
+---
+
+### 3. **Get Single Agent**
+
+Retrieve a specific agent definition by ID.
+
+```
+GET /{agent-id}.json
+```
+
+**Example**:
+```bash
+curl https://sperax.click/sperax-dashboard.json
+```
+
+---
+
+### 4. **Get Single Agent in Specific Language**
+
+```
+GET /{agent-id}.{locale}.json
+```
+
+**Example**:
+```bash
+curl https://sperax.click/sperax-dashboard.fr-FR.json  # French
+```
+
+---
+
+### 5. **Agent Manifest (Machine-Readable Index)**
+
+Get structured metadata about all agents for indexing.
+
+```
+GET /agents-manifest.json
+```
+
+**Example**:
+```bash
+curl https://sperax.click/agents-manifest.json
+```
+
+---
+
+## Agent Schema
+
+Each agent follows this JSON structure:
 
 ```json
 {
-  "agents": [
+  "author": "string",           // Agent creator/organization
+  "identifier": "string",       // Unique agent ID (used in URLs)
+  "createdAt": "YYYY-MM-DD",   // Creation date
+  "schemaVersion": 1,           // Schema version number
+  
+  "meta": {
+    "title": "string",          // Display name
+    "description": "string",    // Short description
+    "avatar": "string",         // Emoji or icon
+    "tags": ["string"],         // Searchable tags
+    "category": "string"        // Category (trading, defi, portfolio, etc.)
+  },
+  
+  "config": {
+    "systemRole": "string",     // System prompt/instructions
+    "openingMessage": "string", // Welcome message
+    "openingQuestions": ["string"] // Suggested first questions
+  },
+  
+  "summary": "string",          // Detailed summary
+  "homepage": "string",         // URL to agent home/docs
+  "examples": [                 // Example interactions
     {
-      "author": "string",
-      "identifier": "string",
+      "role": "user|assistant",
+      "content": "string"
+    }
+  ],
+  
+  "tokenUsage": 150,            // Typical token usage
+  "knowledgeCount": 0,          // Number of knowledge files
+  "pluginCount": 0              // Number of plugins/integrations
+}
+```
+
+---
+
+## Response Format
+
+All endpoints return JSON with the following characteristics:
+
+- **Encoding**: UTF-8
+- **Content-Type**: `application/json`
+- **Status Codes**:
+  - `200` - Success
+  - `404` - Agent/language not found
+  - `500` - Server error
+
+---
+
+## Query Examples
+
+### Example 1: Get all agents in German
+```bash
+curl https://sperax.click/index.de-DE.json
+```
+
+### Example 2: Parse agent names and categories
+```bash
+curl https://sperax.click/index.json | \
+  jq '.[] | {name: .meta.title, category: .meta.category, tags: .meta.tags}'
+```
+
+### Example 3: Filter agents by category
+```bash
+curl https://sperax.click/index.json | \
+  jq '.[] | select(.meta.category == "trading")'
+```
+
+### Example 4: Get manifest data for indexing
+```bash
+curl https://sperax.click/agents-manifest.json | jq '.stats'
+```
+
+---
+
+## Integration Examples
+
+### Python
+```python
+import requests
+import json
+
+# Get all agents
+response = requests.get('https://sperax.click/index.json')
+agents = response.json()
+
+# Filter by category
+trading_agents = [a for a in agents if a['meta']['category'] == 'trading']
+print(f"Found {len(trading_agents)} trading agents")
+
+# Get agent in specific language
+spanish_agents = requests.get('https://sperax.click/index.es-ES.json').json()
+```
+
+### JavaScript/Node.js
+```javascript
+// Fetch all agents
+const agents = await fetch('https://sperax.click/index.json').then(r => r.json());
+
+// Get specific agent
+const dashboard = await fetch('https://sperax.click/sperax-dashboard.json').then(r => r.json());
+
+// Filter by tags
+const defiAgents = agents.filter(a => a.meta.tags.includes('defi'));
+```
+
+### cURL
+```bash
+# Get all agents
+curl https://sperax.click/index.json
+
+# Get agent in Chinese
+curl https://sperax.click/sperax-dashboard.zh-CN.json
+
+# Count total agents
+curl https://sperax.click/index.json | jq 'length'
+```
+
+---
+
+## Rate Limiting
+
+No rate limiting. All endpoints are static JSON files served via GitHub Pages CDN.
+
+---
+
+## Caching
+
+Recommended HTTP headers for caching:
+```
+Cache-Control: public, max-age=3600
+```
+
+---
+
+## Agent Categories
+
+### 🪙 Sperax Ecosystem Agents (23 Agents)
+Portfolio management, trading, DeFi protocols, governance
+
+**Key Agents**:
+- `sperax-dashboard` - Portfolio overview
+- `sperax-assets-tracker` - Asset tracking
+- `sperax-analytics-expert` - Performance analytics
+- `sperax-trading-assistant` - Trade execution
+- `sperax-ai-trading-bot` - AI trading strategies
+- `sperax-wallet-manager` - Wallet management
+- `sperax-defi-center` - DeFi protocol aggregator
+- And 16 more...
+
+### 💰 DeFi & Crypto Agents (34 Agents)
+Risk analysis, yield farming, security, tokenomics
+
+**Categories**:
+- **Yield & Income**: `defi-yield-farmer`, `staking-rewards-calculator`, `yield-sustainability-analyst`
+- **Risk Management**: `liquidation-risk-manager`, `defi-risk-scoring-engine`, `defi-insurance-advisor`
+- **Trading**: `dex-aggregator-optimizer`, `gas-optimization-expert`, `mev-protection-advisor`
+- **Analysis**: `smart-contract-auditor`, `protocol-revenue-analyst`, `narrative-trend-analyst`
+- **And more...**
+
+---
+
+## Changelog
+
+See [CHANGELOG.md](../CHANGELOG.md) for version history, new agents, and schema changes.
+
+---
+
+## Support
+
+For issues, questions, or contributions, visit:
+- **GitHub**: https://github.com/nirholas/defi-agents
+- **Issues**: https://github.com/nirholas/defi-agents/issues
+- **Contributing**: See [CONTRIBUTING.md](./CONTRIBUTING.md)
+
+---
+
+## License
+
+MIT License - See [LICENSE](../LICENSE) for details.
       "meta": {
         "title": "string",
         "description": "string",

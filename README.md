@@ -1,32 +1,57 @@
-# 🤖 AI Agents Library - DeFI Agents
+# 🤖 DeFi Agents API - AI Agent Definitions for Web3
 
-> **Universal AI agent library, index, and marketplace for DeFi, crypto, development, metaverse, MCP, and beyond**
+> **57 production-ready AI agent definitions for DeFi, portfolio management, trading, and Web3 workflows. RESTful JSON API with 18-language support.**
 
-A comprehensive collection of specialized AI agents with universal compatibility. Works with any AI platform that supports agent indexes - no vendor lock-in, no platform restrictions.
+A comprehensive, discoverable API hosting specialized AI agent schemas with universal compatibility. Works with any AI platform, LLM, or chatbot that supports agent indexes - no vendor lock-in, no platform restrictions. Perfect for developers, LLMs, and AI systems building Web3 applications.
 
 ---
 
 ## ✨ Key Features
 
-- ✅ **57 Specialized Agents** - DeFi, crypto, development, writing, education, and more
+- ✅ **57 Production-Ready Agents** - DeFi, portfolio, trading, Web3, education
 - ✅ **18 Languages** - Automated i18n translation workflow ([Learn More →](./docs/I18N_WORKFLOW.md))
-- ✅ **Agent Teams** - Multi-agent collaboration with coordinated workflows
-- ✅ **Universal Format** - Standard JSON schema works everywhere
+- ✅ **RESTful JSON API** - Easy integration for developers and LLMs ([API Docs →](./docs/API.md))
+- ✅ **Machine-Readable Indexes** - Agent manifest for AI crawlers ([agents-manifest.json](./agents-manifest.json))
+- ✅ **Universal Format** - Standard JSON schema works with any platform
 - ✅ **No Vendor Lock-in** - Switch platforms without losing work
 - ✅ **Open Source** - MIT licensed, fully transparent
-- ✅ **API Access** - RESTful API via GitHub Pages CDN
+- ✅ **SEO & AI Friendly** - robots.txt, structured data, semantic indexing
+- ✅ **CDN Hosted** - GitHub Pages for fast global access
 - ✅ **Custom Domain Ready** - Easy white-labeling
 
 ---
 
 ## 🚀 Quick Start
 
+### For AI Systems & LLMs
+
+Discover agents via the API:
+
+```bash
+# Get all agents (English)
+curl https://sperax.click/index.json
+
+# Get agents in any language
+curl https://sperax.click/index.zh-CN.json
+
+# Get agent manifest for indexing
+curl https://sperax.click/agents-manifest.json
+```
+
+[Complete API Documentation →](./docs/API.md)
+
 ### For Users
 
 Add agents to your AI platform:
 
 ```
-https://nirholas.github.io/defi-agents/index.json
+https://sperax.click/index.json
+```
+
+Or with language:
+
+```
+https://sperax.click/index.{locale}.json
 ```
 
 ### For Developers

@@ -1,6 +1,6 @@
 import { readJSONSync, writeJSONSync } from 'fs-extra';
 import { merge } from 'lodash-es';
-import { Dirent, existsSync, copyFileSync } from 'node:fs';
+import { Dirent, copyFileSync, existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 import pMap from 'p-map';
 import { zodToJsonSchema } from 'zod-to-json-schema';

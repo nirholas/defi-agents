@@ -1,23 +1,15 @@
-# 🤖 AI Agents Library
+# 🤖 AI Agents Library - DeFI Agents
 
 > **Universal AI agent library, index, and marketplace for DeFi, crypto, development, metaverse, MCP, and beyond**
 
 A comprehensive collection of specialized AI agents with universal compatibility. Works with any AI platform that supports agent indexes - no vendor lock-in, no platform restrictions.
 
-\[!\[]\[agents-shield]]\[agents-url]
-\[!\[]\[build-shield]]\[build-url]
-\[!\[]\[contributors-shield]]\[contributors-url]
-\[!\[]\[forks-shield]]\[forks-url]
-\[!\[]\[stargazers-shield]]\[stargazers-url]
-\[!\[]\[issues-shield]]\[issues-url]
-\[!\[]\[license-shield]]\[license-url]
-
 ---
 
 ## ✨ Key Features
 
-- ✅ **505+ Specialized Agents** - DeFi, crypto, development, writing, education, and more
-- ✅ **18 Languages** - Automated i18n translation workflow
+- ✅ **41 Specialized Agents** - DeFi, crypto, development, writing, education, and more
+- ✅ **18 Languages** - Automated i18n translation workflow ([Learn More →](./docs/I18N_WORKFLOW.md))
 - ✅ **Agent Teams** - Multi-agent collaboration with coordinated workflows
 - ✅ **Universal Format** - Standard JSON schema works everywhere
 - ✅ **No Vendor Lock-in** - Switch platforms without losing work
@@ -50,47 +42,27 @@ npm run build
 
 ## 📦 Agent Categories
 
-### 🪙 DeFi & Crypto (50 Specialized Agents)
+### 🪙 DeFi & Crypto (41 Specialized Agents)
 
-**Sperax Ecosystem:**
+**Sperax Ecosystem (10 Agents):**
 
 - USDs Stablecoin Expert, SPA Tokenomics Analyst, veSPA Lock Optimizer
 - Governance Guide, Liquidity Strategist, Bridge Assistant
 - Yield Aggregator, Risk Monitor, Onboarding Guide, Portfolio Tracker
 
-**General DeFi:**
+**General DeFi (31 Agents):**
 
 - Yield Farming Optimizer, Impermanent Loss Calculator, Gas Optimizer
 - Smart Contract Auditor, MEV Protection Advisor, Whale Watcher
 - Protocol Comparator, Token Unlock Tracker, Liquidation Risk Manager
-- And 30+ more DeFi specialists
-
-### 💻 Development & Programming
-
-- Full-Stack Developer, Rust Assistant, TypeScript Architect
-- Smart Contract Auditor, API Documentation Writer, Code Quality Optimizer
-- Git Expert, Database Designer, Test Automation Specialist
-
-### ✍️ Content & Writing
-
-- Academic Writing Assistant, Technical Documentation Expert, UX Copywriter
-- SEO Content Optimizer, Social Media Manager, Business Email Writer
-- Translation Specialist, Proofreading Expert
-
-### 📊 Business & Analysis
-
-- Business Strategy Consultant, Financial Analyst, Data Analyst
-- Product Manager, Market Research Specialist, SWOT Analysis Expert
-
-### 🎓 Education & Learning
-
-- Math Tutor, Language Learning Partner, STEM Educator
-- Exam Preparation Coach, Research Assistant
-
-### 🎨 Creative & Design
-
-- UI/UX Designer, Logo Design Expert, Graphic Design Specialist
-- Color Theory Advisor, Typography Expert
+- Airdrop Hunter, Alpha Leak Detector, APY vs APR Educator
+- Bridge Security Analyst, Crypto Tax Strategist, DeFi Insurance Advisor
+- DeFi Onboarding Mentor, DeFi Protocol Comparator, DeFi Risk Scoring Engine
+- DEX Aggregator Optimizer, Governance Proposal Analyst, Layer 2 Comparison Guide
+- Liquidation Risk Manager, Liquidity Pool Analyzer, Narrative Trend Analyst
+- NFT Liquidity Advisor, Portfolio Rebalancing Advisor, Protocol Revenue Analyst
+- Protocol Treasury Analyst, Stablecoin Comparator, Staking Rewards Calculator
+- Wallet Security Advisor, Yield Dashboard Builder, Yield Sustainability Analyst
 
 [View Full Agent List →](https://nirholas.github.io/AI-Agents-Library/)
 
@@ -210,6 +182,7 @@ Our automated workflow will translate your agent to 18 languages and deploy it g
 
 - [API Reference](./docs/API.md) - Complete API documentation
 - [Agent Creation Guide](./docs/AGENT_GUIDE.md) - Design effective agents
+- [18 Languages i18n Workflow](./docs/I18N_WORKFLOW.md) - Automated translation system
 - [Prompt Engineering](./docs/PROMPTS.md) - Writing better prompts
 - [Model Parameters](./docs/MODELS.md) - Temperature, top_p explained
 - [Troubleshooting](./docs/TROUBLESHOOTING.md) - Common issues
@@ -296,9 +269,10 @@ defi_agents = [a for a in agents if 'defi' in a['meta']['tags']]
 
 ## 📊 Stats
 
-- **505+ Agents** - Comprehensive coverage
-- **18 Languages** - Global accessibility
-- **50 DeFi Specialists** - Blockchain-focused
+- **41 Agents** - DeFi-focused coverage
+- **18 Languages** - Global accessibility via automated translation
+- **10 Sperax Specialists** - Ecosystem-specific agents
+- **31 General DeFi Agents** - Comprehensive DeFi toolkit
 - **\~200 KB Index** - Fast loading (gzipped: \~45 KB)
 - **80-120ms** - Global CDN delivery
 - **0 Vendor Lock-in** - True interoperability

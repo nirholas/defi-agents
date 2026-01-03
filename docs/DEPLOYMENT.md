@@ -1,166 +1,296 @@
 # 🚀 Deployment Guide
 
-## GitHub Pages Deployment
+This repository supports **two deployment options**:
 
-This repository is configured for automatic deployment to GitHub Pages using GitHub Actions.
+| Option | Best For | Requires |
+|--------|----------|----------|
+| **GitHub Pages** | Free hosting, automatic CI/CD | GitHub Actions enabled |
+| **Vercel** | Faster global CDN, CORS control | Vercel account |
 
-### For Your Own Fork
+---
 
-#### Option 1: Use Default GitHub Pages Domain
+## Option 1: GitHub Pages (Automatic)
 
-1. **Delete the CNAME file:**
+GitHub Pages is the **default deployment method**. It works automatically when GitHub Actions are enabled.
 
+### Setup
+
+1. **Fork/Clone this repository**
+
+2. **Configure secrets** in Settings → Secrets → Actions:
+   ```
+   OPENAI_API_KEY=sk-your-key-here
+   ```
+
+3. **Choose your domain:**
+
+   **Default GitHub Pages URL:**
    ```bash
    rm CNAME
-   git add CNAME
-   git commit -m "Remove custom domain"
-   git push
+   git add CNAME && git commit -m "Use default domain" && git push
    ```
+   Your URL: `https://[username].github.io/defi-agents/`
 
-2. **Enable GitHub Pages:**
-   - Go to your repository Settings → Pages
-   - Source: Deploy from a branch
-   - Branch: `gh-pages` / `root`
-   - Your site will be at: `https://[username].github.io/[repository]/`
-
-#### Option 2: Use Your Custom Domain
-
-1. **Update the CNAME file:**
-
+   **Custom Domain:**
    ```bash
-   echo "yourdomain.com" > CNAME
-   git add CNAME
-   git commit -m "Update custom domain"
-   git push
+   echo "agents.yourdomain.com" > CNAME
+   git add CNAME && git commit -m "Set custom domain" && git push
    ```
 
-2. **Configure DNS:**
-   - Add a CNAME record pointing to: `[username].github.io`
-   - Or for apex domain, add A records to GitHub's IPs
-
-3. **Enable GitHub Pages:**
-   - Go to Settings → Pages
-   - Add your custom domain
-   - Enable "Enforce HTTPS" once DNS propagates
+4. **Enable GitHub Pages:**
+   - Settings → Pages → Source: `gh-pages` branch
+   - Enable "Enforce HTTPS"
 
 ### How It Works
 
-The automated deployment process:
+```
+Push to main → GitHub Actions → Build → Deploy to gh-pages
+```
 
-1. **On every push to main:**
-   - Runs tests and formatting
-   - Builds the agent index with `bun run build`
-   - Copies `CNAME` file (if exists) to `public/` directory
-   - Deploys `public/` directory to `gh-pages` branch
+The workflow (`.github/workflows/release.yml`):
+1. Runs tests
+2. Translates agents to 18 languages via OpenAI
+3. Builds `public/` directory
+4. Deploys to `gh-pages` branch
+5. GitHub Pages serves from `gh-pages`
 
-2. **CNAME handling:**
-   - If `CNAME` exists in root → Copied to `public/CNAME` → Custom domain preserved
-   - If `CNAME` doesn't exist → No CNAME in public → Uses default GitHub Pages URL
+---
 
-### Troubleshooting
+## Option 2: Vercel (Manual or Automatic)
 
-**Custom domain not working?**
+Vercel provides **faster global CDN** and **CORS control** for API access. Use this when:
+- GitHub Actions are disabled
+- You want to restrict which domains can access your agents
+- You need faster global performance
 
-- Verify DNS records are correct (use `dig yourdomain.com` or `nslookup`)
-- Wait for DNS propagation (can take 24-48 hours)
-- Check GitHub Pages settings show your domain correctly
+### Quick Setup
 
-**Still using old domain after fork?**
+1. **Go to [vercel.com/new](https://vercel.com/new)**
 
-- Make sure you updated/deleted the `CNAME` file in the root directory
-- Push changes and wait for GitHub Actions to complete
-- Clear browser cache or try incognito mode
+2. **Import your repository**
 
-**Build failing?**
+3. **Configure build settings:**
+   | Setting | Value |
+   |---------|-------|
+   | Framework Preset | Other |
+   | Build Command | `bun run build` |
+   | Output Directory | `public` |
+   | Install Command | `bun install` |
 
-- Check that `OPENAI_API_KEY` secret is set in repository settings
-- Review GitHub Actions logs for specific errors
+4. **Add environment variables:**
+   ```
+   OPENAI_API_KEY=sk-your-key-here
+   ```
 
-### Manual Deployment
+5. **Deploy!**
 
-To build and test locally:
+### CORS Configuration
+
+The included `vercel.json` restricts API access to authorized origins:
+
+```json
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://sperax.io"
+        }
+      ]
+    }
+  ]
+}
+```
+
+**To allow multiple origins**, update `vercel.json`:
+
+```json
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    }
+  ]
+}
+```
+
+**To allow specific origins**, use Vercel Edge Middleware (create `middleware.ts`).
+
+### Caching Configuration
+
+The included `vercel.json` uses aggressive caching to minimize costs:
+
+```json
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800"
+        }
+      ]
+    }
+  ]
+}
+```
+
+This means:
+- Browser caches for 1 hour
+- CDN caches for 24 hours
+- Stale content served for up to 7 days while revalidating
+
+### Manual Build for Vercel
+
+If you want to build locally before deploying:
 
 ```bash
-# Install dependencies
+# Using the local release script
+./scripts/local-release.sh
+
+# Or manually
 bun install
-
-# Build the agent index
+bun run format   # Requires OPENAI_API_KEY
 bun run build
-
-# The public/ directory now contains your built site
-# CNAME file is automatically copied if it exists
+# Deploy public/ to Vercel
 ```
 
-### Environment Variables
+---
 
-Required for CI/CD:
+## Comparison: GitHub Pages vs Vercel
 
-- `OPENAI_API_KEY` - OpenAI API key for translation generation (set in repository secrets)
+| Feature | GitHub Pages | Vercel |
+|---------|--------------|--------|
+| **Cost** | Free | Free (with limits) |
+| **Global CDN** | ✅ Cloudflare | ✅ Vercel Edge |
+| **Custom Domain** | ✅ Yes | ✅ Yes |
+| **HTTPS** | ✅ Yes | ✅ Yes |
+| **CORS Control** | ❌ No | ✅ Yes |
+| **Build on Push** | ✅ Auto | ✅ Auto |
+| **Requires Actions** | ✅ Yes | ❌ No |
+| **Analytics** | ❌ No | ✅ Yes |
+| **Rate Limiting** | ❌ No | ✅ Yes |
 
-Optional:
+---
 
-- `OPENAI_PROXY_URL` - Custom OpenAI API proxy URL
+## Domain Configuration
 
-### Architecture
-
-```
-Root Directory
-├── CNAME                          # Your custom domain (optional)
-├── src/                           # Agent source files
-│   └── *.json                     # Individual agent definitions
-├── locales/                       # 18 language translations
-│   └── agent-name/
-│       └── index.[locale].json
-└── public/                        # Build output (gitignored)
-    ├── CNAME                      # Copied from root during build
-    ├── index.json                 # Main agent index
-    ├── agent-name.json            # Individual agent files
-    └── index.[locale].json        # Localized indexes
-
-GitHub Actions Workflow:
-1. Trigger on push to main
-2. Install dependencies
-3. Run tests and formatting
-4. Build agent index (includes CNAME copy)
-5. Deploy public/ to gh-pages branch
-```
-
-### Domain Configuration Examples
+### For GitHub Pages
 
 **Subdomain (Recommended):**
-
 ```
 Type: CNAME
-Host: agents (or subdomain of choice)
-Value: yourusername.github.io
+Host: agents
+Value: [username].github.io
 ```
 
-Your agents will be at: `agents.yourdomain.com`
-
 **Apex Domain:**
-
 ```
 Type: A
 Host: @
-Value: 185.199.108.153
-Value: 185.199.109.153
-Value: 185.199.110.153
-Value: 185.199.111.153
+Values: 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153
 ```
 
-Your agents will be at: `yourdomain.com`
+### For Vercel
 
-### Security Notes
+**Subdomain:**
+```
+Type: CNAME
+Host: agents
+Value: cname.vercel-dns.com
+```
 
-- Never commit API keys to the repository
-- Use GitHub Secrets for sensitive environment variables
-- CNAME file is safe to commit (it's just your domain name)
-- The `public/` directory is gitignored to prevent build artifacts in git
+**Apex Domain:**
+```
+Type: A
+Host: @
+Value: 76.76.21.21
+```
 
-### Support
+---
 
-For issues or questions:
+## Environment Variables
 
-- Check [Troubleshooting Guide](./TROUBLESHOOTING.md)
-- Review [GitHub Pages Documentation](https://docs.github.com/en/pages)
-- Open an issue in this repository
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `OPENAI_API_KEY` | ✅ Yes | For agent translation to 18 languages |
+| `OPENAI_PROXY_URL` | ❌ No | Custom OpenAI API proxy |
+
+---
+
+## Local Development
+
+```bash
+# Clone
+git clone https://github.com/nirholas/defi-agents.git
+cd defi-agents
+
+# Install
+bun install
+
+# Create an agent
+# Add your-agent.json to src/
+
+# Translate (requires OpenAI API key)
+export OPENAI_API_KEY=sk-your-key
+bun run format
+
+# Build
+bun run build
+
+# Preview
+npx serve public
+```
+
+---
+
+## Troubleshooting
+
+### GitHub Pages Issues
+
+**Build failing?**
+- Check `OPENAI_API_KEY` secret is set
+- Review Actions logs for errors
+
+**Custom domain not working?**
+- Verify DNS with `dig yourdomain.com`
+- Wait 24-48 hours for propagation
+- Check CNAME file exists in root
+
+### Vercel Issues
+
+**Build failing?**
+- Ensure Output Directory is `public`
+- Check `OPENAI_API_KEY` env var is set
+- Review build logs
+
+**CORS errors?**
+- Update `vercel.json` with your domain
+- Check browser console for exact error
+
+---
+
+## Migration
+
+### From GitHub Pages to Vercel
+
+1. Import repo to Vercel
+2. Configure build settings (see above)
+3. Update DNS to point to Vercel
+4. (Optional) Disable GitHub Pages in settings
+
+### From Vercel to GitHub Pages
+
+1. Enable GitHub Actions
+2. Add `OPENAI_API_KEY` secret
+3. Update DNS to point to GitHub
+4. Enable GitHub Pages with `gh-pages` branch

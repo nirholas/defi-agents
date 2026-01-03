@@ -629,3 +629,48 @@ Developer → Create agent.json → Push to GitHub
 ---
 
 **Questions?** Open an issue or check the [FAQ](./FAQ.md).
+
+---
+
+## Alternative: Vercel Deployment
+
+If GitHub Actions are disabled or you prefer Vercel's features (CORS control, analytics, rate limiting):
+
+### Quick Setup
+
+1. **Import to Vercel:** [vercel.com/new](https://vercel.com/new)
+2. **Configure build:**
+   - Build Command: `bun run build`
+   - Output Directory: `public`
+3. **Add environment variable:** `OPENAI_API_KEY`
+4. **Deploy!**
+
+### Manual Local Build for Vercel
+
+```bash
+# Install
+bun install
+
+# Translate agents (requires OpenAI API key)
+export OPENAI_API_KEY=sk-your-key
+bun run format
+
+# Build
+bun run build
+
+# Or use the convenience script
+./scripts/local-release.sh
+```
+
+### When to Use Vercel vs GitHub Pages
+
+| Use Case | Recommendation |
+|----------|---------------|
+| GitHub Actions enabled | GitHub Pages (automatic) |
+| GitHub Actions disabled | Vercel |
+| Need CORS control | Vercel |
+| Need rate limiting | Vercel |
+| Need analytics | Vercel |
+| Simple, free hosting | Either works |
+
+See [Deployment Guide](./DEPLOYMENT.md) for complete details.

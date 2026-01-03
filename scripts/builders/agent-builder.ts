@@ -59,9 +59,9 @@ class AgentBuilder {
 
         // 写入 Agent 文件到 public 目录
         if (locale === config.entryLocale) {
-          writeJSONSync(resolve(publicDir, `${id}.en-US.json`), agent);
+          writeJSONSync(resolve(publicDir, `${id}.en-US.json`), agent, { spaces: 2 });
         }
-        writeJSONSync(resolve(publicDir, getBuildLocaleAgentFileName(id, locale)), agent);
+        writeJSONSync(resolve(publicDir, getBuildLocaleAgentFileName(id, locale)), agent, { spaces: 2 });
 
         // 返回 Agent 元数据
         return {
@@ -100,8 +100,8 @@ class AgentBuilder {
     const schemaPath = resolve(schemasDir, fileName);
     const publicSchemaPath = resolve(publicDir, 'schema', fileName);
 
-    writeJSONSync(schemaPath, schema);
-    writeJSONSync(publicSchemaPath, schema);
+    writeJSONSync(schemaPath, schema, { spaces: 2 });
+    writeJSONSync(publicSchemaPath, schema, { spaces: 2 });
 
     Logger.file('write', schemaPath);
     Logger.file('write', publicSchemaPath);
@@ -136,12 +136,12 @@ class AgentBuilder {
 
         if (locale === config.entryLocale) {
           const entryIndexPath = resolve(publicDir, 'index.en-US.json');
-          writeJSONSync(entryIndexPath, agentsIndex);
+          writeJSONSync(entryIndexPath, agentsIndex, { spaces: 2 });
           Logger.file('write', entryIndexPath);
         }
 
         const indexPath = resolve(publicDir, indexFileName);
-        writeJSONSync(indexPath, agentsIndex);
+        writeJSONSync(indexPath, agentsIndex, { spaces: 2 });
         Logger.file('write', indexPath);
 
         // 统计信息

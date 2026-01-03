@@ -14,25 +14,35 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          
-      - name: Check deployment method
+      - name: Check if GitHub Pages deployment is configured
         id: check
+        env:
+          HAS_KEY: ${{ secrets.OPENAI_API_KEY != '' }}
         run: |
-          # Auto-detect: If OPENAI_API_KEY secret is not set, user likely wants Vercel
-          if [ -z "${{ secrets.OPENAI_API_KEY }}" ]; then
-            echo "⚠️ OPENAI_API_KEY not configured"
-            echo "💡 To use GitHub Pages: Add OPENAI_API_KEY in Settings → Secrets"
-            echo "💡 To use Vercel: No action needed, deploy from vercel.com"
-            echo ""
-            echo "Skipping GitHub Pages deployment..."
+          if [ "$HAS_KEY" != "true" ]; then
+            echo "## ⏭️ GitHub Pages Skipped" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "No \`OPENAI_API_KEY\` secret configured." >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### 🚀 Use Vercel instead:" >> $GITHUB_STEP_SUMMARY
+            echo "1. Go to [vercel.com/new](https://vercel.com/new)" >> $GITHUB_STEP_SUMMARY
+            echo "2. Import this repository" >> $GITHUB_STEP_SUMMARY
+            echo "3. Build Command: \`bun run build\`" >> $GITHUB_STEP_SUMMARY
+            echo "4. Output Directory: \`public\`" >> $GITHUB_STEP_SUMMARY
+            echo "5. Add env: \`OPENAI_API_KEY\`" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### 📄 Or enable GitHub Pages:" >> $GITHUB_STEP_SUMMARY
+            echo "Add \`OPENAI_API_KEY\` in Settings → Secrets → Actions" >> $GITHUB_STEP_SUMMARY
             echo "skip=true" >> $GITHUB_OUTPUT
           else
             echo "✅ GitHub Pages deployment configured"
             echo "skip=false" >> $GITHUB_OUTPUT
           fi
+          
+      - uses: actions/checkout@v4
+        if: steps.check.outputs.skip != 'true'
+        with:
+          fetch-depth: 0
           
       - name: Install bun
         if: steps.check.outputs.skip != 'true'
@@ -89,20 +99,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           force_orphan: true
-          
-      - name: Skipped - Use Vercel instead
-        if: steps.check.outputs.skip == 'true'
-        run: |
-          echo "## ⏭️ GitHub Pages Skipped" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "No \`OPENAI_API_KEY\` secret found." >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "### 🚀 Deploy with Vercel instead:" >> $GITHUB_STEP_SUMMARY
-          echo "1. Go to [vercel.com/new](https://vercel.com/new)" >> $GITHUB_STEP_SUMMARY
-          echo "2. Import this repository" >> $GITHUB_STEP_SUMMARY
-          echo "3. Set Build Command: \`bun run build\`" >> $GITHUB_STEP_SUMMARY
-          echo "4. Set Output Directory: \`public\`" >> $GITHUB_STEP_SUMMARY
-          echo "5. Add env var: \`OPENAI_API_KEY\`" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "### 📄 Or enable GitHub Pages:" >> $GITHUB_STEP_SUMMARY
-          echo "Add \`OPENAI_API_KEY\` secret in Settings → Secrets → Actions" >> $GITHUB_STEP_SUMMARY

@@ -5,5 +5,5 @@
   "description": "DeFi agent definitions JSON API - crypto trading portfolio management bots",
   "keywords": ["defi", "agents", "trading", "crypto", "portfolio", "automation"],
   "repository": {"url": "https://github.com/nirholas/defi-agents", "source": "github"},
-  "packages": [{"registryType": "source", "identifier": "https://github.com/nirholas/defi-agents"}]
+  "packages": [{"registryType": "source", "identifier": "https://github.com/nirholas/defi-agents", "transport": {"type": "stdio"}}]
 }

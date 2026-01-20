@@ -1,1 +1,9 @@
-{"$schema":"https://registry.modelcontextprotocol.io/schema/server.json","name":"defi-agents","title":"DeFi Trading Agents","description":"DeFi agent definitions JSON API - crypto trading portfolio management bots","repository":"https://github.com/nirholas/defi-agents","keywords":["defi","agents","trading","crypto"],"packages":[{"registry_name":"source","identifier":"https://github.com/nirholas/defi-agents"}]}
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.nirholas/defi-agents",
+  "title": "DeFi Trading Agents",
+  "description": "DeFi agent definitions JSON API - crypto trading portfolio management bots",
+  "keywords": ["defi", "agents", "trading", "crypto", "portfolio", "automation"],
+  "repository": {"url": "https://github.com/nirholas/defi-agents", "source": "github"},
+  "packages": [{"registryType": "source", "identifier": "https://github.com/nirholas/defi-agents"}]
+}

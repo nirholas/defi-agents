@@ -1,0 +1,42 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.nirholas/defi-agents",
+  "title": "DeFi Trading Agents",
+  "description": "DeFi agent definitions JSON API - crypto trading portfolio management blockchain automation production-ready",
+  "version": "1.0.0",
+  "keywords": [
+    "defi",
+    "agents",
+    "trading",
+    "crypto",
+    "portfolio",
+    "automation",
+    "blockchain",
+    "web3",
+    "json",
+    "api",
+    "production",
+    "strategies",
+    "yield",
+    "swap",
+    "lending",
+    "mcp",
+    "claude",
+    "ai",
+    "llm"
+  ],
+  "repository": {
+    "url": "https://github.com/nirholas/defi-agents",
+    "source": "github"
+  },
+  "license": "MIT",
+  "packages": [
+    {
+      "registryType": "source",
+      "url": "https://github.com/nirholas/defi-agents",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

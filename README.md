@@ -1,4 +1,4 @@
-# 🤖 DeFi Agents API - AI Agent Definitions for Web3
+# 🤖 DeFi Agents API - AI Agent Definitions for Web3 
 
 > **42 production-ready AI agent definitions for DeFi, portfolio management, trading, and Web3 workflows. RESTful JSON API with 18-language support.**
 

@@ -281,3 +281,4 @@ try {
   Logger.error(`验证过程中发生错误: ${error}`);
   process.exit(1);
 }
+

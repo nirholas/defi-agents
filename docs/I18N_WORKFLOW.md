@@ -932,3 +932,4 @@ Simply create your agent in English, run `bun run format`, and your agent is ins
 - 📝 Open an issue on GitHub
 - 💬 Check [FAQ.md](./FAQ.md)
 - 🐛 Report bugs with detailed logs
+

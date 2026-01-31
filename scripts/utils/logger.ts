@@ -233,3 +233,4 @@ export const Logger = {
  */
 export const { split, start, success, info, warn, error, debug, file, stats, translate, progress } =
   Logger;
+

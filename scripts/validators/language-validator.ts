@@ -778,3 +778,4 @@ export function getSupportedLanguages(): string[] {
 export function isLanguageSupported(langCode: string): boolean {
   return getSupportedLanguages().includes(langCode);
 }
+

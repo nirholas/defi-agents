@@ -102,3 +102,4 @@ Commands like [scripts/commands/validate-language.ts](mdc:scripts/commands/valid
 - Provide structured output with `Logger.stats()`
 - Use `Logger.file()` for file operations
 
+

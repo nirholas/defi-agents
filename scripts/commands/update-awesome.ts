@@ -102,3 +102,4 @@ const runUpdateAwesome = async () => {
 
 // 执行更新
 await runUpdateAwesome();
+

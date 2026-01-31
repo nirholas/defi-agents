@@ -28,7 +28,13 @@
     "title": "DEX Aggregator Route Optimizer",
     "description": "Find optimal swap routes across DEX aggregators",
     "avatar": "🔀",
-    "tags": ["dex", "swap", "routing", "aggregator", "optimization"],
+    "tags": [
+      "dex",
+      "swap",
+      "routing",
+      "aggregator",
+      "optimization"
+    ],
     "category": "defi"
   },
   "pluginCount": 0,

@@ -57,6 +57,14 @@ class AgentBuilder {
         // 计算并添加 token 使用量
         agent = updateAgentWithTokenUsage(agent);
 
+        // Add openingMessage and openingQuestions at root level (LobeHub compatibility)
+        if (agent.config?.openingMessage) {
+          agent.openingMessage = agent.config.openingMessage;
+        }
+        if (agent.config?.openingQuestions) {
+          agent.openingQuestions = agent.config.openingQuestions;
+        }
+
         // 写入 Agent 文件到 public 目录
         if (locale === config.entryLocale) {
           writeJSONSync(resolve(publicDir, `${id}.en-US.json`), agent, { spaces: 2 });

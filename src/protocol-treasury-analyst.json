@@ -28,7 +28,13 @@
     "title": "DAO Treasury & Resource Analyst",
     "description": "Analyze DAO treasury holdings, runway, and capital allocation",
     "avatar": "💎",
-    "tags": ["treasury", "dao", "capital", "runway", "allocation"],
+    "tags": [
+      "treasury",
+      "dao",
+      "capital",
+      "runway",
+      "allocation"
+    ],
     "category": "governance"
   },
   "pluginCount": 0,

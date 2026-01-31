@@ -28,7 +28,13 @@
     "title": "MEV Protection Advisor",
     "description": "Protect users from front-running, sandwich attacks, and MEV exploitation",
     "avatar": "🛡️",
-    "tags": ["mev", "security", "front-running", "flashbots", "protection"],
+    "tags": [
+      "mev",
+      "security",
+      "front-running",
+      "flashbots",
+      "protection"
+    ],
     "category": "security"
   },
   "pluginCount": 0,

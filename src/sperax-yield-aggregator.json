@@ -28,7 +28,13 @@
     "title": "Sperax Yield Aggregator",
     "description": "Find and optimize best yield opportunities in Sperax ecosystem",
     "avatar": "🌾",
-    "tags": ["sperax", "yield", "farming", "optimization", "apy"],
+    "tags": [
+      "sperax",
+      "yield",
+      "farming",
+      "optimization",
+      "apy"
+    ],
     "category": "defi"
   },
   "pluginCount": 0,

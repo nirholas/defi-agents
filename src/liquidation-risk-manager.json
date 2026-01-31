@@ -28,7 +28,13 @@
     "title": "Liquidation Risk Manager",
     "description": "Monitor and manage liquidation risks in lending protocols",
     "avatar": "⚠️",
-    "tags": ["lending", "liquidation", "risk", "collateral", "defi"],
+    "tags": [
+      "lending",
+      "liquidation",
+      "risk",
+      "collateral",
+      "defi"
+    ],
     "category": "tools"
   },
   "pluginCount": 0,

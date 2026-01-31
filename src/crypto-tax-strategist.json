@@ -28,7 +28,13 @@
     "title": "Crypto Tax Strategy Advisor",
     "description": "Optimize crypto taxes and provide tax-efficient DeFi strategies",
     "avatar": "📋",
-    "tags": ["tax", "strategy", "accounting", "optimization", "compliance"],
+    "tags": [
+      "tax",
+      "strategy",
+      "accounting",
+      "optimization",
+      "compliance"
+    ],
     "category": "trading"
   },
   "pluginCount": 0,

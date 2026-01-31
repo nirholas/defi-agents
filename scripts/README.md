@@ -214,3 +214,4 @@ pnpm run type-check
 # 单个文件测试
 pnpm run validate:lang path/to/file.json
 ```
+

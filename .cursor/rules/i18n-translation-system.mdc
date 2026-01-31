@@ -118,3 +118,4 @@ Available in `config.outputLocales`:
 - Use consistent file naming: `agent-id.locale.json`
 - Clean up empty JSON files automatically
 
+

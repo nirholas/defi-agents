@@ -49,3 +49,4 @@ body:
       description: 以上提交的语言分类，默认为中文 `zh-CN`
     validations:
       required: true
+

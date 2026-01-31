@@ -17,3 +17,4 @@
 - \[ ] The description is written in English.
 - \[ ] The `meta.json` and `agent_template.json` have not been modified.
 - \[ ] The `entry` is placed in the `agents` directory with the `.json` file extension.
+

@@ -107,3 +107,4 @@ export const getBuildLocaleAgentFileName = (id: string, locale?: string): string
   const localeSuffix = formatedLocale === config.entryLocale ? '' : `.${formatedLocale}`;
   return id + localeSuffix + '.json';
 };
+

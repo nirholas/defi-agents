@@ -191,3 +191,4 @@ export const CheckEnglishIdentifier = (str: string): boolean => {
   const regex = /^[\d\sA-Za-z-]+$/;
   return regex.test(str);
 };
+

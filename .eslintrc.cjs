@@ -7,3 +7,4 @@ module.exports = {
     'sort-keys-fix/sort-keys-fix': 'off',
   },
 };
+

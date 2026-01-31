@@ -22,3 +22,4 @@ jobs:
       - name: Test locale
         run: bun run test:locale
 
+

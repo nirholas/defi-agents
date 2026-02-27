@@ -175,7 +175,7 @@
       ]
     },
     "defi": {
-      "count": 34,
+      "count": 35,
       "description": "DeFi and crypto analysis agents for yield, risk, security, and trading",
       "subcategories": {
         "yield": {
@@ -229,6 +229,7 @@
             "liquidity-pool-analyzer",
             "nft-liquidity-advisor",
             "portfolio-rebalancing-advisor",
+            "pump-fun-sdk-expert",
             "spa-tokenomics-analyst",
             "token-unlock-tracker",
             "usds-stablecoin-expert",
@@ -241,7 +242,7 @@
   },
   "apiVersion": "1.0",
   "categories": ["trading", "defi", "portfolio", "security", "education"],
-  "description": "Production-ready AI agent definitions API - 57 specialized agents for DeFi, portfolio management, trading, and Web3 workflows",
+  "description": "Production-ready AI agent definitions API - 58 specialized agents for DeFi, portfolio management, trading, and Web3 workflows",
   "documentation": "https://sperax.click/docs/API.md",
   "endpoints": {
     "allAgentsEnglish": "https://sperax.click/index.json",
@@ -252,7 +253,7 @@
     "schema": "https://sperax.click/schema/speraxAgentSchema_v1.json"
   },
   "features": [
-    "57 specialized AI agents",
+    "58 specialized AI agents",
     "18 language translations",
     "RESTful JSON API",
     "No rate limiting",
@@ -272,11 +273,11 @@
   },
   "schemaVersion": 1,
   "stats": {
-    "totalAgents": 57,
+    "totalAgents": 58,
     "supportedLanguages": 18,
     "categories": 5,
     "speraxAgents": 23,
-    "defiAgents": 34
+    "defiAgents": 35
   },
   "supportedLanguages": [
     "en-US",

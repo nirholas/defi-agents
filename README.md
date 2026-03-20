@@ -351,6 +351,7 @@ defi_agents = [a for a in agents if 'defi' in a['meta']['tags']]
 ## 🔗 Projects Building with AI Agents Library 🤍
 
 - **SperaxOS** - [Application Branch](https://github.com/nirholas/AI-Agents-Library/tree/speraxos)
+- **[SwapAPI](https://swapapi.dev)** - Free DEX aggregator API for AI agents. No API key required. Returns ready-to-sign swap calldata across 46 EVM chains via a single GET request. ([GitHub](https://github.com/swap-api/swap-api) · [API](https://api.swapapi.dev))
 
 ---
 

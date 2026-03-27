@@ -8,7 +8,7 @@
   },
   "agents": {
     "sperax": {
-      "count": 23,
+      "count": 24,
       "description": "Sperax ecosystem agents for portfolio management, trading, analytics, and DeFi",
       "agents": [
         {
@@ -16,161 +16,267 @@
           "name": "Sperax Portfolio Dashboard",
           "description": "Portfolio overview dashboard with total value, allocation, and performance metrics",
           "category": "portfolio",
-          "tags": ["portfolio", "dashboard", "overview"]
+          "tags": [
+            "portfolio",
+            "dashboard",
+            "overview"
+          ]
         },
         {
           "id": "sperax-assets-tracker",
           "name": "Sperax Assets Tracker",
           "description": "Asset tracking and analytics for portfolio positions and valuations",
           "category": "portfolio",
-          "tags": ["assets", "tracking", "analytics"]
+          "tags": [
+            "assets",
+            "tracking",
+            "analytics"
+          ]
         },
         {
           "id": "sperax-analytics-expert",
           "name": "Sperax Analytics Expert",
           "description": "Performance analytics and insights for portfolio optimization",
           "category": "portfolio",
-          "tags": ["analytics", "performance", "insights"]
+          "tags": [
+            "analytics",
+            "performance",
+            "insights"
+          ]
         },
         {
           "id": "sperax-wallet-manager",
           "name": "Sperax Wallet Manager",
           "description": "Wallet management and configuration assistance",
           "category": "portfolio",
-          "tags": ["wallet", "management", "security"]
+          "tags": [
+            "wallet",
+            "management",
+            "security"
+          ]
         },
         {
           "id": "sperax-trading-assistant",
           "name": "Sperax Trading Assistant",
           "description": "Trade execution helper with market analysis",
           "category": "trading",
-          "tags": ["trading", "execution", "assistant"]
+          "tags": [
+            "trading",
+            "execution",
+            "assistant"
+          ]
         },
         {
           "id": "sperax-ai-trading-bot",
           "name": "Sperax AI Trading Bot",
           "description": "AI-powered trading strategies and automation",
           "category": "trading",
-          "tags": ["trading", "bot", "ai", "automation"]
+          "tags": [
+            "trading",
+            "bot",
+            "ai",
+            "automation"
+          ]
         },
         {
           "id": "sperax-signal-bot",
           "name": "Sperax Signal Bot",
           "description": "Trading signals and market alerts",
           "category": "trading",
-          "tags": ["signals", "alerts", "trading"]
+          "tags": [
+            "signals",
+            "alerts",
+            "trading"
+          ]
         },
         {
           "id": "sperax-dca-bot",
           "name": "Sperax DCA Bot",
           "description": "Dollar-cost averaging automation and strategies",
           "category": "trading",
-          "tags": ["dca", "automation", "strategy"]
+          "tags": [
+            "dca",
+            "automation",
+            "strategy"
+          ]
         },
         {
           "id": "sperax-arbitrage-bot",
           "name": "Sperax Arbitrage Bot",
           "description": "Arbitrage opportunity detection and execution",
           "category": "trading",
-          "tags": ["arbitrage", "opportunities", "trading"]
+          "tags": [
+            "arbitrage",
+            "opportunities",
+            "trading"
+          ]
         },
         {
           "id": "sperax-pump-screener",
           "name": "Sperax Pump Screener",
           "description": "Momentum screening and trend analysis",
           "category": "trading",
-          "tags": ["screening", "momentum", "trends"]
+          "tags": [
+            "screening",
+            "momentum",
+            "trends"
+          ]
         },
         {
           "id": "sperax-defi-center",
           "name": "Sperax DeFi Center",
           "description": "DeFi protocol aggregator and explorer",
           "category": "defi",
-          "tags": ["defi", "protocols", "aggregator"]
+          "tags": [
+            "defi",
+            "protocols",
+            "aggregator"
+          ]
         },
         {
           "id": "sperax-defi-protocols",
           "name": "Sperax DeFi Protocols",
           "description": "DeFi protocol information and comparison",
           "category": "defi",
-          "tags": ["defi", "protocols", "comparison"]
+          "tags": [
+            "defi",
+            "protocols",
+            "comparison"
+          ]
         },
         {
           "id": "sperax-strategies-marketplace",
           "name": "Sperax Strategies Marketplace",
           "description": "Trading strategy discovery and management",
           "category": "trading",
-          "tags": ["strategies", "marketplace", "trading"]
+          "tags": [
+            "strategies",
+            "marketplace",
+            "trading"
+          ]
         },
         {
           "id": "sperax-bot-templates",
           "name": "Sperax Bot Templates",
           "description": "Bot template library and customization",
           "category": "trading",
-          "tags": ["templates", "bots", "automation"]
+          "tags": [
+            "templates",
+            "bots",
+            "automation"
+          ]
         },
         {
           "id": "sperax-settings-manager",
           "name": "Sperax Settings Manager",
           "description": "Settings and configuration management",
           "category": "portfolio",
-          "tags": ["settings", "configuration"]
+          "tags": [
+            "settings",
+            "configuration"
+          ]
         },
         {
           "id": "sperax-help-center",
           "name": "Sperax Help Center",
           "description": "Help and documentation for Sperax ecosystem",
           "category": "education",
-          "tags": ["help", "documentation", "support"]
+          "tags": [
+            "help",
+            "documentation",
+            "support"
+          ]
         },
         {
           "id": "sperax-yield-aggregator",
           "name": "Sperax Yield Aggregator",
           "description": "Yield farming opportunities and strategies",
           "category": "defi",
-          "tags": ["yield", "farming", "strategies"]
+          "tags": [
+            "yield",
+            "farming",
+            "strategies"
+          ]
         },
         {
           "id": "sperax-liquidity-strategist",
           "name": "Sperax Liquidity Strategist",
           "description": "Liquidity provision and optimization",
           "category": "defi",
-          "tags": ["liquidity", "strategies", "optimization"]
+          "tags": [
+            "liquidity",
+            "strategies",
+            "optimization"
+          ]
         },
         {
           "id": "sperax-portfolio-tracker",
           "name": "Sperax Portfolio Tracker",
           "description": "Advanced portfolio tracking and management",
           "category": "portfolio",
-          "tags": ["portfolio", "tracking", "management"]
+          "tags": [
+            "portfolio",
+            "tracking",
+            "management"
+          ]
         },
         {
           "id": "sperax-risk-monitor",
           "name": "Sperax Risk Monitor",
           "description": "Risk monitoring and alerts for portfolios",
           "category": "security",
-          "tags": ["risk", "monitoring", "alerts"]
+          "tags": [
+            "risk",
+            "monitoring",
+            "alerts"
+          ]
         },
         {
           "id": "sperax-governance-guide",
           "name": "Sperax Governance Guide",
           "description": "Governance participation and voting guidance",
           "category": "education",
-          "tags": ["governance", "voting", "guide"]
+          "tags": [
+            "governance",
+            "voting",
+            "guide"
+          ]
         },
         {
           "id": "sperax-onboarding-guide",
           "name": "Sperax Onboarding Guide",
           "description": "Getting started guide for new users",
           "category": "education",
-          "tags": ["onboarding", "guide", "education"]
+          "tags": [
+            "onboarding",
+            "guide",
+            "education"
+          ]
         },
         {
           "id": "sperax-bridge-assistant",
           "name": "Sperax Bridge Assistant",
           "description": "Cross-chain bridge assistance and guidance",
           "category": "defi",
-          "tags": ["bridge", "crosschain", "assistance"]
+          "tags": [
+            "bridge",
+            "crosschain",
+            "assistance"
+          ]
+        },
+        {
+          "id": "bitrefill-shopping-assistant",
+          "name": "Bitrefill Shopping Assistant",
+          "description": "Purchase gift cards, eSIMs, and mobile top-ups from 170+ countries using cryptocurrency",
+          "category": "shopping",
+          "tags": [
+            "bitrefill",
+            "gift-cards",
+            "esims",
+            "top-ups",
+            "crypto-shopping",
+            "bitcoin"
+          ]
         }
       ]
     },
@@ -203,7 +309,11 @@
           ]
         },
         "security": {
-          "agents": ["smart-contract-auditor", "bridge-security-analyst", "wallet-security-advisor"]
+          "agents": [
+            "smart-contract-auditor",
+            "bridge-security-analyst",
+            "wallet-security-advisor"
+          ]
         },
         "analysis": {
           "agents": [
@@ -241,7 +351,13 @@
     }
   },
   "apiVersion": "1.0",
-  "categories": ["trading", "defi", "portfolio", "security", "education"],
+  "categories": [
+    "trading",
+    "defi",
+    "portfolio",
+    "security",
+    "education"
+  ],
   "description": "Production-ready AI agent definitions API - 58 specialized agents for DeFi, portfolio management, trading, and Web3 workflows",
   "documentation": "https://sperax.click/docs/API.md",
   "endpoints": {
@@ -308,4 +424,3 @@
   },
   "version": "1.0.0"
 }
-

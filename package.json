@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/nirholas/ai-agents-library.git"
   },
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "author": "nich <nirholasi@github.io>",
   "type": "module",
   "main": "public/index.json",

@@ -14,7 +14,7 @@ A comprehensive, discoverable API hosting specialized AI agent schemas with univ
 - ✅ **Machine-Readable Indexes** - Agent manifest for AI crawlers ([agents-manifest.json](./agents-manifest.json))
 - ✅ **Universal Format** - Standard JSON schema works with any platform
 - ✅ **No Vendor Lock-in** - Switch platforms without losing work
-- ✅ **Open Source** - MIT licensed, fully transparent 
+- ✅ **Fully Transparent** - Every agent definition is readable JSON, no hidden behaviour
 - ✅ **SEO & AI Friendly** - robots.txt, structured data, semantic indexing
 - ✅ **CDN Hosted** - GitHub Pages for fast global access
 - ✅ **Custom Domain Ready** - Easy white-labeling
@@ -356,9 +356,9 @@ defi_agents = [a for a in agents if 'defi' in a['meta']['tags']]
 
 ## 📜 License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+Proprietary - Copyright 2026 nirholas. All rights reserved. See the [LICENSE](LICENSE) file for the full terms; use beyond what that file permits requires written permission from the copyright owner.
 
-**Open Source • Open Format • Open Future**
+**Open Format • Portable Agents • No Vendor Lock-in**
 
 ---
 

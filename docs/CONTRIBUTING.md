@@ -135,8 +135,8 @@ Before submitting, test with:
 
 ```bash
 # Fork and clone
-git clone https://github.com/YOUR_USERNAME/ai-agents-library.git
-cd ai-agents-library
+git clone https://github.com/YOUR_USERNAME/defi-agents.git
+cd defi-agents
 
 # Create branch
 git checkout -b add-your-agent-name

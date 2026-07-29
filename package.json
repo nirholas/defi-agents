@@ -2,10 +2,10 @@
   "name": "@nirholas/ai-agents-library",
   "version": "1.42.0",
   "description": "General Agent Index and library of specialized AI agents for general use, DeFi, portfolio management, yield optimization, trading, and blockchain automation. Supports linting, automated translation, and CI auto-build for seamless plugin discovery via index.json. Github Pages compatible.",
-  "homepage": "https://github.com/nirholas/ai-agents-library",
+  "homepage": "https://github.com/nirholas/defi-agents",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nirholas/ai-agents-library.git"
+    "url": "https://github.com/nirholas/defi-agents.git"
   },
   "license": "SEE LICENSE IN LICENSE",
   "author": "nich <nirholasi@github.io>",

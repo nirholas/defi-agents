@@ -310,7 +310,7 @@ For issues, questions, or contributions, visit:
 
 ## License
 
-MIT License - See [LICENSE](../LICENSE) for details.
+Proprietary - Copyright 2026 nirholas. See [LICENSE](../LICENSE) for the full terms.
 "meta": {
 "title": "string",
 "description": "string",
@@ -746,5 +746,5 @@ The index is updated automatically when new agents are merged to main branch:
 
 ## License
 
-Agent data is MIT licensed. Free for commercial and personal use.
+Agent data is proprietary. See [LICENSE](../LICENSE) for the terms of use.
 

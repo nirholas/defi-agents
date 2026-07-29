@@ -7,7 +7,7 @@ A comprehensive, discoverable API hosting specialized AI agent schemas with univ
 ---
 
 ## ✨ Key Features
-
+ 
 - ✅ **42 Production-Ready Agents** - DeFi, portfolio, trading, Web3, education
 - ✅ **18 Languages** - Automated i18n translation workflow ([Learn More →](./docs/I18N_WORKFLOW.md))
 - ✅ **RESTful JSON API** - Easy integration for developers and LLMs ([API Docs →](./docs/API.md))

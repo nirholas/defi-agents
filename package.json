@@ -1,6 +1,6 @@
 {
   "name": "@nirholas/ai-agents-library",
-  "version": "1.42.0",
+  "version": "1.42.3",
   "description": "General Agent Index and library of specialized AI agents for general use, DeFi, portfolio management, yield optimization, trading, and blockchain automation. Supports linting, automated translation, and CI auto-build for seamless plugin discovery via index.json. Github Pages compatible.",
   "homepage": "https://github.com/nirholas/defi-agents",
   "repository": {
@@ -32,7 +32,7 @@
     "type-check": "tsc --noEmit"
   },
   "devDependencies": {
-    "@lobehub/lint": "^1.25.5",
+    "@lobehub/lint": "^2.1.5",
     "@octokit/rest": "^20.1.1",
     "@types/fs-extra": "^11.0.4",
     "@types/lodash-es": "^4.17.12",
@@ -52,7 +52,7 @@
     "remark": "^15.0.1",
     "remark-cli": "^12.0.1",
     "remark-pangu": "^2.2.0",
-    "semantic-release": "^21.1.2",
+    "semantic-release": "^25.0.8",
     "typescript": "^5.7.3",
     "zod": "^3.24.1",
     "zod-to-json-schema": "^3.24.1"

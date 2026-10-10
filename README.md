@@ -1,4 +1,9 @@
 # 🤖 DeFi Agents API - AI Agent Definitions for Web3      
+
+<!-- three.ws:badges -->
+[![GitHub stars](https://img.shields.io/github/stars/nirholas/defi-agents?style=flat&logo=github)](https://github.com/nirholas/defi-agents/stargazers) [![Last commit](https://img.shields.io/github/last-commit/nirholas/defi-agents?style=flat)](https://github.com/nirholas/defi-agents/commits) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat)](https://github.com/nirholas/defi-agents/pulls) [![AI agent friendly](https://img.shields.io/badge/AI%20agents-AGENTS.md%20%2B%20llms.txt-6d5dfc?style=flat)](https://github.com/nirholas/defi-agents/blob/HEAD/AGENTS.md)
+<!-- /three.ws:badges -->
+
  
 > **42 production-ready AI agent definitions for DeFi, portfolio management, trading, and Web3 workflows. RESTful JSON API with 18-language support.**
 
@@ -1090,3 +1095,26 @@ Full documentation site: **https://nirholas.github.io/defi-agents/**
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=nirholas/defi-agents&type=Date)](https://www.star-history.com/#nirholas/defi-agents&Date)
+
+<!-- three.ws:growth -->
+## Support the project
+
+If defi-agents saves you time, **[star it on GitHub](https://github.com/nirholas/defi-agents)**. Stars are how other developers and AI agents find the repositories worth trusting, and they cost you one click.
+
+Know someone who would use it? [Post on X](https://twitter.com/intent/tweet?text=defi-agents%3A%20DeFi%20agent%20definitions%20JSON%20API%20%2B%20MCP%20-%20Production-ready%20agents%20for%20Web3%2C%20crypto%20trading%2C%20portfolio&url=https%3A%2F%2Fgithub.com%2Fnirholas%2Fdefi-agents) · [Share on Bluesky](https://bsky.app/intent/compose?text=defi-agents%3A%20DeFi%20agent%20definitions%20JSON%20API%20%2B%20MCP%20-%20Production-ready%20agents%20for%20Web3%2C%20crypto%20trading%2C%20portfolio%20https%3A%2F%2Fgithub.com%2Fnirholas%2Fdefi-agents) · [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2Fnirholas%2Fdefi-agents) · [Submit to Hacker News](https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fgithub.com%2Fnirholas%2Fdefi-agents&t=defi-agents%3A%20DeFi%20agent%20definitions%20JSON%20API%20%2B%20MCP%20-%20Production-ready%20agents%20for%20Web3%2C%20crypto%20trading%2C%20portfolio) · [Share on Reddit](https://www.reddit.com/submit?url=https%3A%2F%2Fgithub.com%2Fnirholas%2Fdefi-agents&title=defi-agents%3A%20DeFi%20agent%20definitions%20JSON%20API%20%2B%20MCP%20-%20Production-ready%20agents%20for%20Web3%2C%20crypto%20trading%2C%20portfolio)
+
+## Built for AI agents too
+
+Coding agents and LLM tooling can read this repo directly: [AGENTS.md](./AGENTS.md), [llms.txt](./llms.txt), [llms-full.txt](./llms-full.txt). Point an agent at `https://github.com/nirholas/defi-agents` and it has the context it needs.
+
+## More from the same author
+
+- [All repositories by nirholas](https://github.com/nirholas/nirholas#readme): the full catalog, grouped by topic
+- [three.ws](https://three.ws): the platform for 3D AI agents with Solana wallets, a skill marketplace and x402 payments
+- Questions or ideas: [open an issue](https://github.com/nirholas/defi-agents/issues) or [start a discussion](https://github.com/nirholas/defi-agents/discussions)
+
+## Contributors
+
+[![Contributors](https://contrib.rocks/image?repo=nirholas/defi-agents)](https://github.com/nirholas/defi-agents/graphs/contributors)
+
+<!-- /three.ws:growth -->

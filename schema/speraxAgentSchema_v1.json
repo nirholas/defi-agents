@@ -228,6 +228,15 @@
       ],
       "additionalProperties": false
     },
+    "openingMessage": {
+      "type": "string"
+    },
+    "openingQuestions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "pluginCount": {
       "type": "number"
     },
@@ -256,4 +265,3 @@
   "additionalProperties": false,
   "$schema": "http://json-schema.org/draft-07/schema#"
 }
-

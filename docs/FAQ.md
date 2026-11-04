@@ -107,36 +107,13 @@ The **Sperax Portfolio** (🎯) is an all-in-one master agent that consolidates 
 
 ### What domain do the Sperax portfolio agents use?
 
-Currently, the Sperax portfolio agents (Dashboard, Trading Assistant, DCA Bot, etc.) use **sperax.fun** for testing and development purposes.
+The Sperax portfolio agents (Dashboard, Trading Assistant, DCA Bot, etc.) run in production on SperaxOS at **[chat.sperax.io](https://chat.sperax.io)**. Browse them at [chat.sperax.io/community](https://chat.sperax.io/community).
 
-### Will the domain change in the future?
+The earlier test domain `sperax.fun` is retired. No agent in this library references it.
 
-Yes, likely. Once **SperaxOS** is officially live in production, the domain may change to something like:
+### Where are the agent definitions served from?
 
-- **sperax.io** for the main platform
-- **sperax.io/chat** for the SperaxOS chat interface
-- Different subdomains for specific portfolio features
-
-However, **everything is still in flux** and subject to change as the platform evolves.
-
-### Should I hardcode sperax.fun URLs?
-
-If you're building integrations or creating custom agents, be aware that:
-
-- Current URL: `https://sperax.fun/artifacts/portfolio/embed/*`
-- Future URL (tentative): `https://sperax.io/*` or similar
-- Timeline: TBD based on SperaxOS production launch
-
-Monitor the repository for updates when the domain migration occurs.
-
-### Will there be a migration guide?
-
-Yes. When the domain changes, we'll provide:
-
-- Migration announcement in the repository
-- Updated documentation
-- Automated URL updates for all agents in the library
-- Deprecation timeline for the old domain
+The JSON API is served by Cloudflare Pages at **[sperax.click](https://sperax.click)**, for example `https://sperax.click/index.json` and `https://sperax.click/sperax-portfolio-tracker.json`. See [deploy-cloudflare.md](./deploy-cloudflare.md).
 
 ---
 

@@ -1,5 +1,11 @@
 # 🚀 Deployment Guide
 
+## Production
+
+[sperax.click](https://sperax.click) runs on **Cloudflare Pages** (project `sperax-click`). The steps, the GitHub Actions workflow and rollback are in [deploy-cloudflare.md](./deploy-cloudflare.md). The GitHub Pages and Vercel options below remain for forks.
+
+---
+
 ## Quick Start
 
 **The repo auto-detects your deployment preference:**
@@ -72,16 +78,31 @@ The included `vercel.json` has sensible defaults for CORS and caching.
 
 ---
 
+## Option 3: Cloudflare Pages (Production)
+
+**Best for:** CORS and cache headers without a server, global CDN, free tier. This is what sperax.click uses.
+
+```bash
+bun install
+bun scripts/commands/build.ts
+bash scripts/build-site.sh
+npx wrangler pages deploy _site --project-name <your-project> --branch main
+```
+
+`scripts/build-site.sh` writes `_headers` with the same CORS and cache rules as `vercel.json`. Full guide: [deploy-cloudflare.md](./deploy-cloudflare.md).
+
+---
+
 ## Comparison
 
-| Feature | GitHub Pages | Vercel |
-|---------|--------------|--------|
-| Cost | Free | Free tier |
-| Setup | Add 1 secret | Import + configure |
-| CORS Control | ❌ | ✅ |
-| Analytics | ❌ | ✅ |
-| Custom Domain | ✅ | ✅ |
-| Auto-deploy | ✅ | ✅ |
+| Feature | GitHub Pages | Vercel | Cloudflare Pages |
+|---------|--------------|--------|------------------|
+| Cost | Free | Free tier | Free tier |
+| Setup | Add 1 secret | Import + configure | 2 secrets + workflow |
+| CORS Control | ❌ | ✅ | ✅ (`_headers`) |
+| Analytics | ❌ | ✅ | ✅ |
+| Custom Domain | ✅ | ✅ | ✅ |
+| Auto-deploy | ✅ | ✅ | ✅ |
 
 ---
 

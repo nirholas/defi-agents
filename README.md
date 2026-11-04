@@ -7,6 +7,8 @@
  
 > **42 production-ready AI agent definitions for DeFi, portfolio management, trading, and Web3 workflows. RESTful JSON API with 18-language support.**
 
+**Live API:** [sperax.click/index.json](https://sperax.click/index.json) · **Docs:** [sperax.click/docs](https://sperax.click/docs/) · **Use the agents:** [chat.sperax.io](https://chat.sperax.io)
+
 A comprehensive, discoverable API hosting specialized AI agent schemas with universal compatibility. Works with any AI platform, LLM, or chatbot that supports agent indexes - no vendor lock-in, no platform restrictions. Perfect for developers, LLMs, and AI systems building Web3 applications.
 
 ---
@@ -21,7 +23,7 @@ A comprehensive, discoverable API hosting specialized AI agent schemas with univ
 - ✅ **No Vendor Lock-in** - Switch platforms without losing work
 - ✅ **Fully Transparent** - Every agent definition is readable JSON, no hidden behaviour
 - ✅ **SEO & AI Friendly** - robots.txt, structured data, semantic indexing
-- ✅ **CDN Hosted** - GitHub Pages for fast global access
+- ✅ **CDN Hosted** - Cloudflare Pages at [sperax.click](https://sperax.click) for fast global access
 - ✅ **Custom Domain Ready** - Easy white-labeling
 
 ---
@@ -85,7 +87,7 @@ bun run build
 
 ⚠️ **Current Status:** Read-only portfolio tracking and analytics available now. Automated trading, bots, and DeFi interactions coming soon in SperaxOS roadmap.
 
-[View Agent →](https://sperax.click/sperax-portfolio.json) | [Try Now →](https://sperax.fun/discover/assistant/sperax-portfolio)
+[View Agent →](https://sperax.click/sperax-portfolio-tracker.json) | [Try Now →](https://chat.sperax.io/community/assistant/sperax-portfolio-tracker)
 
 ---
 
@@ -110,7 +112,7 @@ bun run build
 - Arbitrage Bot, Pump Screener, DeFi Center, DeFi Protocols
 - Strategies Marketplace, Bot Templates, Settings Manager, Help Center
 
-> **Note:** SperaxOS portfolio agents currently use `sperax.fun` for testing. The domain may change to `sperax.io` or similar once SperaxOS launches in production. [See FAQ](./docs/FAQ.md#sperax-portfolio-agents) for details.
+> **Note:** SperaxOS portfolio agents run in production at [chat.sperax.io](https://chat.sperax.io). [See FAQ](./docs/FAQ.md#sperax-portfolio-agents) for details.
 
 **General DeFi (34 Agents) + Crypto News:**
 
@@ -126,7 +128,7 @@ bun run build
 - Protocol Treasury Analyst, Stablecoin Comparator, Staking Rewards Calculator
 - Wallet Security Advisor, Yield Dashboard Builder, Yield Sustainability Analyst
 
-[View Full Agent List →](https://nirholas.github.io/AI-Agents-Library/)
+[View Full Agent List →](https://sperax.click/index.json)
 
 ---
 
@@ -163,27 +165,27 @@ All agents automatically available in 18 languages:
 
 ```bash
 # Main index (all agents)
-GET https://nirholas.github.io/AI-Agents-Library/index.json
+GET https://sperax.click/index.json
 
 # Individual agent (English)
-GET https://nirholas.github.io/AI-Agents-Library/{agent-id}.json
+GET https://sperax.click/{agent-id}.json
 
 # Localized agent
-GET https://nirholas.github.io/AI-Agents-Library/{agent-id}.zh-CN.json
+GET https://sperax.click/{agent-id}.zh-CN.json
 
 # Language-specific index
-GET https://nirholas.github.io/AI-Agents-Library/index.zh-CN.json
+GET https://sperax.click/index.zh-CN.json
 ```
 
 ### Quick Integration
 
 ```javascript
 // Load all agents
-const response = await fetch('https://nirholas.github.io/AI-Agents-Library/index.json');
+const response = await fetch('https://sperax.click/index.json');
 const { agents } = await response.json();
 
 // Load specific agent
-const agent = await fetch(`https://nirholas.github.io/AI-Agents-Library/defi-yield-optimizer.json`);
+const agent = await fetch(`https://sperax.click/defi-yield-farmer.json`);
 const agentConfig = await agent.json();
 ```
 
@@ -248,6 +250,7 @@ Our automated workflow will translate your agent to 18 languages and deploy it g
 - [Agent Creation Guide](./docs/AGENT_GUIDE.md) - Design effective agents
 - [18 Languages i18n Workflow](./docs/I18N_WORKFLOW.md) - Automated translation system
 - [Deployment Guide](./docs/DEPLOYMENT.md) - Domain setup and CI/CD
+- [Cloudflare Pages](./docs/deploy-cloudflare.md) - How sperax.click is deployed
 - [Prompt Engineering](./docs/PROMPTS.md) - Writing better prompts
 - [Model Parameters](./docs/MODELS.md) - Temperature, top_p explained
 - [Troubleshooting](./docs/TROUBLESHOOTING.md) - Common issues
@@ -256,28 +259,18 @@ Our automated workflow will translate your agent to 18 languages and deploy it g
 
 ## 🚀 Deployment
 
-### GitHub Pages (Automatic)
+### Production: Cloudflare Pages
 
-1. **Fork/Clone this repository**
-2. **Choose your domain option:**
-   - **Default GitHub Pages:** Delete the `CNAME` file
-   - **Custom Domain:** Update `CNAME` with your domain
-3. **Enable GitHub Pages:**
-   - Settings → Pages → Source: `gh-pages` branch
-4. **Push to main** - GitHub Actions automatically builds and deploys
+[sperax.click](https://sperax.click) is served by the Cloudflare Pages project `sperax-click`. The `/` path redirects to the docs at [sperax.click/docs/](https://sperax.click/docs/).
 
-Your agents will be at:
+```bash
+bun install
+bun scripts/commands/build.ts     # writes agent JSON for every locale to ./public
+bash scripts/build-site.sh        # assembles ./_site (agents, docs, schema, llms.txt, _headers)
+npx wrangler pages deploy _site --project-name sperax-click --branch main
+```
 
-- Default: `https://[username].github.io/[repository]/index.json`
-- Custom: `https://yourdomain.com/index.json`
-
-### Custom Domain Setup
-
-1. **Update CNAME file:** `echo "yourdomain.com" > CNAME`
-2. **Configure DNS:** Add CNAME record → `[username].github.io`
-3. **Enable HTTPS** in repository settings after DNS propagates
-
-**Note:** The build process automatically copies your CNAME to the deployment, so your custom domain persists across all deployments. Forks can simply update or delete the CNAME file.
+`.github/workflows/cloudflare-pages.yml` runs the same steps on every push to `main`. It needs the `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` repository secrets. Hosting a fork on your own domain is covered in [docs/deploy-cloudflare.md](./docs/deploy-cloudflare.md).
 
 [Full Deployment Guide →](./docs/DEPLOYMENT.md)
 
@@ -309,7 +302,7 @@ Converts emoji URLs to native Unicode.
 
 ```javascript
 // Fetch agents
-const agents = await fetch('https://nirholas.github.io/AI-Agents-Library/index.json').then((r) =>
+const agents = await fetch('https://sperax.click/index.json').then((r) =>
   r.json(),
 );
 
@@ -323,7 +316,7 @@ const systemPrompt = agents.agents[0].config.systemRole;
 import requests
 
 # Load agents
-response = requests.get('https://nirholas.github.io/AI-Agents-Library/index.json')
+response = requests.get('https://sperax.click/index.json')
 agents = response.json()['agents']
 
 # Filter by tag
@@ -1080,14 +1073,14 @@ curl -X POST https://modelcontextprotocol.name/mcp/defi-agents \
 
 ### Also Available On
 
-- **[SperaxOS](https://speraxos.vercel.app)** — Browse and install from the [MCP marketplace](https://speraxos.vercel.app/community/mcp)
+- **[SperaxOS](https://chat.sperax.io)** — Browse and install from the [MCP marketplace](https://chat.sperax.io/community/mcp)
 - **All 27 MCP servers** — See the full catalog at [modelcontextprotocol.name](https://modelcontextprotocol.name)
 
 > Powered by [modelcontextprotocol.name](https://modelcontextprotocol.name) — the open MCP HTTP gateway
 
 ## Documentation
 
-Full documentation site: **https://nirholas.github.io/defi-agents/**
+Full documentation site: **https://sperax.click/docs/**
 
 - [Getting started](docs/getting-started.md) covers install and first run.
 - [Examples](docs/examples.md) has copy-paste snippets.

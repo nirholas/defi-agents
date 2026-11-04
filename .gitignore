@@ -50,3 +50,7 @@ sperax-ai-agents 2/
 __MACOSX
 
 
+
+# Cloudflare Pages output
+_site
+.wrangler

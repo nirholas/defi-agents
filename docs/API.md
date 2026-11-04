@@ -329,7 +329,7 @@ Proprietary - Copyright 2026 nirholas. See [LICENSE](../LICENSE) for the full te
 **Example:**
 
 ```bash
-curl https://nirholas.github.io/AI-Agents-Library/index.json
+curl https://sperax.click/index.json
 ````
 
 ---
@@ -345,7 +345,7 @@ Returns single agent data in English.
 **Example:**
 
 ```bash
-curl https://nirholas.github.io/AI-Agents-Library/defi-yield-optimizer.json
+curl https://sperax.click/defi-yield-farmer.json
 ```
 
 **Response:**
@@ -357,7 +357,7 @@ curl https://nirholas.github.io/AI-Agents-Library/defi-yield-optimizer.json
     "systemRole": "You are a DeFi yield optimization specialist..."
   },
   "createAt": "2024-01-15",
-  "identifier": "defi-yield-optimizer",
+  "identifier": "defi-yield-farmer",
   "meta": {
     "title": "DeFi Yield Optimizer",
     "description": "Analyzes yield farming opportunities...",
@@ -403,7 +403,7 @@ Returns agent in specific language.
 **Example:**
 
 ```bash
-curl https://nirholas.github.io/AI-Agents-Library/defi-yield-optimizer.zh-CN.json
+curl https://sperax.click/defi-yield-farmer.zh-CN.json
 ```
 
 ---
@@ -414,7 +414,7 @@ curl https://nirholas.github.io/AI-Agents-Library/defi-yield-optimizer.zh-CN.jso
 
 ```javascript
 // Fetch all agents
-const response = await fetch('https://nirholas.github.io/AI-Agents-Library/index.json');
+const response = await fetch('https://sperax.click/index.json');
 const data = await response.json();
 
 // Filter by category
@@ -431,7 +431,7 @@ defiAgents.forEach((agent) => {
 
 ```javascript
 function searchAgents(query) {
-  return fetch('https://nirholas.github.io/AI-Agents-Library/index.json')
+  return fetch('https://sperax.click/index.json')
     .then((r) => r.json())
     .then((data) =>
       data.agents.filter(
@@ -453,12 +453,12 @@ searchAgents('yield').then((results) => console.log(results));
 async function loadAgent(identifier, locale = 'en-US') {
   const filename = locale === 'en-US' ? `${identifier}.json` : `${identifier}.${locale}.json`;
 
-  const response = await fetch(`https://nirholas.github.io/AI-Agents-Library/${filename}`);
+  const response = await fetch(`https://sperax.click/${filename}`);
   return response.json();
 }
 
 // Usage
-const agent = await loadAgent('defi-yield-optimizer', 'zh-CN');
+const agent = await loadAgent('defi-yield-farmer', 'zh-CN');
 console.log(agent.config.systemRole);
 ```
 
@@ -466,7 +466,7 @@ console.log(agent.config.systemRole);
 
 ```javascript
 async function getAgentsByTag(tag) {
-  const response = await fetch('https://nirholas.github.io/AI-Agents-Library/index.json');
+  const response = await fetch('https://sperax.click/index.json');
   const data = await response.json();
 
   return data.agents.filter((agent) => agent.meta.tags.includes(tag));
@@ -480,7 +480,7 @@ const tradingAgents = await getAgentsByTag('trading');
 
 ```javascript
 async function getRandomAgent() {
-  const response = await fetch('https://nirholas.github.io/AI-Agents-Library/index.json');
+  const response = await fetch('https://sperax.click/index.json');
   const data = await response.json();
 
   const random = Math.floor(Math.random() * data.agents.length);
@@ -492,7 +492,7 @@ async function getRandomAgent() {
 
 ```javascript
 async function getMarketplaceStats() {
-  const response = await fetch('https://nirholas.github.io/AI-Agents-Library/index.json');
+  const response = await fetch('https://sperax.click/index.json');
   const data = await response.json();
 
   const stats = {
@@ -582,7 +582,7 @@ All endpoints support CORS. You can make requests from any domain.
 
 ```javascript
 // Works from any origin
-fetch('https://nirholas.github.io/AI-Agents-Library/index.json')
+fetch('https://sperax.click/index.json')
   .then((r) => r.json())
   .then((data) => console.log(data));
 ```
@@ -611,7 +611,7 @@ class AgentCache {
     }
 
     // Fetch fresh data
-    const response = await fetch('https://nirholas.github.io/AI-Agents-Library/index.json');
+    const response = await fetch('https://sperax.click/index.json');
     this.cache = await response.json();
     this.timestamp = now;
 
@@ -636,7 +636,7 @@ const agents = await cache.getAgents();
 ```javascript
 async function safeLoadAgent(identifier) {
   try {
-    const response = await fetch(`https://nirholas.github.io/AI-Agents-Library/${identifier}.json`);
+    const response = await fetch(`https://sperax.click/${identifier}.json`);
 
     if (!response.ok) {
       throw new Error(`Agent not found: ${identifier}`);
@@ -661,7 +661,7 @@ async function safeLoadAgent(identifier) {
 const https = require('https');
 
 function searchAgents(query) {
-  https.get('https://nirholas.github.io/AI-Agents-Library/index.json', (res) => {
+  https.get('https://sperax.click/index.json', (res) => {
     let data = '';
     res.on('data', (chunk) => (data += chunk));
     res.on('end', () => {
@@ -692,7 +692,7 @@ function AgentList({ tag }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('https://nirholas.github.io/AI-Agents-Library/index.json')
+    fetch('https://sperax.click/index.json')
       .then((r) => r.json())
       .then((data) => {
         const filtered = tag ? data.agents.filter((a) => a.meta.tags.includes(tag)) : data.agents;

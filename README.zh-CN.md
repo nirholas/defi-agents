@@ -34,7 +34,7 @@
 将智能体添加到您的 AI 平台：
 
 ```
-https://nirholas.github.io/AI-Agents-Library/index.json
+https://sperax.click/index.json
 ```
 
 ### 对于开发者
@@ -102,7 +102,7 @@ npm run build
 - UI/UX 设计师、Logo 设计专家、平面设计专家
 - 色彩理论顾问、排版专家
 
-[查看完整智能体列表 →](https://nirholas.github.io/AI-Agents-Library/)
+[查看完整智能体列表 →](https://sperax.click/)
 
 ---
 
@@ -139,27 +139,27 @@ npm run build
 
 ```bash
 # 主索引（所有智能体）
-GET https://nirholas.github.io/AI-Agents-Library/index.json
+GET https://sperax.click/index.json
 
 # 单个智能体（英文）
-GET https://nirholas.github.io/AI-Agents-Library/{agent-id}.json
+GET https://sperax.click/{agent-id}.json
 
 # 本地化智能体
-GET https://nirholas.github.io/AI-Agents-Library/{agent-id}.zh-CN.json
+GET https://sperax.click/{agent-id}.zh-CN.json
 
 # 特定语言索引
-GET https://nirholas.github.io/AI-Agents-Library/index.zh-CN.json
+GET https://sperax.click/index.zh-CN.json
 ```
 
 ### 快速集成
 
 ```javascript
 // 加载所有智能体
-const response = await fetch('https://nirholas.github.io/AI-Agents-Library/index.json');
+const response = await fetch('https://sperax.click/index.json');
 const { agents } = await response.json();
 
 // 加载特定智能体
-const agent = await fetch(`https://nirholas.github.io/AI-Agents-Library/defi-yield-optimizer.json`);
+const agent = await fetch(`https://sperax.click/defi-yield-farmer.json`);
 const agentConfig = await agent.json();
 ```
 
@@ -285,7 +285,7 @@ node emoji-converter.cjs
 
 ```javascript
 // 获取智能体
-const agents = await fetch('https://nirholas.github.io/AI-Agents-Library/index.json').then((r) =>
+const agents = await fetch('https://sperax.click/index.json').then((r) =>
   r.json(),
 );
 
@@ -299,7 +299,7 @@ const systemPrompt = agents.agents[0].config.systemRole;
 import requests
 
 # 加载智能体
-response = requests.get('https://nirholas.github.io/AI-Agents-Library/index.json')
+response = requests.get('https://sperax.click/index.json')
 agents = response.json()['agents']
 
 # 按标签过滤
@@ -349,7 +349,7 @@ defi_agents = [a for a in agents if 'defi' in a['meta']['tags']]
 
 <div align="center">
 
-**[查看智能体 →](https://nirholas.github.io/AI-Agents-Library/) | [提交智能体 →](https://github.com/nirholas/AI-Agents-Library/issues/new) | [阅读文档 →](./docs/)**
+**[查看智能体 →](https://sperax.click/) | [提交智能体 →](https://github.com/nirholas/AI-Agents-Library/issues/new) | [阅读文档 →](./docs/)**
 
 用 ❤️ 为 AI 社区打造
 

@@ -50,16 +50,16 @@ bun run build
 
 ```bash
 # Main index (all agents)
-GET https://nirholas.github.io/AI-Agents-Library/index.json
+GET https://sperax.click/index.json
 
 # Individual agent (English)
-GET https://nirholas.github.io/AI-Agents-Library/{agent-id}.json
+GET https://sperax.click/{agent-id}.json
 
 # Localized agent
-GET https://nirholas.github.io/AI-Agents-Library/{agent-id}.zh-CN.json
+GET https://sperax.click/{agent-id}.zh-CN.json
 
 # Language-specific index
-GET https://nirholas.github.io/AI-Agents-Library/index.zh-CN.json
+GET https://sperax.click/index.zh-CN.json
 ```
 
 ## Example 7

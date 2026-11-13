@@ -349,6 +349,7 @@ defi_agents = [a for a in agents if 'defi' in a['meta']['tags']]
 ## 🔗 Projects Building with AI Agents Library 🤍
 
 - **SperaxOS** - [Application Branch](https://github.com/nirholas/AI-Agents-Library/tree/speraxos)
+- **[agent-exec](https://agent-exec.448c.org?via=259)** — Accountless pay-per-call sandboxed execution, storage, key claims, attestations, URL watches, DNS, and x402 payment delivery for agents. No account, no API key. ([API](https://agent-exec.448c.org/.well-known/x402?via=259))
 
 ---
 
